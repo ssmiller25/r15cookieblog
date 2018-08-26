@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spam on R15Cookie Blog</title>
+    <link>https://www.r15cookie.com/tags/spam/</link>
+    <description>Recent content in Spam on R15Cookie Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.r15cookie.com/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-06-04-blog-spam/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-06-04-blog-spam/</guid>
+      <description>{% include JB/setup %}
+I left anonymous comments on when I updated dokuwiki, and got hit with comment spam! I disabled anonymous comments, so hopefully that will resolve the issue. Hopefully the bot&amp;rsquo;s don&amp;rsquo;t figure out how to register user accounts&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

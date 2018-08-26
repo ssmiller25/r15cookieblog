@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on R15Cookie Blog</title>
+    <link>https://www.r15cookie.com/tags/cloud/</link>
+    <description>Recent content in Cloud on R15Cookie Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.r15cookie.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodbye To Apple, Google, and Microsoft</title>
+      <link>https://www.r15cookie.com/post/2015-03-25-goodbye-to-apple-google-and-microsoft/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-03-25-goodbye-to-apple-google-and-microsoft/</guid>
+      <description>{% include JB/setup %}
+A came across an article in Medium on the author&amp;rsquo;s move to avoid Apple, Google, and Microsoft products. It&amp;rsquo;s an interesting discussion on the power of these companies, and the compromises users submit to for the sake of convenience.
+I myself can completely understand, using Google Apps for the email of this domain. Google has an easier time tracking me with the amount of services I use from them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-10-27-google-cloud-frustrations/</link>
+      <pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-10-27-google-cloud-frustrations/</guid>
+      <description>{% include JB/setup %}
+I really do like Google Apps overall. But when outages like this occur, it&amp;rsquo;s hard to stay optimistic. I know my personal Drive services are free, but my company, which pays for Google support, is also not operational. It only takes a few of these outages before people go back to local storage.
+{:height=&amp;ldquo;300px&amp;rdquo;}
+{{:blog:googleappstatus.png?320|}}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-09-26-google&#43;-as-a-blogging-platform/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-09-26-google&#43;-as-a-blogging-platform/</guid>
+      <description>{% include JB/setup %}
+The idea of using Google+ as a blogging platform is tempting. Built-in user verification, an easy ability to export all posts if I wish, a built-in audience (of sorts&amp;hellip;)
+Why I Blog On Google
+However, several others have made good points that essential you become a digital sharecropper, beholden to whatever policies Google puts into place.
+Why You Shouldn&amp;rsquo;t Use Google+ For Blogging
+8 Reasons You Should Never Give Up Your Own Blog for Google+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-06-17-responsible-hosting-of-cloud-services/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-06-17-responsible-hosting-of-cloud-services/</guid>
+      <description>{% include JB/setup %}
+Springpad, an Evernote-like service for storing information in a distributed manner, announced it&amp;rsquo;s closure a few weeks ago. Storing important data in the cloud seems a bit risky. However, Springpad is doing an excellent job of providing ways to export your data. Evernote migration is even being supported, allowing a very easy migration path.
+For now I&amp;rsquo;m moving all that data over to Evernote. I personally follow a rule that any cloud-provider needs to provide an easy way to export their data in the event that they do close down.</description>
+    </item>
+    
+  </channel>
+</rss>

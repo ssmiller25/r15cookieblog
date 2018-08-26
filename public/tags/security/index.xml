@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on R15Cookie Blog</title>
+    <link>https://www.r15cookie.com/tags/security/</link>
+    <description>Recent content in Security on R15Cookie Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.r15cookie.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2015-04-08-dell-vulnerability/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-04-08-dell-vulnerability/</guid>
+      <description>{% include JB/setup %}
+Another vulnerability on the heels of Lenovo&amp;rsquo;s Superfish, there is a somewhat serious issue with Dell&amp;rsquo;s System Detect Utility reported by F-Secure (via Fierce IT Security). At least this wasn&amp;rsquo;t specifically a Malware-like application, but still makes one pause about the amount of pre-installed software on modern Windows PCs, and the difficulty of doing a clean OS install.</description>
+    </item>
+    
+  </channel>
+</rss>

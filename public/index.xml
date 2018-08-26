@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R15Cookie Blog</title>
+    <link>https://www.r15cookie.com/</link>
+    <description>Recent content on R15Cookie Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.r15cookie.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Embedded Equipment Extravaganza!</title>
+      <link>https://www.r15cookie.com/post/2018-04-27-embedded/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2018-04-27-embedded/</guid>
+      <description>{% include JB/setup %}
+As part of a recent vacation, I decided to finally go through my collection of embedded devices, and get them all up and running! I figure this will provide a nice repository of available devices for any upcoming electronics projects. With a new child on the way, I&amp;rsquo;ll certainly have less time to devote to these projects, but it still makes a great hobby. Take a look at my embedded page for more details.</description>
+    </item>
+    
+    <item>
+      <title>Moving To &#34;Let&#39;s Encrypt&#34; TLS Certificate</title>
+      <link>https://www.r15cookie.com/post/2016-08-20-letsencrypt/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2016-08-20-letsencrypt/</guid>
+      <description>{% include JB/setup %}
+As a fan of the EFF, and security in general, I was pretty excited to hear about the Let&amp;rsquo;s Encrypt project. Let&amp;rsquo;s Encrypt is a project sponsored by EFF, University of Michigan, Mozilla, Cisco and Akamai to provide free, signed TLS certificates. While I&amp;rsquo;ve used StartSSL in the past for free certificates, I&amp;rsquo;ve found their process a bit cumbersome (although in all fairness, they have done a ton of redesign this year).</description>
+    </item>
+    
+    <item>
+      <title>Chromebook Mysterious Reboot</title>
+      <link>https://www.r15cookie.com/post/2016-07-06-chrome-hung-tasks/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2016-07-06-chrome-hung-tasks/</guid>
+      <description>{% include JB/setup %}
+A few months ago I noticed a weird issue on the Chromebook where it would reboot hard if I performed a dd operation to write a Linux distro out to USB. I didn&amp;rsquo;t think anything of it at the time. Browsing around the crouton source code for an unrelated project, I came across this section of code that explains the issue. The Chromebook OS has the hunk_task_panic timer set for 2 minutes.</description>
+    </item>
+    
+    <item>
+      <title>SparkCore Fun...</title>
+      <link>https://www.r15cookie.com/post/2016-02-06-sparkcore/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2016-02-06-sparkcore/</guid>
+      <description>{% include JB/setup %}
+I recently purchased a Spark Core development kit at Micro Center last week. The Spark Core is a cloud development board. Normally I try to avoid any cloud platform that may lock me into a vendor, but as Particle (the company) fully releases source code for the schematics, firmware on the device itself, and a node.js implementation of the server side, it seems like a very safe platform for development.</description>
+    </item>
+    
+    <item>
+      <title>CloudReady in Virtualbox</title>
+      <link>https://www.r15cookie.com/post/2015-11-11-chromeready-virtualbox/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-11-11-chromeready-virtualbox/</guid>
+      <description>{% include JB/setup %}
+The ChromeOS has been a great experience so far. One problem, however, is that you generally need to purchase a Chromebook to use it, or go through compiling the ChromeOS from source. A few days ago I came across Neverware&amp;rsquo;s CloudReady, which provides an freely available (to individuals) ChromeOS experience on generic hardware.
+Cloudready, however, does not support dual boot, so it will wipe away anything on the machine.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Delivery In Ops</title>
+      <link>https://www.r15cookie.com/post/2015-09-07-continuous-delivery-ops/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-09-07-continuous-delivery-ops/</guid>
+      <description>{% include JB/setup %}
+Continuous integration, continuous delivery, and test driven development are pretty common on the development side of the house. In many organizations, however, operations still has too many instances of building and maintaining systems by hand. The article Why We Should Continuously Break Everything is a great summary why continuous delivery helps make change less risky and combat code and system configuration rot.</description>
+    </item>
+    
+    <item>
+      <title>Home Lab Rebuild</title>
+      <link>https://www.r15cookie.com/post/2015-08-19-home-lab-rebuild/</link>
+      <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-08-19-home-lab-rebuild/</guid>
+      <description>{% include JB/setup %}
+Recently a hard drive went out on my main home VM Server. It was in a RAID, so there was no data loss. But as I had to shut everything down to replace hardware (no hot swap&amp;hellip;), it makes me think about also maintaining the software stack for the lab.
+Currently I have two physical systems that are libvirt/KVM hosts for my virtual machines, including the main firewall and fileserver.</description>
+    </item>
+    
+    <item>
+      <title>Ansible Automation Server</title>
+      <link>https://www.r15cookie.com/post/2015-07-16-ansible-automation-server/</link>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-07-16-ansible-automation-server/</guid>
+      <description>I&amp;rsquo;m fairly fond of Ansible as a light-weight configuration management tool, but I am always on the lookout for additionally tooling that will make it a bit easier to manage centrally&amp;hellip;well, without paying for Ansible tower. I came across Ansijet and was pretty exciting. It provides a REST API to Ansible itself, as well as storing results in MongoDB. I still need to try this out, but seems very promising.</description>
+    </item>
+    
+    <item>
+      <title>New Blog Going Up Today</title>
+      <link>https://www.r15cookie.com/post/2015-06-14-new-blog-going-up-today/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-06-14-new-blog-going-up-today/</guid>
+      <description>{% include JB/setup %}
+During some spare train time, I decided to begin transitioning my blog over to Jeykll! Why? My original blog/wiki was build around Dokuwiki. I liked the idea of having the core data in text format, and not in a database that would be tied to a specific version of whatever blogging software I happened to be using. While dokuwiki has served it&amp;rsquo;s purpose, it&amp;rsquo;s not primarily a blogging platform, and I worry about the long-term maintenance of the Dokuwiki codebase.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2015-04-26-chromebooks-open-rar/</link>
+      <pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-04-26-chromebooks-open-rar/</guid>
+      <description>{% include JB/setup %}
+I&amp;rsquo;m still compiling my large list of tasks, and hope to break them out blog posts/wiki documents. But the coolest thing I&amp;rsquo;ve come across so far is that the Chromebook can open up Rar files! Rar compressed files are not too common, but nice to know it&amp;rsquo;s one less item I&amp;rsquo;ll have to depend on another machine to perform.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2015-04-08-chromebook-experiment/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-04-08-chromebook-experiment/</guid>
+      <description>{% include JB/setup %}
+Due to the alignment of some stars financially, I went out and obtained a Chromebook for practically free! Specifically I am getting a Toshiba Chromebook 2. Although I tend to lean more toward open source OSes and non-cloud services, I want to explore the feasibility of actually using a lightweight laptop for regular purposes. Specifically I will be focusing around three use cases:
+ Normal End User Tasks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2015-04-08-dell-vulnerability/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-04-08-dell-vulnerability/</guid>
+      <description>{% include JB/setup %}
+Another vulnerability on the heels of Lenovo&amp;rsquo;s Superfish, there is a somewhat serious issue with Dell&amp;rsquo;s System Detect Utility reported by F-Secure (via Fierce IT Security). At least this wasn&amp;rsquo;t specifically a Malware-like application, but still makes one pause about the amount of pre-installed software on modern Windows PCs, and the difficulty of doing a clean OS install.</description>
+    </item>
+    
+    <item>
+      <title>Goodbye To Apple, Google, and Microsoft</title>
+      <link>https://www.r15cookie.com/post/2015-03-25-goodbye-to-apple-google-and-microsoft/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-03-25-goodbye-to-apple-google-and-microsoft/</guid>
+      <description>{% include JB/setup %}
+A came across an article in Medium on the author&amp;rsquo;s move to avoid Apple, Google, and Microsoft products. It&amp;rsquo;s an interesting discussion on the power of these companies, and the compromises users submit to for the sake of convenience.
+I myself can completely understand, using Google Apps for the email of this domain. Google has an easier time tracking me with the amount of services I use from them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2015-02-18-vagrant-windows-base-boxes/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2015-02-18-vagrant-windows-base-boxes/</guid>
+      <description>{% include JB/setup %}
+Vagrant is one of the most useful tools for automating the build of Virtual environments for testing and development purposes. I&amp;rsquo;m usually a Linux/Unix type guy, but on occasion it would be nice to be able to test Windows.
+I just came across this post that indicates the modern.ie has provided a set of base boxes that are usable for Vagrant. I haven&amp;rsquo;t had a chance to test them yet, but plan to do so soon.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-10-27-google-cloud-frustrations/</link>
+      <pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-10-27-google-cloud-frustrations/</guid>
+      <description>{% include JB/setup %}
+I really do like Google Apps overall. But when outages like this occur, it&amp;rsquo;s hard to stay optimistic. I know my personal Drive services are free, but my company, which pays for Google support, is also not operational. It only takes a few of these outages before people go back to local storage.
+{:height=&amp;ldquo;300px&amp;rdquo;}
+{{:blog:googleappstatus.png?320|}}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-09-26-google&#43;-as-a-blogging-platform/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-09-26-google&#43;-as-a-blogging-platform/</guid>
+      <description>{% include JB/setup %}
+The idea of using Google+ as a blogging platform is tempting. Built-in user verification, an easy ability to export all posts if I wish, a built-in audience (of sorts&amp;hellip;)
+Why I Blog On Google
+However, several others have made good points that essential you become a digital sharecropper, beholden to whatever policies Google puts into place.
+Why You Shouldn&amp;rsquo;t Use Google+ For Blogging
+8 Reasons You Should Never Give Up Your Own Blog for Google+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-08-27-update-in-the-beginning-cmdline/</link>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-08-27-update-in-the-beginning-cmdline/</guid>
+      <description>{% include JB/setup %}
+How did I not know this existed. I&amp;rsquo;ve always enjoyed the original essay, and this update was published in 2004. Should make for some good late-night reading, even if it is a little Mac-centric&amp;hellip;
+The Command Line in 2004</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-06-17-responsible-hosting-of-cloud-services/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-06-17-responsible-hosting-of-cloud-services/</guid>
+      <description>{% include JB/setup %}
+Springpad, an Evernote-like service for storing information in a distributed manner, announced it&amp;rsquo;s closure a few weeks ago. Storing important data in the cloud seems a bit risky. However, Springpad is doing an excellent job of providing ways to export your data. Evernote migration is even being supported, allowing a very easy migration path.
+For now I&amp;rsquo;m moving all that data over to Evernote. I personally follow a rule that any cloud-provider needs to provide an easy way to export their data in the event that they do close down.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-06-04-blog-spam/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-06-04-blog-spam/</guid>
+      <description>{% include JB/setup %}
+I left anonymous comments on when I updated dokuwiki, and got hit with comment spam! I disabled anonymous comments, so hopefully that will resolve the issue. Hopefully the bot&amp;rsquo;s don&amp;rsquo;t figure out how to register user accounts&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.r15cookie.com/post/2014-05-07-first-post/</link>
+      <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.r15cookie.com/post/2014-05-07-first-post/</guid>
+      <description>{% include JB/setup %}
+Welcome to the first post of my new&amp;hellip;new&amp;hellip;blog. I&amp;rsquo;m using a new hosting provider, Digital Ocean. I&amp;rsquo;m still using Dokuwiki as my blogging/content platform. The plan is to document my projects and research all on here. Let&amp;rsquo;s see how it goes!</description>
+    </item>
+    
+  </channel>
+</rss>
