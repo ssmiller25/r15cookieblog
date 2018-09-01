@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "About Myself"
-meta: false
+meta: "false"
 menu: main
 ---
 
@@ -30,7 +30,30 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 
 # Professional Experience
 
-### Gordon Food Service - Security Engineer (May 2016 - Present)
+### Blue Medora - DevOps Engineer (Oct 2016 - Present)
+
+Responsible for providing enterprise level infrastructure and resources to the 
+developers of Blue Medora's monitoring plugins
+
+  * Build out a deployment system, including assisting in scripting integration
+  and automation, saving multiple hours per developer environment deployment.
+  * Responsible for the hosting, and assisted in the development of the demonstration environments for use by sales and partners.
+  * Offered direct assistance to the Sales team, including the development
+  of custom tooling to enable sames to the largest accounts.
+  * Directly supported developers and QA in the following technologies:
+    * Azure
+    * Cisco MDS
+    * Couchbase
+    * F5 BigIP
+    * Hadoop
+    * Microsoft System Center Operations Manager (SCOM)
+    * Microsoft System Center Virtual Machine Manager (SCVMM)
+    * Microsoft HyperV
+    * Microsoft SQL
+    * Nagios 
+
+
+### Gordon Food Service - Security Engineer (May 2016 - Oct 2016)
 
 Responsible for monitoring and adjusting security controls within Gordon Food
 Service.  Perform risk assessments against various software solutions.
@@ -45,6 +68,7 @@ Perform security assessments against potential breach situations as necessary.
   * Hardened a bastion box by implementing common security controls and
   two-factor authentication.
   * Used a Vagrant based workflow to assist with upgrades and configuration testing.
+  * Developed a CLI tool to generate tickets based on events observed from the security incident response system.
 
 ### Gordon Food Service - System Administrator (March 2008 - May 2016)
 
@@ -111,10 +135,10 @@ endpoints to query data that was used in custom front-end code.
 
   * **Operating Systems:** Linux (Redhat, Suse and Debian), VMWare ESX, Windows Desktop and Server, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
   * **Programming Languages:** Shell Scripting, Perl, PHP, Python, Java, SQL
-  * **Applications:** Apache, Nagios, CFEngine, Ansible, Subversion, Git, Tomcat, BEA WebLogic, OpenLDAP, MySQL, Postgresql, Vagrant
+  * **Applications:** Apache, Nagios, CFEngine, Ansible, Chef, Subversion, Git, Tomcat, BEA WebLogic, OpenLDAP, MySQL, Postgresql, Vagrant
   * **Cluster:**  HP ServiceGuard, Veritas Cluster/File System
   * **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS
-  * **Storage/Backup:**  EMC Clariion, Veritas Netbackup
+  * **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup 
 
 # Education
 
