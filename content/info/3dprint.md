@@ -1,15 +1,13 @@
 ---
 layout: page
 title: "3D Printing"
+meta: "false"
 ---
-{% include JB/setup %}
-
-
 
 
 # OpenSCAD 
 
-  * [OpenSCAD Coding Guidelines]({{ site.url }}/info/openscad-coding-guidelines.html)
+  * [OpenSCAD Coding Guidelines](/info/openscad-coding-guidelines)
   * [Forum Post to Fix STLs using Meshlab](http://www.shapeways.com/forum/index.php?t=msg&th=1704&start=0&S=8acada7d3cfec6486dac50760db28646)
 
 # 3D Rendering
