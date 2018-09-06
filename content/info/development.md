@@ -4,13 +4,16 @@ title: "Development"
 meta: "false"
 ---
 
-  * Web Layout
+* [JAM Stack](https://www.jamstack.org)
+    * [JamStack Examples](https://jamstack.org/examples/)
+    * [Six tools for a Static ECommerse Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
+* Web Layout
     * [Bootstrap CSS](http://getbootstrap.com/css/)
     * [Bootstrap Color Scheme Generator](http://www.lavishbootstrap.com/)
     * [Bootstrap Navbar Layout Generator](http://twbscolor.smarchal.com/)
     * [PaintStrap](http://paintstrap.com/)
     * [Materialize](http://materializecss.com/): CSS Framework based on Google's Material design
-  * Development
+* Development
     * [Yii Framework](http://www.yiiframework.com/): My current goto for PHP development
     * [MEAN Stack](http://mean.io/#!/): MongoDB, Express.js, Angular.js, and Node.js
     * Flask: A python-based Micro-Framework
