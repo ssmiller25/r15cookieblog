@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "OpenSCAD Coding Guidelines"
+meta: "false"
 ---
-{% include JB/setup %}
 
 OpenSCAD is a 3D CAM/CAD environment.  Instead of GUI design utilities, a coding environment is used to describe objects.  Parametrized designs allow for easy customization.
 

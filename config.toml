@@ -12,6 +12,13 @@ pygmentsCodeFences = true
 disqusShortname = "" #Disqus shortname
 googleAnalytics = "UA-65123306-1" #Google Analytics ID
 
+# Add Tag cloud
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+
 [author]
     name = "Steve Miller"       #Author name
     github = "ssmiller25"     #Github username

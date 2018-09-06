@@ -12,3 +12,21 @@ meta: "false"
 # Windows Workstations
 
 * [Nitenite](https://ninite.com/): Simple installation wizard for new installs
+
+# Remote Support for Linux Workstations
+
+**Untested!**
+
+A method to provide remote control to remote users, generally behind there own firewall
+
+The user must perform a few tasks to allow remote control
+
+  * Run "gconftool-2 -s -t bool /desktop/gnome/remote_access/enabled true" to enable VNC Remote control
+  * Create an SSH tunnel to a common destination machine "ssh -R 5900:localhost:5900 <remote machine>"
+
+Remote machine
+
+  * Connect to common machine "ssh -L 5900:localhost:5900 <remote machine>"
+  * With a vnc viewer "vncviewer localhost:0"
+
+
