@@ -5,8 +5,21 @@ meta: "false"
 ---
 
 * [JAM Stack](https://www.jamstack.org)
-    * [JamStack Examples](https://jamstack.org/examples/)
-    * [Six tools for a Static ECommerse Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
+  * [JamStack Examples](https://jamstack.org/examples/)
+  * [Six tools for a Static ECommerse Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
+  * Authentication
+    * [Auth0](https://auth0.com/): Provide JWT authentication based SaaS
+    * [Netlify Identity](https://www.netlify.com/docs/identity/): Netlify's Authentication...basically a hosted version of their Opensource GoTrue library.
+    * [GoTrue](https://github.com/netlify/gotrue): Open soruce JWT authentication backend)
+  * CMS
+    * [NetlifyCMS](https://github.com/netlify/netlify-cms): SPA that allows for committing markdown changes to version control
+  * Communication
+    * [Twilio](https://www.twilio.com/): Interact with customer via web UI, SMS, What's App, etc
+    * [GoTell](https://github.com/netlify/gotell): Interesting way to run forum threads using a static site/version control as storage.
+  * Databases
+    * [FaunaDB](https://fauna.com/)
+  * Image/Database Hosting
+    * [Cloudinary](https://cloudinary.com/): Does on-the-fly image manipulation
 * Web Layout
     * [Bootstrap CSS](http://getbootstrap.com/css/)
     * [Bootstrap Color Scheme Generator](http://www.lavishbootstrap.com/)
