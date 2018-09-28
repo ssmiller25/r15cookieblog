@@ -9,8 +9,9 @@ meta: "false"
 * [Let's Encrypt](https://letsencrypt.org/):  Freely available certificates for websites.
 Requires a client as the certficates are only valid for 90 days, but many clients
 exist.  I currently use [EFF Certbot](https://certbot.eff.org/)
-* [Start SSL](http://www.startssl.com/?app=0):  Also offers free certificates,
-but also several paid options.  Used to be a bit cumbersome to use, but may be improved after recent updates.
+* [Zero SSL](https://zerossl.com/free-ssl/#crt):  Method to obtain Let's Encrypt Certificates without installation. *WARNING:* If 
+using their website tools, you are completely trusting this site.  Do not do this for any site in which sensitive information
+will be transmitted!  Although honestly, those type of sites should probably perchase an EV certification.
 
 # SSL Private CA
 
