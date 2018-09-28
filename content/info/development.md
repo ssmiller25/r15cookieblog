@@ -6,10 +6,10 @@ meta: "false"
 
 * [JAM Stack](https://www.jamstack.org)
   * [JamStack Examples](https://jamstack.org/examples/)
-  * [Six tools for a Static ECommerse Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
+  * [Six tools for a Static E-commerce Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
   * Authentication
     * [Auth0](https://auth0.com/): Provide JWT authentication based SaaS
-    * [Netlify Identity](https://www.netlify.com/docs/identity/): Netlify's Authentication...basically a hosted version of their Opensource GoTrue library.
+    * [Netlify Identity](https://www.netlify.com/docs/identity/): Netlify's Authentication...basically a hosted version of their Open-source GoTrue library.
     * [GoTrue](https://github.com/netlify/gotrue): Open soruce JWT authentication backend)
   * CMS
     * [NetlifyCMS](https://github.com/netlify/netlify-cms): SPA that allows for committing markdown changes to version control
@@ -20,6 +20,9 @@ meta: "false"
     * [FaunaDB](https://fauna.com/)
   * Image/Database Hosting
     * [Cloudinary](https://cloudinary.com/): Does on-the-fly image manipulation
+  * Monitoring
+    * [PagerDuty](https://www.pagerduty.com/): The big Saas monitoring solution, a ton of options and well used.
+    * [UptimeRobot](https://uptimerobot.com/): For simpler web monitoring, up to 50 monitors at the free tier.
 * Web Layout
     * [Bootstrap CSS](http://getbootstrap.com/css/)
     * [Bootstrap Color Scheme Generator](http://www.lavishbootstrap.com/)
