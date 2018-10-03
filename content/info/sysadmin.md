@@ -2,41 +2,45 @@
 layout: page
 title: "System Administration"
 meta: "false"
+tags: ["devops"]
 ---
 
+Now that my day job involves more specific DevOps practices, I've grown my Sysadmin phylosophy to be more all-encompassing.  
+Beyond just automation of system configuration, modern practices requires more encompassing practices such as tight
+integration with developers, version control, test driven development, and continuous integration and delivery.
 
-My day job is a system administrator, so I think about the profession and discipline a lot.  Topics are centered around a build, deploy, 
-manage, and audit framework detailed by [CFEngine](https://cfengine.com/what-is-cfengine).  Note that I don't necessarily endorse 
-CFEngine, but I do like their theoretical groundwork.
+From [ScaledAgileFramework](https://www.scaledagileframework.com/devops)
 
-From [CFEngine](https://cfengine.com/what-is-cfengine)
-
-![Sysadmin Lifecycle Diagram](/assets/info/sysadmin/graph1.png )
+![CALMR Approach to DevOps](/assets/info/sysadmin/DevOps_F01_WP.png)
 
 
-  * Define the Desired State of your infrastructure with a special knowledge-oriented language; or, use tools that help you design a Desired State from off-the-shelf resources.
-  * Simulate configuration changes before committing to them, then study the impact of changes using the knowledge-based inference engine.
-  * Confirm the decided Desired State for an automatic self-healing implementation. CFEngine then continuously corrects configuration drift, keeping systems in compliance with their Desired State.
-  * Collect reports on the differences between Actual and Desired States and changes or failures encountered while implementing the Desired State using a highly compressed data stream.
+* *Collaboration and organization*: A primary focus of Devops is around culture.  Instead of an "us versus them" mentality
+between production and development teams, high integration of those roles is necessary.
+* *Automate everything mindset*: In today fast-paced world, automation is key.  This includes everything from infrasturcture
+deployment, automated testing frameworks, and CI/CD tooling so releases require no manual work.
+* *Lean flow accelerates delivery*: In line with an Agile mindset, reduce the "work in progress" tasks, reduce the batch
+sizes themselves, and make sure work queues are low.  Instead of a few large releases, aim for continuous delivery of a lot
+of small batches.
+* *Measurement of Everything*: Correct analytics is necessary to quickly trace down any issues that might occur in a 
+continuous delivery framework.  As quoted from the [ScaledAgileFramework](https://www.scaledagileframework.com/devops)  site 
+"..."the facts are always friendly" rather than intuition"
+* *Recovery Enabled Low Risk Releases*: In order to implement a continuous delivery mindset, there must be the ability to 
+quickly and easily roll back releases that experience unexpected issues.  This includes having the tooling in place to 
+perform such operations and actually performing practice runs of pulling back or fixing forward.
 
-# Build 
 
-The first step is to manage the build process for the system.  I encompass this as the steps to develop an infrastructure to deploy servers and applications.
 
-# Deploy 
 
-Physical: 
 
-  * PXE Boot Into Hardware Setup Utilities (BIOS, Array, other hardware components)
-  * PXE Boot Into Automated OS Installation (Kickstart for Redhat/CentOS, Preseed for Ubuntu/Debian)
+# Tools
 
-Virtual:  
+## System Build Tools
 
-  * PXE Boot or Templating System
+* TheForeman: Used currently in some of my work, but a little larger/more cumberson that I would like.
+* DigitalRebar: A new project that I'd like to investigate more heavily.
 
-I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  The installation system should simply setup a minimum number of packages, and then pass off installation to a configuration management system.
 
-# Manage 
+## Configuration Management
 
   * [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
   * CFEngine:  The oldest, and also the most complex to setup.
@@ -53,7 +57,7 @@ full integration testing on a stack
 to cloud based IaaS instances without provisioning credentials to all individuals
 
 
-### Monitoring 
+## Monitoring 
 
   * Nagios
   * Sensu
@@ -61,10 +65,10 @@ to cloud based IaaS instances without provisioning credentials to all individual
   * [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
   * Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
 
-### Backups 
+## Backups 
 (need to research...probably Bacula or Amanda)
 
-# Audit 
+## Audit 
 
   * [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
