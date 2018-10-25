@@ -2,7 +2,7 @@ baseURL = "https://www.r15cookie.com"
 disablePathToLower = true
 languageCode = "en-us"
 title = "R15Cookie Blog"
-theme = "kiera"
+theme = "kiera-ssmiller25"
 
 paginate = 5
 
@@ -10,7 +10,6 @@ paginate = 5
 pygmentsCodeFences = true
 
 disqusShortname = "" #Disqus shortname
-googleAnalytics = "UA-65123306-1" #Google Analytics ID
 features = ["google-analytics","font-awesome"]
 
 # Add Tag cloud
@@ -31,3 +30,4 @@ features = ["google-analytics","font-awesome"]
 
 [params]
     tagline = "There's always a cookie on the R15 resistor"
+    googleAnalyticsUserID = "UA-65123306-1" #Google Analytics ID
