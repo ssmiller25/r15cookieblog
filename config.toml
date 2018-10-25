@@ -11,6 +11,7 @@ pygmentsCodeFences = true
 
 disqusShortname = "" #Disqus shortname
 googleAnalytics = "UA-65123306-1" #Google Analytics ID
+features = ["google-analytics","font-awesome"]
 
 # Add Tag cloud
 [menu]
@@ -25,7 +26,7 @@ googleAnalytics = "UA-65123306-1" #Google Analytics ID
     gitlab = "ssmiller25"     #Gitlab username
     linkedin = "steve-miller-9936632"   #LinkedIn username
     facebook = ""   #Facebook username
-    twitter = ""    #Twitter username
+    twitter = "scubbasteve25"    #Twitter username
     instagram = ""  #Instagram username
 
 [params]
