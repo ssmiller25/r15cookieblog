@@ -1,3 +1,3 @@
-[submodule "themes/kiera"]
-	path = themes/kiera
-	url = https://github.com/avianto/hugo-kiera.git
+[submodule "themes/kiera-ssmiller25"]
+	path = themes/kiera-ssmiller25
+	url = https://github.com/ssmiller25/hugo-kiera.git
