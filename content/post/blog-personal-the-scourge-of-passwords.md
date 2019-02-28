@@ -1,5 +1,5 @@
 ---
-title: Blog (Personal) - The Scourge of Passwords
+title: The Scourge of Passwords
 date: 2019-02-28T23:17:28.979Z
 ---
 This weekend I decided to rotate passwords for the sake of good account hygiene.  What a pain!  Fortunately, I had a password manager to help out, but that still did not reduce the 5-10 minutes per site to log in, find where to change the password, actually change the password, and verify the new password worked!  It was a good exercise, but the idea of regularly rotating passwords for all of my accounts is pure lunacy.  
