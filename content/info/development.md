@@ -7,6 +7,7 @@ meta: "false"
 * [JAM Stack](https://www.jamstack.org)
   * [JamStack Examples](https://jamstack.org/examples/)
   * [Six tools for a Static E-commerce Site](https://www.netlify.com/blog/2015/08/25/a-great-fast-static-e-commerce-experience-with-6-easy-tools/)
+  * [Walkthrough For a Subscription Email Site](https://trolley.link/2019/03/03/paid-email-newsletter.html)
   * Authentication
     * [Auth0](https://auth0.com/): Provide JWT authentication based SaaS
     * [Netlify Identity](https://www.netlify.com/docs/identity/): Netlify's Authentication...basically a hosted version of their Open-source GoTrue library.
@@ -29,6 +30,7 @@ meta: "false"
     * [Bootstrap Navbar Layout Generator](http://twbscolor.smarchal.com/)
     * [PaintStrap](http://paintstrap.com/)
     * [Materialize](http://materializecss.com/): CSS Framework based on Google's Material design
+    * [ZeroStatic](https://www.zerostatic.io): Static Website Themes
 * Development
     * [Yii Framework](http://www.yiiframework.com/): My current goto for PHP development
     * [MEAN Stack](http://mean.io/#!/): MongoDB, Express.js, Angular.js, and Node.js
