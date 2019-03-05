@@ -17,6 +17,8 @@ meta: "false"
   * Communication
     * [Twilio](https://www.twilio.com/): Interact with customer via web UI, SMS, What's App, etc
     * [GoTell](https://github.com/netlify/gotell): Interesting way to run forum threads using a static site/version control as storage.
+  * Dashboards
+    * [Vizzlo](https://vizzlo.com/)    
   * Databases
     * [FaunaDB](https://fauna.com/)
   * Image/Database Hosting
