@@ -26,6 +26,11 @@ meta: "false"
   * Monitoring
     * [PagerDuty](https://www.pagerduty.com/): The big Saas monitoring solution, a ton of options and well used.
     * [UptimeRobot](https://uptimerobot.com/): For simpler web monitoring, up to 50 monitors at the free tier.
+* Web Brainstorming
+    * [Wordoid](https://wordoid.com/): Word brainstorming
+    * To Check Availability
+      * [Name Check](https://namechk.com/): Easy website, but pretty Ad heavy.
+      * Or...just use `host -t ns <domain name>` and `whois <domain name>` 
 * Web Layout
     * [Bootstrap CSS](http://getbootstrap.com/css/)
     * [Bootstrap Color Scheme Generator](http://www.lavishbootstrap.com/)
