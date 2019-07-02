@@ -51,6 +51,11 @@ perform such operations and actually performing practice runs of pulling back or
     * [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
   * Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
   * [Docker](https://www.docker.com/): Extremely light weight container system.
+    * [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
+    * [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
+    * [Clair](https://github.com/coreos/clair): Container security analysis
+    * [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
+  * [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
   * [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
   * [SSHMuxd](https://github.com/joushou/sshmuxd): Allow the build-out of an SSH jump host.  Could be extremely valuable to allow developers and admins access
