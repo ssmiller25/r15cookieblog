@@ -46,3 +46,5 @@ meta: "false"
       * [Flash Mega Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world): Full tutorial of using Flask, including database
       * [RESTful API with Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask): RESTful API with Flask
     * [D3](https://github.com/mbostock/d3/wiki/Gallery):  Javascript library for visualizations 
+* Developer Relations
+  * [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
