@@ -35,21 +35,17 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 Responsible for providing enterprise level infrastructure and resources to the 
 developers of Blue Medora's monitoring plugins
 
-  * Build out a deployment system, including assisting in scripting integration
-  and automation, saving multiple hours per developer environment deployment.
-  * Responsible for the hosting, and assisted in the development of the demonstration environments for use by sales and partners.
-  * Offered direct assistance to the Sales team, including the development
-  of custom tooling to enable sames to the largest accounts.
+  * Built out an on-prem OS deployment system leveraging Foreman to deploy systems on a vCenter/ESXi cluster.  Included integrations to DNS, Active Directory, and Chef.  This system enabled rapid deployment of environments based on developer and project demands.
+  * Built and supported the demo environments for use by sales and partners.  Later migrated to Amazon AWS in order to improve uptime and availability to our worldwide sales teams.
+  * Offered direct assistance to the Sales team for several larger deals.  This included enhancing documentation as well as providing custom-compiled utilities in order to diagnose and support more complex configurations, such as Kerberos against Active Directory within a Java application.
+  * Developed a custom utility, [vROpsCLI](https://github.com/BlueMedoraPublic/vropscli), that leverages a REST API interface to enable larger customers an easier method to manage their environments.
+  * Worked on the SaaS application platform, including management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI.  
+  * Played a crucial role in achieving SOC2 compliance.  This included fully documenting the deployment pipeline, and ensuring all documented policies tied back to technical controls to ensure compliance.
   * Directly supported developers and QA in the following technologies:
-    * Azure
-    * Cisco MDS
-    * Couchbase
-    * F5 BigIP
-    * Hadoop
-    * Microsoft System Center Operations Manager (SCOM)
-    * Microsoft System Center Virtual Machine Manager (SCVMM)
-    * Microsoft HyperV
-    * Microsoft SQL
+    * Amazon AWS, Azure, Google Cloud
+    * Cisco MDS, F5 BigIP, Palo Alto Firewall
+    * Couchbase,  Hadoop
+    * Microsoft Technologies (AD, SCOM, SCVMM, HyperV, SQL)
     * Nagios 
 
 
@@ -75,13 +71,13 @@ Perform security assessments against potential breach situations as necessary.
 Responsible for the management of 170+ remote Linux servers, 20+
 Linux/HPUX/AIX/Windows central servers, 700+ Windows workstations, and 700+ point of sale systems.
 
-  * Technical lead for rollout of new credit card authorization system.  Engineered a redundant system that met disaster recovery targets.  The system successfully passed an external evaluation as well as an internal threat model review.
-  * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Puppet based infrastructure and process
-  was developed, utilizing a workflow based on Vagrant.
-  * Developed a network based imaging system for Linux servers, Windows workstations, and 4690 POS systems.  The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.
-  * Performed forensics work on a Linux based appliance, as well as a Windows based DVR.  Provided written documentation used for later remediation and vendor negotiation processes
-  * Migrated system administration scripts and configurations over to subversion in order to improve development, and to support SOX and PCI compliance audits.
-  * Implemented a VMWare vSphere 5.5 cluster for the Marketplace division.  Migrated a major application from HPUX to Linux running on top of vSphere.
+  * Technical lead for the rollout of new credit card authorization system. Engineered a redundant system that met disaster recovery targets. The system successfully passed an external PCI evaluation as well as an internal threat model review.
+  * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Migrated that configuration management system to Puppet in order to leverage shared resources across the company.
+  * Developed a remote PXE network-based imaging system for Linux servers, Windows workstations, and 4690 POS systems. The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.  The imaging system was capable of automating the setup of HP's BMC technology, iLO. 
+  *Performed forensic work on a Linux based appliance, as well as a Windows-based DVR. Provided written documentation used for later remediation and vendor negotiation processes.
+  * Migrated system administration scripts and configurations to subversion in order to improve development, as well as to support SOX and PCI compliance audits.
+  * Implemented a VMWare vSphere 5.5 cluster for the Marketplace division. Migrated a major application from HPUX to Linux running on top of vSphere.
+
 
 ### Ferris State University (Feb. 2005 - March 2008)
 
@@ -101,8 +97,7 @@ Java based server applications.
 Taught a variety of Computer Science, Computer Information Systems, and Networking Courses.
 
   * Received the Lighthouse Award for the creative use of blended instruction to run two classes simultaneously.
-  * Hands-on Java instruction using Java based software robots.
-  * Emphasized hands-on lab activities to engage students and increase retention.
+  * Used a variety of hands-on techniques to increase knowledge and retention.  Enhanced Java instruction using Java-based software robots to demonstrate object-oriented principles.
   * Classes taught:
     * **Unix Admin:** Intro to Unix/Linux, Unix/Linux System Administration, Web Server Administration
     * **Development:** Interactive Web Development, Perl Programming, Java Programming
@@ -119,13 +114,14 @@ Responsible for the technology program, including all PC and Network maintenance
 
 # Volunteer/Organizations
 
-### Cornerstone Church (May 2014 - Present)
+### Cornerstone Church (May 2014 - May 2016)
 
-  * Assisted in maintenance of content on website.
   * Developed the back-end code to load data from SaaS data solution, through REST API, using C#.  Also developed REST
 endpoints to query data that was used in custom front-end code.
+  * Assisted in maintenance of content on website.
+ 
 
-### Adray Hockey Association (July 2001 - Present)
+### Adray Hockey Association (July 2001 - July 2018)
 
   * Rewrote web app, migrating from Coldfusion/Microsoft Access to PHP/MySQL.
   * Implemented an MVC system to make PHP code more manageable and support more centralized security methods.
@@ -133,12 +129,14 @@ endpoints to query data that was used in custom front-end code.
 
 # Skills
 
-  * **Operating Systems:** Linux (Redhat, Suse and Debian), VMWare ESX, Windows Desktop and Server, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
-  * **Programming Languages:** Shell Scripting, Perl, PHP, Python, Java, SQL
+  * **Operating Systems:** Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
+  * Virtualization/Containerization: Vmware vSphere/ESXi, Docker, LXC, KVM
+  * **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
   * **Applications:** Apache, Nagios, CFEngine, Ansible, Chef, Subversion, Git, Tomcat, BEA WebLogic, OpenLDAP, MySQL, Postgresql, Vagrant
-  * **Cluster:**  HP ServiceGuard, Veritas Cluster/File System
-  * **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS
-  * **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup 
+  * **Cluster:**  HP ServiceGuard, Veritas Cluster/File System, Kubernetes
+  * **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
+  * **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
+  * **Cloud:** Amazon AWS, Microsoft Azure, Google Cloud, Alibaba Cloud
 
 # Education
 
