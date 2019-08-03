@@ -12,6 +12,7 @@ pygmentsCodeFences = true
 disqusShortname = "" #Disqus shortname
 features = ["google-analytics","font-awesome"]
 
+
 # Add Tag cloud
 [menu]
   [[menu.main]]
@@ -29,5 +30,8 @@ features = ["google-analytics","font-awesome"]
     instagram = ""  #Instagram username
 
 [params]
+    # See http://tholman.com/github-corners/ for options
+#    githubcorner = "https://www.github.com/ssmiller25/ssmiller.github.io"
+    gitlabcorner = "https://gitlab.com/ssmiller25/r15cookieblog"
     tagline = "A DevOps Engineer with an appreciation for simplicity."
     googleAnalyticsUserID = "UA-65123306-1" #Google Analytics ID
