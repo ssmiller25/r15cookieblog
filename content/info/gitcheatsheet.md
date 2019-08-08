@@ -21,13 +21,11 @@ git checkout -B master origin/master
 
 
 * Initialize submodules with new repo
-
 ```sh
 git submodule init && git submodule update
 ```
 
 * Initialize submodules with new repo (during clone)
-
 ```sh
 git clone --recurse-submodules git://myawesomeproject...
 ```
