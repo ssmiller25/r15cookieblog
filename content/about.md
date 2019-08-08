@@ -25,6 +25,13 @@ the early planning stages, it will hopefully help keep our dogs well fed, but al
 
 An Altair 8800 style machine designed to implement the ["COW" programming language](https://bigzaphod.github.io/COW/).  It's a really simplistic language, but is technically Turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  
 
+# Professional Publications
+
+* [Inroduction vROpsCLI from Blue Medora](https://bluemedora.com/introducing-vropscli-from-blue-medora/)
+* [SOC2 Compliance In A Code Driven Infrastructure](https://bluemedora.com/soc-2-compliance-in-a-code-driven-infrastructure-blue-medora/)
+
+ 
+
 # Professional Experience
 
 ### Blue Medora - DevOps Engineer (Oct 2016 - Present)
@@ -35,7 +42,7 @@ Responsible for providing enterprise-level infrastructure and resources to the s
   * Built and supported the demo environments for use by sales and partners.  Later migrated to Amazon AWS in order to improve uptime and availability to our worldwide sales teams.
   * Offered direct assistance to the Sales team for several larger deals.  This included enhancing documentation as well as providing custom-compiled utilities in order to diagnose and support more complex configurations, such as Kerberos against Active Directory within a Java application.
   * Developed a custom Python utility, [vROpsCLI](https://github.com/BlueMedoraPublic/vropscli), that leverages a REST API interface to enable larger customers an easier method to manage their environments.
-  * DevOps Engineer on the SaaS application platform, including management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI.  
+  * DevOps Engineer on the SaaS application platform, including management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI and Jenkins.  
   * Introduced Terraform to the SaaS to better manage core infrastructure outside of Kubernetes.
   * Played a crucial role in achieving SOC2 compliance.  This included fully documenting the deployment pipeline, and ensuring all documented policies tied back to technical controls to ensure compliance.
   * Directly supported developers and QA in the following technologies:
