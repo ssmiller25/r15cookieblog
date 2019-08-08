@@ -19,14 +19,15 @@ git checkout -B master origin/master
 
 # Submodule init and update
 
-Useful git aliases from https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
-And raw commands
 * Initialize submodules with new repo
+
 ```sh
 git submodule init && git submodule update
 ```
-or all in one command on clone...
+
+* Initialize submodules with new repo (during clone)
+
 ```sh
 git clone --recurse-submodules git://myawesomeproject...
 ```
@@ -40,3 +41,5 @@ git submodule update --remote --merge
 ```sh
 git push push --recurse-submodules=on-demand
 ```
+
+More submodule details at https://git-scm.com/book/en/v2/Git-Tools-Submodules
