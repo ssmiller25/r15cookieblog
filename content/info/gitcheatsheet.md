@@ -13,7 +13,7 @@ To save myself searching for common it commands
 
 Say...accidently commit a change to the master branch that I did not intent too...
 
-```
+```sh
 git checkout -B master origin/master
 ```
 
@@ -23,18 +23,18 @@ Useful git aliases from https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 And raw commands
 * Initialize submodules with new repo
-```
+```sh
 git submodule init && git submodule update
 ```
 or all in one command on clone...
-```
+```sh
 git clone --recurse-submodules git://myawesomeproject...
 ```
 
 * Update Submodules 
-'''sh
+```sh
 git submodule update --remote --merge
-'''
+```
 
 * Push submodules
 ```sh
