@@ -130,7 +130,7 @@ endpoints to query data that was used in custom front-end code.
 # Skills
 
   * **Operating Systems:** Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
-  * Virtualization/Containerization: Vmware vSphere/ESXi, Docker, LXC, KVM
+  * **Virtualization/Containerization**: Vmware vSphere/ESXi, Docker, LXC, KVM
   * **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
   * **Applications:** Ansible, Apache, BEA WebLogic, CFEngine, Chef, ELK (Elasticsearch, Logstash, and Kibana), Git, Grafana, MySQL, Nagios, PostgreSQL, Prometheus, Puppet, Redis, Subversion, Vagrant 
   * **Cluster:**  HP ServiceGuard, Veritas Cluster/File System, Kubernetes
