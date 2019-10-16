@@ -2,7 +2,8 @@
 title = "Desktop Command Line"
 draft = false
 tags = [
-    "doku-import"
+    "doku-import",
+    "cli"
 ]
 date = "2012-08-17"
 meta = "false"
