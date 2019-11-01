@@ -85,7 +85,7 @@ to cloud based IaaS instances without provisioning credentials to all individual
 * [Danluu's Post Mortem Repo](https://github.com/danluu/post-mortems)
 * [Kubernetes Fail Stories](https://github.com/hjacobs/kubernetes-failure-stories)
 * [Monzo Payment Outage](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
-* 
+* [First Kubernetes Outage - Helm Related](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 
 # Misc 
 
