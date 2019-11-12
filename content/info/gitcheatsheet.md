@@ -40,4 +40,8 @@ git submodule update --remote --merge
 git push push --recurse-submodules=on-demand
 ```
 
-More submodule details at https://git-scm.com/book/en/v2/Git-Tools-Submodules
+More submodule details at [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+# Advance Fixes
+
+Also a good site all around:  [https://ohshitgit.com/](https://ohshitgit.com/)
