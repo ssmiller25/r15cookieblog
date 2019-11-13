@@ -40,6 +40,22 @@ perform such operations and actually performing practice runs of pulling back or
 * DigitalRebar: A new project that I'd like to investigate more heavily.
 
 
+## Kubernetes/Container
+
+  * [Kubernetes](https://kubernetes.io/): Main Kubernetes page.  Docs are fairly
+good and in depth.
+    * [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best pratices
+when running kubernetes in production
+    * [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a lot of 
+services that are potentially needed with running kuberntes in production.  I don't run the full
+production runtime, but I have used a majority of these services successfully.
+  * [Docker](https://www.docker.com/): Extremely light weight container system.
+    * [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
+    * [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
+    * [Clair](https://github.com/coreos/clair): Container security analysis
+    * [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
+
+
 ## Configuration Management
 
   * [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
@@ -50,11 +66,6 @@ perform such operations and actually performing practice runs of pulling back or
     * [Ansible](https://github.com/ansible/ansible): Ansible core project
     * [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
   * Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
-  * [Docker](https://www.docker.com/): Extremely light weight container system.
-    * [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
-    * [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
-    * [Clair](https://github.com/coreos/clair): Container security analysis
-    * [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
   * [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
   * [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
