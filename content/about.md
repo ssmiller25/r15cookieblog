@@ -34,7 +34,11 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 
 # Professional Experience
 
-### Blue Medora - DevOps Engineer (Oct 2016 - Present)
+### Plex Systems - Sr. Systems Engineer (Dec 2019 - Present)
+
+Responsible for production infrastructure and reliability for Plex's SaaS offering.
+
+### Blue Medora - DevOps Engineer (Oct 2016 - Dec 2019)
 
 Responsible for providing enterprise-level infrastructure and resources to the sales and engineering teams, both on-premise and remote.
 
