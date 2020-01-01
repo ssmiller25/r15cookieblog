@@ -1,7 +1,7 @@
 ---
 catagories:
   Project
-tag:
+tags:
   project
   weatherstation
 date: "2019-12-31"
