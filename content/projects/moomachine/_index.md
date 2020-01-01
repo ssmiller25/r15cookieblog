@@ -37,10 +37,10 @@ content is below:
 
 # Technical Overview
 
-  * Technical Overview
-  * Electronic Block Diagram
-  * Schematic
-  * Program
+  * [Technical Overview](technicaloverview/)
+  * [Electronic Block Diagram](/assets/projects/moomachine/MMElectronicsBlockDiagram.jpg)
+  * [Schematic](schematic/)
+  * [Program](program/)
 
 # Background Information
 
