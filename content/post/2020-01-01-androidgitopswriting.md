@@ -27,7 +27,7 @@ integration and deployment.  I worked to adopt that workflow from an Android per
 This works ok, but really assumes you have a build pipeline already setup,
 and wouldn't be useful for larger edits without either an interpreter/compiler on Android, or at least a remote system to debug while editing.  I'm not sure you could 100% create this workflow from just a mobile device, but it's nice to have a bit of an editing platform now available without a laptop (necessarily).  My next goals will be:
 
-  * Automatic integration with grammar checks and perhaps prose linters such as proselint, writegood, or vale [(from this Reddit post)](https://www.reddit.com/r/linux/comments/a22ooo/grammerly_for_vim/eauqj9t?utm_source=share&utm_medium=web2x)
+  * Automatic integration with grammar checks ([Language Tools](http://wiki.languagetool.org/http-server), maybe Grammerly) and perhaps prose linters such as proselint, writegood, or vale [(from this Reddit post)](https://www.reddit.com/r/linux/comments/a22ooo/grammerly_for_vim/eauqj9t?utm_source=share&utm_medium=web2x)
   * Focus on a better export from Google Docs for Markdown, as that takes a bit of cleanup work.  Although adding decent 
 checks to the build pipeline may remove that need entirely.
   * Adopt this for development, at least a language like Python that can be run from the Phone directly.
