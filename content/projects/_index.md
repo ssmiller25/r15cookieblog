@@ -6,7 +6,10 @@ tags:
 date: "2019-12-31"
 layout: "single"
 meta: "false"
-title: "Project Overview"
+title: "Projects"
+menu: main
 ---
 
-# Overview of all projects
+* [Moo Machine](moomachine/): An Altair 8800 style machine designed to implement the “COW” programming language. 
+* [Weather Station](weatherstation/): A weather station that can track all the usual metrics, plus snowfall!
+* [RFID Dog Feeder](rfiddogfeeder/): Modify a dog feeder to dispense food based on a known schedule and RFID tags put on the collar of each dog. 
