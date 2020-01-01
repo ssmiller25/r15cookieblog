@@ -1,10 +1,13 @@
 ---
 catagories:
-  Project
+  - Project
 tags:
-  project
-  weatherstation
+  - project
+  - weatherstation
+  - overview
 date: "2019-12-31"
+layout: "single"
+meta: "false"
 title: "Weather Station Overview"
 ---
 
