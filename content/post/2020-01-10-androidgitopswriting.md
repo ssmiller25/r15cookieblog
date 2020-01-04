@@ -1,5 +1,5 @@
 ---
-date: "2020-01-01"
+date: "2020-01-10"
 description: ""
 tags: []
 title: "Android For GitOps Writing Workflow"
@@ -17,17 +17,19 @@ or [Github](https://www.github.com)), rendered using [Hugo](https://gohugo.io/),
 Android perspective:
 
   * Google Docs:  Initial content is created in a Google doc to take advantage of the interface, as well as spell and 
-grammar check, auto-save to the cloud, etc, etc.    The problem is a clean export to markdown, which I've not found a good system 
-for convertion, besides just copy/paste into a text editor
- * For the actual GitOps Android workflow a combo of Pocket Git, Droid Edit, and ConnectBot.
-   * Use ConnectBot to generate a new key pair.   You'll need to copy the private and public key, and use Droid Edit to 
+grammar check, auto-save to the cloud, collaboration, etc.
+  * Export the Google Doc to Markdown 
+    * On a pure phone, copy/paste from Drive to a new textfile.
+    * On a desktop, try using [this plugin](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607).  The source for the plugin is also [available here](https://github.com/evbacher/gdocs2md) 
+  * For the actual GitOps Android workflow a combo of Pocket Git, Droid Edit, and ConnectBot.
+    * Use ConnectBot to generate a new key pair.   You'll need to copy the private and public key, and use Droid Edit to 
 save those into files.   Create a directory called "ssh" Droid Edit can create a `stevephone` and `stevephone.pub` file
-   * Send public key to yourself in email, or google drive document (remember, it's public!)
-   * On Github and/or Gitlab, add new key keys
-   * Use PocketGit to clone down the repo.  Stay with the defaults to store the repos under /Git
- * For editing, use PocketRepo to create and/or open existing files with DroidEdit
- * Use PocketRepo for branch creation, commits, pushes, and other repo utilities.
- * Use the web interface for Github and Gitlab to manage PR creation and merges.  At least with Gitlab, the web interface 
+    * Send public key to yourself in email, or google drive document (remember, it's public!)
+    * On Github and/or Gitlab, add new key keys
+    * Use PocketGit to clone down the repo.  Stay with the defaults to store the repos under /Git
+  * For editing, use PocketRepo to create and/or open existing files with DroidEdit
+  * Use PocketRepo for branch creation, commits, pushes, and other repo utilities.
+  * Use the web interface for Github and Gitlab to manage PR creation and merges.  At least with Gitlab, the web interface 
 seemed fairly usable.
 
 This process assumes you have a build pipeline and site already setup.  Although it seems potentially possible to start from
@@ -36,6 +38,5 @@ a laptop.  My next goals will be:
 
   * Automatic integration with grammar checks ([Language Tools](http://wiki.languagetool.org/http-server), maybe Grammerly) 
 and perhaps prose linters such as proselint, writegood, or vale [(from this Reddit post)](https://www.reddit.com/r/linux/comments/a22ooo/grammerly_for_vim/eauqj9t?utm_source=share&utm_medium=web2x)
-  * Focus on a better export from Google Docs for Markdown, as that takes a bit of cleanup work.  Although adding decent 
-checks to the build pipeline may remove that need entirely.
+  * A better export process between docs and git.  It might involve a bit of modification to the [already existing plugin](https://github.com/evbacher/gdocs2md)
   * Adopt this for development, at least a language like Python that can be run from the Phone directly.
