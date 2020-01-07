@@ -13,6 +13,7 @@ at least information I find interesting :-)
 
   * [Desktop](/info/desktop/)
   * [Development](/info/development)
+  * [Remote Work](/info/remote)
   * [Security](/info/security)
   * [System Administration](/info/sysadmin)
 
