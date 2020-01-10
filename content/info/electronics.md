@@ -2,8 +2,6 @@
 layout: page
 title: "Electronics"
 ---
-{% include JB/setup %}
-
 Electronics is an interesting hobby that tends to intersect with my interest in sysadmin and programming.  Most of that interest is centered around Arduino, but I have been branching out to Raspberry Pi/Beaglebone styled systems as well.
 
   * Electronics
