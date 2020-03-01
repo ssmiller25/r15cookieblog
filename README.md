@@ -10,4 +10,9 @@ git submodule update --init --recursive
 ```
 on the first pull of the repo to pull the submodule
 
+To update submodules
+
+```sh
+git submodule update --remote --merge
+```
 
