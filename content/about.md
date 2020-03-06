@@ -16,6 +16,10 @@ to put a cookie on the R15 resistor"  Below you will find a brief summary of my 
 * [Inroduction vROpsCLI from Blue Medora](https://bluemedora.com/introducing-vropscli-from-blue-medora/)
 * [SOC2 Compliance In A Code Driven Infrastructure](https://bluemedora.com/soc-2-compliance-in-a-code-driven-infrastructure-blue-medora/)
 
+
+# Speaking Engagements
+
+* Grand Rapids Cyber Security Conference: , will go over using various security baseline tools and integrating those baselines into your server deployment and management systems.  https://www.grbj.com/articles/print/83603-it-industry-produces-cyber-security-conference
  
 
 # Professional Experience
