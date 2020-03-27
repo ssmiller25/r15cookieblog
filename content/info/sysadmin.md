@@ -80,6 +80,10 @@ to cloud based IaaS instances without provisioning credentials to all individual
   * [Collectd](http://collectl.sourceforge.net/): Monitoring OS system stats.
   * [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
   * Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
+  * Internet Monitoring (globally)
+    * [Pingdom's State of the Internet](https://livemap.pingdom.com/)
+    * [Down Detector](https://downdetector.com/)
+    * [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
 
 ## Backups 
 (need to research...probably Bacula or Amanda)
