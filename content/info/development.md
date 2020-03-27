@@ -39,7 +39,7 @@ meta: "false"
     * [PaintStrap](http://paintstrap.com/)
     * [Materialize](http://materializecss.com/): CSS Framework based on Google's Material design
     * [ZeroStatic](https://www.zerostatic.io): Static Website Themes
-* Development
+* Web Development
     * [Yii Framework](http://www.yiiframework.com/): My current goto for PHP development
     * [MEAN Stack](http://mean.io/#!/): MongoDB, Express.js, Angular.js, and Node.js
     * Flask: A python-based Micro-Framework
@@ -48,3 +48,7 @@ meta: "false"
     * [D3](https://github.com/mbostock/d3/wiki/Gallery):  Javascript library for visualizations 
 * Developer Relations
   * [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
+* Development - Go
+  * [A tour of Go](https://tour.golang.org/welcome/1)
+  * [Go by example](https://gobyexample.com/)
+  * [Katacoda Golang Playground](https://katacoda.com/courses/golang/playground)
