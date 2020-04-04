@@ -1,4 +1,4 @@
-baseURL = "https://www.r15cookie.com"
+baseURL = "https://www.r15cookie.com/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "R15Cookie Blog"
@@ -8,8 +8,8 @@ paginate = 5
 
 
 pygmentsCodeFences = true
+disqusShortname = "r15cookieblog" #Disqus shortname
 
-disqusShortname = "" #Disqus shortname
 features = ["google-analytics","font-awesome"]
 
 
