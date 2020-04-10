@@ -93,6 +93,11 @@ to cloud based IaaS instances without provisioning credentials to all individual
   * [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
 
+## DNS
+
+* [IpIFY](https://www.ipify.org/): Light-weight API to get your public IP address
+* [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatice DNS based on IP address
+
 ## Post-Mortem
 
 * [Matrix Apr 2019](https://matrix.org/blog/2019/05/08/post-mortem-and-remediations-for-apr-11-security-incident)
