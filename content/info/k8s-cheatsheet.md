@@ -2,7 +2,7 @@
 layout: page
 title: "k8s Cheatsheet"
 meta: "false"
-tags: ["development", "k8s", "kubernetes"]
+tags: ["dev", "k8s", "kubernetes"]
 ---
 
 Kubernetes cheatsheets

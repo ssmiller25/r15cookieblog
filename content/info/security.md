@@ -2,6 +2,9 @@
 layout: page
 title: "Security"
 meta: "false"
+tags: [
+    "sec"
+]
 ---
 
 # SSL/TLS Information

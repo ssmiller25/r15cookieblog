@@ -1,12 +1,13 @@
-+++
-title = "V1 Site Setup"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "V1 Site Setup"
+draft: false
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2011-03-06"
-meta = "false"
-+++
+date: "2011-03-06"
+meta: "false"
+---
 
 This blog is an exploration of simplicity.  Most of this is expressed in Eric Raymond's [Art Of Unix Programming]((http://www.faqs.org/docs/artu/).  The fundamental principle is "Keep It Simple, Stupid".  Complexity begets large, inflexible systems that are difficult to change and debug.  Simplistic systems are more flexible, more robust, and easily combined to perform larger tasks.  "Controlling complexity is the essence of computer programming" [Kernighan-Plauger] (From the Art of Unix Programming).
 

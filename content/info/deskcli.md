@@ -1,13 +1,14 @@
-+++
-title = "Desktop Command Line"
-draft = false
-tags = [
+---
+title: "Desktop Command Line"
+draft: false
+tags: [
     "doku-import",
-    "cli"
+    "cli",
+    "ops"
 ]
-date = "2012-08-17"
-meta = "false"
-+++
+date: "2012-08-17"
+meta: "false"
+---
 
 A complete desktop environment utilizing the command line
 
