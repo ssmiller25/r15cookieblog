@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Remote Work Articles"
+tags: [
+    "ops"
+]
 meta: "false"
 ---
 

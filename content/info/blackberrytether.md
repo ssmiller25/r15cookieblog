@@ -1,12 +1,12 @@
-+++
-title = "Blackberry Tethering on Linux"
-draft = false
-tags = [
-    "doku-import"
-]
-date = "2010-10-31"
-meta = "false"
-+++
+---
+title: "Blackberry Tethering on Linux"
+draft: "false"
+tags:
+  - ops
+  - doku-import
+date: "2010-10-31"
+meta: "false"
+---
 
 The Blackberry is no longer my phone of choice.  I put together this guide for a few friends.  The information is compiled from other sites and forum postings.  No guarantees of the effectiveness of these directions.  These directions were successful on a Blackberry Pearl 8300.
 
@@ -21,7 +21,7 @@ Bluetooth is used to perform the actual tethering.  USB would have been ideal, b
   - When your done, just Ctrl+C on the pppd command window, it should hang up.
 
 ==== rfcomm.conf ====
-<code>
+```
 #
 # RFCOMM configuration file.
 #
@@ -43,10 +43,10 @@ rfcomm0 {
 #	comment "Example Bluetooth device";
 	comment "Blackberry";
 }
-</code>
+```
 
 ==== tether_chat ====
-<code>
+```
 ''
 ATZ OK
 ATE0V1S7=90
@@ -54,10 +54,10 @@ OK ATS0=0
 OK "ATD#777"
 CONNECT
 ''
-</code>
+```
 
 ==== tether ====
-<code>
+```
 /dev/rfcomm0 115200
 connect '/usr/sbin/chat -v -f /etc/ppp/tether_chat'
 crtscts
@@ -69,5 +69,5 @@ noauth
 ipcp-accept-remote
 ipcp-accept-local
 noipdefault
-</code>
+```
 

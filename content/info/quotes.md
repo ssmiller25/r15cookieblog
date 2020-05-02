@@ -1,12 +1,15 @@
-+++
-title = "Quotes"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Quotes"
+draft: false
+tags: [
+    "doku-import",
+    "dev",
+    "sec",
+    "ops"
 ]
-date = "2013-10-11"
-meta = "false"
-+++
+date: "2013-10-11"
+meta: "false"
+---
 
 
 

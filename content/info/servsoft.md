@@ -1,12 +1,13 @@
-+++
-title = "Server Software of Interest"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Server Software of Interest"
+draft: false
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2014-07-25"
-meta = "false"
-+++
+date: "2014-07-25"
+meta: "false"
+---
 
 
 * Operation Systems

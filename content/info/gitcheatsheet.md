@@ -2,7 +2,7 @@
 layout: page
 title: "Git Cheatsheet"
 meta: "false"
-tags: ["development", "git"]
+tags: ["dev", "git"]
 ---
 
 

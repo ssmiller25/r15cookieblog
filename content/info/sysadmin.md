@@ -2,7 +2,7 @@
 layout: page
 title: "System Administration"
 meta: "false"
-tags: ["devops"]
+tags: ["devops","ops"]
 ---
 
 Now that my day job involves more specific DevOps practices, I've grown my Sysadmin phylosophy to be more all-encompassing.  

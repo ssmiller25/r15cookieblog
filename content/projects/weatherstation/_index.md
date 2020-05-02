@@ -4,6 +4,7 @@ catagories:
 tags:
   - project
   - weatherstation
+  - weather
   - overview
 date: "2019-12-31"
 layout: "single"

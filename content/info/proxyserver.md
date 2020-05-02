@@ -1,12 +1,14 @@
-+++
-title = "Proxy Server"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Proxy Server"
+draft: "false"
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2010-12-11"
-meta = "false"
-+++
+date: "2010-12-11"
+meta: "false"
+---
+
 ====== Proxy Server ======
 
   * http://dansguardian.org/: Good luck for filtering most "inappropriate" content for K12

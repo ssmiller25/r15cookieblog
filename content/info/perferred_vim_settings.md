@@ -1,12 +1,14 @@
-+++
-title = "Preferred Vim Settings"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Preferred Vim Settings"
+draft: "false"
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2011-10-21"
-meta = "false"
-+++
+date: "2011-10-21"
+meta: "false"
+---
+
 Code in my ~/.vimrc file
 ```
 set autoindent

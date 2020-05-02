@@ -1,12 +1,13 @@
-+++
-title = "Hosted CLI"
-draft = false
-tags = [
-    "cli"
+---
+title: "Hosted CLI"
+draft: "false"
+tags: [
+    "cli",
+    "ops"
 ]
-date = "2019-10-16"
-meta = "false"
-+++
+date: "2019-10-16"
+meta: "false"
+---
 
 Some really nify hosted CLI utilityes (telnet/ssh):
 

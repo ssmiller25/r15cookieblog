@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Weather"
+tags: [
+    "weather"
+]
 ---
 Growing up in a rural community, the weather was always a hot topic.  If you needed hay for your horses and cows, or had to pay attention to crops, the weather was of vital importance.  Although none of those factor directly into my life today, I still find the weather very interesting.  Here are popular links I have collected:
 

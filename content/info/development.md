@@ -2,6 +2,9 @@
 layout: page
 title: "Development"
 meta: "false"
+tags: [
+    "dev"
+]
 ---
 
 * [JAM Stack](https://www.jamstack.org)
