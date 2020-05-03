@@ -21,3 +21,5 @@ Lucky Stiff [Source](http://gilesbowkett.blogspot.com/2012/02/rails-went-off-rai
 * ''Luck is what happens when preparation meets opportunity.'' - Seneca the Younger?
   * [WikiQuotes](https://en.wikiquote.org/wiki/Seneca_the_Younger#Disputed) has an overview of where this quote came from.  It did mention this actual
 quote from Seneca the Younger quoting Demetrius that is also good:  ''The best wrestler,'' he would say, ''is not he who has learned thoroughly all the tricks and twists of the art, which are seldom met with in actual wrestling, but he who has well and carefully trained himself in one or two of them, and watches keenly for an opportunity of practising them.''
+* ''Any man can stand adversity — only a great man can stand prosperity.'' - Haratio Alger (1883), Abraham Lincoln: The Backwoods Boy; or, How a Young Rail-Splitter became President
+  * Often [misattributed to Lincoln directly](https://en.wikiquote.org/wiki/Abraham_Lincoln#Misattributed)
