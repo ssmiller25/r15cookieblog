@@ -12,7 +12,7 @@ Growing up in a rural community, the weather was always a hot topic.  If you nee
   * [WUnderground](http://www.wunderground.com/):  A site I've always followed since the 90's, when they provided a telnet service for getting weather info.  
   * [Forecast.io](http://forecast.io):  A very interesting next-gen weather site.  It's primary claim to fame is using an exact address to tell a person detailed forecast info within an hour.  Also has interesting graphics and graphs.
   * [OpenWeatherMap](http://openweathermap.org/):  Another interesting service that probably has the most open API other than the NWS...and OpenWeatherMap has a far cleaner API.
-  * [wttn.in](http://wttr.in/):  A great way to get the weather from the command line.  Also [open source](https://github.com/chubin/wttr.in)
+  * [wttr.in](http://wttr.in/):  A great way to get the weather from the command line.  Also [open source](https://github.com/chubin/wttr.in)
   * Wunderground Rainmaker:  A completely telnet interface.  Just a `telnet rainmaker.wunderground.com` away.  Only major cities covered, but something
   I remember using during the 90s...
 
