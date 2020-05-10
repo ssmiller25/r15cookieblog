@@ -13,7 +13,7 @@ meta: "false"
     <label>Email: <br/><input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Message: <br/><textarea name="message"></textarea></label>
+    <label>Message: <br/><textarea rows="8" name="message" style="width: 100%; height: 195px;"></textarea></label>
   </p>
   <p>
     <button type="submit">Send</button>
