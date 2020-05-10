@@ -35,3 +35,10 @@ features = ["google-analytics","font-awesome"]
     gitlabcorner = "https://gitlab.com/ssmiller25/r15cookieblog"
     tagline = "A DevOps practitioner with an appreciation for simplicity."
     googleAnalyticsUserID = "UA-65123306-1" #Google Analytics ID
+
+# Allow raw HTML
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
