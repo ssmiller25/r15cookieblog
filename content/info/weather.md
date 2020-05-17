@@ -4,9 +4,10 @@ title: "Weather"
 tags: [
     "weather"
 ]
+meta: "false"
 ---
 
-Steve's Weather:
+My weather:
 
 <img src="http://wttr.in/~Middleville+Michigan.png">
 
