@@ -24,9 +24,9 @@ RUN mkdir -p /usr/local/src \
 
 WORKDIR /src
 COPY . /src
-hugo build
+RUN hugo
 
 
 # Build actual HTML serving directory
 FROM nginx
-COPY --from builder /src/public /usr/share/nginx/html
+COPY --from=builder /src/public /usr/share/nginx/html
