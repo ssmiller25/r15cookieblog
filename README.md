@@ -17,3 +17,12 @@ To update submodules
 git submodule update --remote --merge
 ```
 
+## Local Build
+
+To test and run locally:
+
+```sh
+make build   # Build latest docker container
+make run     # Run that container locally
+make push    # Push the container up (mostly for me...)
+```
