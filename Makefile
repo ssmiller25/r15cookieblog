@@ -1,5 +1,5 @@
 currentepoch := $(shell date +%s)
-latestepoch := $(shell docker image ls | grep k8s-intro | grep -v latest | awk ' { print $$2; } ' | sort -n | tail -n 1)
+latestepoch := $(shell docker image ls | grep r15cookieblog | grep -v latest | awk ' { print $$2; } ' | sort -n | tail -n 1)
 
 
 .PHONY: build
