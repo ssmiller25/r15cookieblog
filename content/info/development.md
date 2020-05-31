@@ -55,3 +55,5 @@ tags: [
   * [A tour of Go](https://tour.golang.org/welcome/1)
   * [Go by example](https://gobyexample.com/)
   * [Katacoda Golang Playground](https://katacoda.com/courses/golang/playground)
+* Development - Python
+  * [Hypermodern Python](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
