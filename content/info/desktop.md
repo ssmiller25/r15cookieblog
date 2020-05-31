@@ -3,6 +3,9 @@ layout: page
 title: "Desktop"
 layout: "single"
 meta: "false"
+tags: [
+    "ops"
+]
 ---
 # General Workstations (Cloud)
 

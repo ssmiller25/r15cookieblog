@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "OpenSCAD Coding Guidelines"
+tags: [
+    "dev"
+]
 meta: "false"
 ---
 

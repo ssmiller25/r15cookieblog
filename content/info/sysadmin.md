@@ -2,7 +2,7 @@
 layout: page
 title: "System Administration"
 meta: "false"
-tags: ["devops"]
+tags: ["devops","ops"]
 ---
 
 Now that my day job involves more specific DevOps practices, I've grown my Sysadmin phylosophy to be more all-encompassing.  
@@ -80,6 +80,10 @@ to cloud based IaaS instances without provisioning credentials to all individual
   * [Collectd](http://collectl.sourceforge.net/): Monitoring OS system stats.
   * [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
   * Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
+  * Internet Monitoring (globally)
+    * [Pingdom's State of the Internet](https://livemap.pingdom.com/)
+    * [Down Detector](https://downdetector.com/)
+    * [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
 
 ## Backups 
 (need to research...probably Bacula or Amanda)
@@ -88,6 +92,11 @@ to cloud based IaaS instances without provisioning credentials to all individual
 
   * [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
+
+## DNS
+
+* [IpIFY](https://www.ipify.org/): Light-weight API to get your public IP address
+* [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatice DNS based on IP address
 
 ## Post-Mortem
 

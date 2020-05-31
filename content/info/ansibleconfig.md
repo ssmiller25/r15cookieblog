@@ -1,12 +1,10 @@
-+++
-title = "Ansible Configuration"
-draft = false
-tags = [
-    "doku-import",
-]
-date = "2013-10-24"
-meta = "false"
-+++
+---
+title:  "Ansible Configuration"
+draft: "false"
+date: "2013-10-24"
+meta: "false"
+tags: ["dev", "doku-import"]
+---
 
 * Use Ansible http://http://ansible.github.com/
     * [[http://infrastructure.fedoraproject.org/cgit/ansible.git/|Fedora Ansible GIT Repository]]: Good example of GIT usage.  Roles are not heavily used, as that is a 1.2 feature.
