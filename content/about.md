@@ -18,7 +18,7 @@ to put a cookie on the R15 resistor"  Below you will find a brief summary of my 
 
 # Speaking Engagements
 
-* Grand Rapids Cyber Security Conference: [Using Security Baselines](https://grandrapidscybersecuritycon2015.sched.com/event/4EZl/gordon-foods-using-security-baselines) [Presentation](/assets/using-security-baselines.pdf)
+* [Grand Rapids Cyber Security Conference: Using Security Baselines](https://grandrapidscybersecuritycon2015.sched.com/event/4EZl/gordon-foods-using-security-baselines) ([Presentation](/assets/using-security-baselines.pdf))
  
 
 # Professional Experience
