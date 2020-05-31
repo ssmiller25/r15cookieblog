@@ -1,12 +1,13 @@
-+++
-title = "Home Automation"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Home Automation"
+draft: "false"
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2015-02-13"
-meta = "false"
-+++
+date: "2015-02-13"
+meta: "false"
+---
 
 Software I want to research:
 

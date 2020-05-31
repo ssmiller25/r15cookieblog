@@ -6,8 +6,7 @@ menu: main
 ---
 
 This is the personal website of Steve Miller.  The domain name is from a phrase I said while drifting asleep: "We need
-to put a cookie on the R15 resistor"  Below you will find a brief summary of my experience.  If you wish to contact me please
-[fill out the form here](https://docs.google.com/forms/d/1SQcAaXNPm2zxWP145P-Gpu9xpY3NUn_bNT8SYqi8iTE/viewform?usp=send_form) and I will get back with you as soon as possible.
+to put a cookie on the R15 resistor"  Below you will find a brief summary of my experience.  [You can contact me here](/contact) and I will get back with you as soon as possible.
 
 # [Personal Projects](/projects)
 

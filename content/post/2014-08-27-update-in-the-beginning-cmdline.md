@@ -2,7 +2,7 @@
 date: "2014-08-27T00:00:00Z"
 tags:
 - linux
-- command line
+- cli
 title:  Update to "In The Beginning Was the Command Line"
 ---
 

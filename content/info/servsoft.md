@@ -1,12 +1,13 @@
-+++
-title = "Server Software of Interest"
-draft = false
-tags = [
-    "doku-import"
+---
+title: "Server Software of Interest"
+draft: false
+tags: [
+    "doku-import",
+    "ops"
 ]
-date = "2014-07-25"
-meta = "false"
-+++
+date: "2014-07-25"
+meta: "false"
+---
 
 
 * Operation Systems
@@ -15,8 +16,6 @@ meta = "false"
     * VMWare:  The most popular commercial visualization platform.  What I use at my day job http://www.vmware.com
 * Virtualization
     * Redhat Virtualization:  What I use at home for virtualization. Built on Linux KVM https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/#7_Virtualization
-    * Ganeti:  A Google project for a larger-scale VM environment.  Can be built on KVM or Xen.  https://code.google.com/p/ganeti/  
-      *  https://code.google.com/p/ganeti/wiki/GanetiFAQ#Features:_Storage  Also supports distributed filesystems.
 * Hosting/Business
-    * OwnCloud:  Sort of Google Docs/Dropbox open source replacement, self hosted.  http://owncloud.org/
-    * Gallery:  Web-based photo manager, with desktop photo clent.  http://gallery.menalto.com/
+    * NextCloud:  Sort of Google Docs/Dropbox open source replacement, self hosted.  <https://nextcloud.com/>
+    * Gallery:  Web-based photo manager, with desktop photo clent.  <http://gallery.menalto.com/>

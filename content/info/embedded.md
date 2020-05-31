@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Embedded Systems"
+tags: [
+    "dev"
+]
 ---
 
 Concentrating on embedded systems that can run Linux or other "full" OSes.
