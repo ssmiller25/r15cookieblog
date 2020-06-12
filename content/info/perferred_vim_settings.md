@@ -9,8 +9,11 @@ date: "2011-10-21"
 meta: "false"
 ---
 
+# Vim Settings
+
 Code in my ~/.vimrc file
-```
+
+```ini
 set autoindent
 set ruler "show current position
 set showmatch "show matching brackes

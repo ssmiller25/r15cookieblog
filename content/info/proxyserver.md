@@ -22,7 +22,6 @@ Not *quite* a proxy server, but similar functions with a little less configurati
 
 - [E2Guardian](http://e2guardian.org/cms/index.php):   Successor of Dansgaurdian, which I had good success filtering most "inappropriate" content for K12
   
-
 ## Captive Portal ##
 
 In K12 environments, user accounts and authentications are generally useful to provide a method to control who has internet access.  Captive portals could represent a nice way to provide this type of 

@@ -8,9 +8,9 @@ tags: [
 ---
 
 
-* Developer Relations
-  * [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
-* [Development - Web](/info/webdev)
-* [Development - Go](/info/golang)
-* [Development - Python](/info/python)
+- Developer Relations
+  - [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
+- [Development - Web](/info/webdev)
+- [Development - Go](/info/golang)
+- [Development - Python](/info/python)
   

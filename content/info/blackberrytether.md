@@ -12,13 +12,13 @@ The Blackberry is no longer my phone of choice.  I put together this guide for a
 
 Bluetooth is used to perform the actual tethering.  USB would have been ideal, but the protocol is very proprietary.  The Bluetooth RFCOMM method is a bit more open.
 
-  - First, use the GUI utilities under Linux to pair the phone with the Laptop
-  - Drop the attached rfcomm.conf file into /etc/bluetooth/.  You will have to change the Bluetooth address to match your phone in the config file (if it's not a blackberry, the "channel" line may also be different.  There's a way to use the bluetooth utilities to query what all the channels do on a device, but I don't recall the command right off hand).
-  - Restart the computer (just to make sure the rfcomm file kicks in).  If you run the "rfcomm" command, it should show your device and channel, if all is ok.
-  - Drop tether_chat in /etc/ppp, and tether in /etc/ppp/peers/.
-  - You will probably want to run a "killall NetworkManager".  When using the tether, NetowrkManager does not think it's online, so the browser won't work.
-  - From a root prompt, run "pppd call tether" command.  It should dial-up your phone.  You will probably have to accept the bluetooth connection from the phone.  After that, the display should show your IP address.  You will have to leave the terminal window open.
-  - When your done, just Ctrl+C on the pppd command window, it should hang up.
+- First, use the GUI utilities under Linux to pair the phone with the Laptop
+- Drop the attached rfcomm.conf file into /etc/bluetooth/.  You will have to change the Bluetooth address to match your phone in the config file (if it's not a blackberry, the "channel" line may also be different.  There's a way to use the bluetooth utilities to query what all the channels do on a device, but I don't recall the command right off hand).
+- Restart the computer (just to make sure the rfcomm file kicks in).  If you run the "rfcomm" command, it should show your device and channel, if all is ok.
+- Drop tether_chat in /etc/ppp, and tether in /etc/ppp/peers/.
+- You will probably want to run a "killall NetworkManager".  When using the tether, NetowrkManager does not think it's online, so the browser won't work.
+- From a root prompt, run "pppd call tether" command.  It should dial-up your phone.  You will probably have to accept the bluetooth connection from the phone.  After that, the display should show your IP address.  You will have to leave the terminal window open.
+- When your done, just Ctrl+C on the pppd command window, it should hang up.
 
 ==== rfcomm.conf ====
 ```

@@ -12,7 +12,7 @@ Concentrating on embedded systems that can run Linux or other "full" OSes.
 
 | Device | Arch | Use |
 | --- | --- | --- |
-| Arduino * (many) | avr | Many |
+| Arduino - (many) | avr | Many |
 | Arduino Mega x 2 | avr |  [MooMachine](http://www.stevenmiller.info/home/projects/moomachinehome) |
 | BBC Microbit | arm (Cortex M0 on a nRF51822 SoC) |  |
 
@@ -32,8 +32,8 @@ Concentrating on embedded systems that can run Linux or other "full" OSes.
 
 # Hardware Platforms
 
-  * [Raspberry Pi](https://www.raspberrypi.org/):  Probably THE embedded plamform at the consumer level, although can be used for production purposes.
-  * [Onion Omega2](https://onion.io/Omega2/):  A great product if you need an "Arduino" like device but with the power of Linux and wifi connectivity.  At a base price of $9, really hard to beat!
-  * [Soekris](http://soekris.com/): Looks like a good selection of embedded x86 compatible hardware.  Recommended by a consultant years ago.
-  * [RouterBoard](http://routerboard.com): Provider hardware for MikroTik RouterOS, but could potentially install Linux
+- [Raspberry Pi](https://www.raspberrypi.org/):  Probably THE embedded plamform at the consumer level, although can be used for production purposes.
+- [Onion Omega2](https://onion.io/Omega2/):  A great product if you need an "Arduino" like device but with the power of Linux and wifi connectivity.  At a base price of $9, really hard to beat!
+- [Soekris](http://soekris.com/): Looks like a good selection of embedded x86 compatible hardware.  Recommended by a consultant years ago.
+- [RouterBoard](http://routerboard.com): Provider hardware for MikroTik RouterOS, but could potentially install Linux
 

@@ -16,6 +16,3 @@ Software I want to research:
 http://misterhouse.sourceforge.net/: Perl based home automation
 
 http://www.instructables.com/id/Uber-Home-Automation-w-Arduino-Pi/: Home automation with OpenHab and Arduino
-
-
-
