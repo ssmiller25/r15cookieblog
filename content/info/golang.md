@@ -18,3 +18,7 @@ tags: ["dev", "git"]
 
 - [Script](https://github.com/bitfield/script): Framework for development shell/pipe link constructs in Go. 
 Useful fro moving shell scripts/small programs over to Go.
+
+## Tutorials
+
+- [Free Courses On Go](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/)
