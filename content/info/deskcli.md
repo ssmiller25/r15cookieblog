@@ -26,3 +26,7 @@ A complete desktop environment utilizing the command line
   - [LedgerCLI](http://www.ledger-cli.org/) and [CSV2Ledger](https://github.com/jwiegley/CSV2Ledger|CSV2Ledger): Command-line accounting
   - resty: REST interface (could be useful for automating web info, without using links)
   - irssi: IRCgfs
+
+## Articles
+
+- [15 Tools to Customize Your Terminal and Command Line](https://www.shopify.com/partners/blog/customize-terminal)
