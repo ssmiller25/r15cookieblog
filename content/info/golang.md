@@ -4,9 +4,11 @@ title: "Go Language Resources"
 meta: "false"
 tags: ["dev", "git"]
 ---
+
 # Go Language Resources
 
 ## Development
+
 - [A tour of Go](https://tour.golang.org/welcome/1)
 - [Go by example](https://gobyexample.com/)
 - [Katacoda Golang Playground](https://katacoda.com/courses/golang/playground)
@@ -17,8 +19,10 @@ tags: ["dev", "git"]
 ## Libraries
 
 - [Script](https://github.com/bitfield/script): Framework for development shell/pipe link constructs in Go. 
-Useful fro moving shell scripts/small programs over to Go.
+Useful for moving shell scripts/small programs over to Go.
 
-## Tutorials
+## Articles
 
+- [5 keys to create a killer CLI in Go](https://blog.alexellis.io/5-keys-to-a-killer-go-cli/)
+- [bpcli](https://github.com/bluemedorapublic/bpcli): Great example of a Go CLI utility leveraging a RESTful API
 - [Free Courses On Go](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/)
