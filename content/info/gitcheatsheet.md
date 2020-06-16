@@ -9,6 +9,9 @@ tags: ["dev", "git"]
 
 To save myself searching for common it commands
 
+## Git Ignores
+
+[gitignore.io](https://www.toptal.com/developers/gitignore): Quick was to generate gitignore files.  [Source code](https://github.com/toptal/gitignore.io)
 
 ## Reset master to origin/master
 
