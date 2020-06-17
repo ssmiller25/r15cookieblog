@@ -106,6 +106,7 @@ to cloud based IaaS instances without provisioning credentials to all individual
 
 - [NSA Proof Your Email System](http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/)
 - [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
+- [JQPlay](https://jqplay.org/): Quick way to debug jq filters.  [Also available as a Docker image](https://github.com/munntjlx/jqplay)
 
 # Reading 
 
