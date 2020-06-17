@@ -39,8 +39,8 @@ perform such operations and actually performing practice runs of pulling back or
 
 - [Kubernetes](https://kubernetes.io/): Main Kubernetes page.  Docs are fairly
 good and in depth.
-  - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best pratices
-when running kubernetes in production
+  - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best practices when running kubernetes in production
+  - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
   - [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a lot of 
   - [CNI Comparison](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-april-2019-4a9886efe9c4)
 services that are potentially needed with running kuberntes in production.  I don't run the full
