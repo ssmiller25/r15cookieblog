@@ -26,3 +26,4 @@ Useful for moving shell scripts/small programs over to Go.
 - [5 keys to create a killer CLI in Go](https://blog.alexellis.io/5-keys-to-a-killer-go-cli/)
 - [bpcli](https://github.com/bluemedorapublic/bpcli): Great example of a Go CLI utility leveraging a RESTful API
 - [Free Courses On Go](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/)
+- [Why Go and Not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
