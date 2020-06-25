@@ -39,8 +39,14 @@ Super useful for a LOT of quick information.  For example, to display pods and t
 kubectl get pods -o custom-columns=NAME:.metadata.name,NODE:.spec.nodeName
 ```
 
+(PS, the above info is also provided in `kubectl get pods -o wide`, but above still useful if you are ONLY looking ofr nodenames)
+
 And to display ingresses with hostname and path
 
 ```sh
 kubectl get ingress -o custom-columns=NAME:.metadata.name,HOST:.spec.rules[0].host,PATH:.spec.rules[0].http.paths[0].path
 ```
+
+# Quarantine pods
+
+<https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/>
