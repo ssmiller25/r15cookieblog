@@ -50,3 +50,7 @@ kubectl get ingress -o custom-columns=NAME:.metadata.name,HOST:.spec.rules[0].ho
 # Quarantine pods
 
 <https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/>
+
+# Merging kubectl confg, bash completion, api, and kubectl explain
+
+<https://coreos.com/blog/kubectl-tips-and-tricks>
