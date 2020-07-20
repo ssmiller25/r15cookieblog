@@ -5,8 +5,6 @@ meta: "false"
 tags: ["dev", "git"]
 ---
 
-# Git Cheatsheet
-
 To save myself searching for common it commands
 
 ## Git Ignores
