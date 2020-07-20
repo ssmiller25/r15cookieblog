@@ -44,9 +44,11 @@ And to display ingresses with hostname and path
 kubectl get ingress -o custom-columns=NAME:.metadata.name,HOST:.spec.rules[0].host,PATH:.spec.rules[0].http.paths[0].path
 ```
 
-## Quarantine pods
+## Miscellaneous
 
-<https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/>
+- [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
+- [Kubectl tips and trips](https://coreos.com/blog/kubectl-tips-and-tricks)
+
 
 ## General K8S/K8S Engineering Articles
 
