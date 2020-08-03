@@ -12,7 +12,7 @@ kubectl patch deployment your_deployment \
 -p "{\"spec\": {\"template\": {\"metadata\": { \"labels\": {  \"redeploy\": \"$(date +%s)\"}}}}}"
 ```
 
-## Get ALL resorces
+## Get ALL resources
 
 Only gets pods/deployments/services
 
@@ -48,7 +48,7 @@ kubectl get ingress -o custom-columns=NAME:.metadata.name,HOST:.spec.rules[0].ho
 
 - [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
 - [Kubectl tips and trips](https://coreos.com/blog/kubectl-tips-and-tricks)
-
+- [Prometheus Scraping External Configs](https://github.com/cablespaghetti/k3s-monitoring/blob/master/blackbox-exporter-values.yaml)
 
 ## General K8S/K8S Engineering Articles
 
