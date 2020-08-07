@@ -40,3 +40,7 @@ $cred = New-Object -TypeName System.Management.Automation.PSCredential -Argument
 $session_option = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
 Invoke-Command -ComputerName server -UseSSL -ScriptBlock { ipconfig } -Credential $cred -SessionOption $session_option
 ```
+
+For remote options for non-admin users:
+
+<https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-7#how-to-enable-remoting-for-non-administrative-users>
