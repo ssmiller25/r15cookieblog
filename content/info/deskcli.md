@@ -30,3 +30,4 @@ A complete desktop environment utilizing the command line
 ## Articles
 
 - [15 Tools to Customize Your Terminal and Command Line](https://www.shopify.com/partners/blog/customize-terminal)
+- [Terminal Codes](https://wiki.bash-hackers.org/scripting/terminalcodes) Useful for fancy things like bold, blink, terminal colors, etc.
