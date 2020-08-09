@@ -12,6 +12,7 @@ tags: [
 - [Asana](https://www.asana.com): The main task tracker we use at home
   - [Asana CLI](https://github.com/thash/asana): Asana CLI in Go.  
   - [Asana Project Mover](https://asana.kothar.net/):  Move projects between workspaces
+- [GifCAP](https://gifcap.dev/): Completely client based animated GIF capture tool!  [Source code](https://github.com/joaomoreno/gifcap)
 
 # Linux Workstations
 
