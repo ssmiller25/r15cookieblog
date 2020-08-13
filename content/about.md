@@ -131,6 +131,10 @@ endpoints to query data that was used in custom front-end code.
   * **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
   * **Cloud:** Alibaba Cloud, Amazon AWS, Google Cloud, Microsoft Azure
 
+# Training/Certifications
+
+- [Azure Security Best Practices](/assets/about/azure-sec-certificate.pdf)
+
 # Education
 
 ### BS In Computer Information Systems
