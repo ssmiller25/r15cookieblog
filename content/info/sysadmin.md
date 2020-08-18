@@ -65,8 +65,6 @@ production runtime, but I have used a majority of these services successfully.
 - [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
 - [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
-- [SSHMuxd](https://github.com/joushou/sshmuxd): Allow the build-out of an SSH jump host.  Could be extremely valuable to allow developers and admins access
-to cloud based IaaS instances without provisioning credentials to all individuals
 
 
 ## Monitoring 
@@ -80,6 +78,18 @@ to cloud based IaaS instances without provisioning credentials to all individual
   - [Pingdom's State of the Internet](https://livemap.pingdom.com/)
   - [Down Detector](https://downdetector.com/)
   - [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
+
+## Advance Debuggings
+
+- strace - Almost alwasy availble.  Potentially A LOT of performance impact
+- [Sysdig](https://github.com/draios/sysdig): Combo of strace and tcpdump - and with less performance impact
+- [Sysdig Inspect](https://github.com/draios/sysdig-inspect): Potential GUI for sysdig output
+- [eBPF.io](https://ebpf.io/): Resources for eBPF
+- [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP from
+kubectl
+
+
+
 
 ## Backups 
 (need to research...probably Bacula or Amanda)
