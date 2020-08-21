@@ -50,3 +50,6 @@ civo-down:
 .PHONY: civo-deploy
 civo-deploy: $(KUBECONFIG)
 	@$(KUBECTL) apply -k ./
+
+civo-env: $(KUBECONFIG)
+	export KUBECONFIG=$(KUBECONFIG)

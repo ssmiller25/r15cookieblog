@@ -21,6 +21,14 @@ spec:
       containers:
       - name: r15cookieblog
         image: ssmiller25/r15cookieblog:latest
+        imagePullPolicy: Always
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "128Mi"
+          requests:
+            cpu: "50m"
+            memory: "64Mi"
         ports:
         - containerPort: 80
         livenessProbe:
