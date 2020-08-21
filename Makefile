@@ -8,6 +8,7 @@ CIVO_CMD="civo"
 #CIVO_CMD=docker run -it --rm -v /home/steve/.civo.json:/.civo.json civo/cli:latest
 
 CLUSTER_NAME=blog
+CIVO_SIZE=g2.small
 KUBECONFIG=kubeconfig.$(CLUSTER_NAME)
 KUBECTL=kubectl --kubeconfig=$(KUBECONFIG)
 
@@ -38,7 +39,7 @@ civo-up: $(KUBECONFIG)
 
 $(KUBECONFIG):
 	@echo "Creating $(CLUSTER_NAME)"
-	@$(CIVO_CMD) k3s list | grep -q $(CLUSTER_NAME) || $(CIVO_CMD) k3s create $(CLUSTER_NAME) -n 3 --size g2.small --wait
+	@$(CIVO_CMD) k3s list | grep -q $(CLUSTER_NAME) || $(CIVO_CMD) k3s create $(CLUSTER_NAME) -n 3 --size $(CIVO_SIZE) --wait
 	@$(CIVO_CMD) k3s config $(CLUSTER_NAME) > $(KUBECONFIG)
 
 .PHONY: civo-down
