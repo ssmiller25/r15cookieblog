@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: r15cookieblog
+  labels:
+    app: r15cookieblog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: r15cookieblog
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+  template:
+    metadata:
+      labels:
+        app: r15cookieblog
+    spec:
+      containers:
+      - name: r15cookieblog
+        image: ssmiller25/r15cookieblog:latest
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 30
+          timeoutSeconds: 1

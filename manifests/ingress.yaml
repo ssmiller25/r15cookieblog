@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: r15cookieblog-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - backend:
+          serviceName: r15cookieblog
+          servicePort: 80
+        path: /
+
