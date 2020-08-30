@@ -78,6 +78,7 @@ full integration testing on a stack
   - [Pingdom's State of the Internet](https://livemap.pingdom.com/)
   - [Down Detector](https://downdetector.com/)
   - [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
+  - [The Outage Mailing List](https://puck.nether.net/pipermail/outages/) - Network admins chatting about global issues
 
 ## Advance Debuggings
 
