@@ -33,7 +33,8 @@ spec:
         - containerPort: 80
         livenessProbe:
           httpGet:
-            path: /health
+            # Moving to JUST root...static page
+            path: /
             port: 80
-          initialDelaySeconds: 30
+          initialDelaySeconds: 10
           timeoutSeconds: 1

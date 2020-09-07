@@ -45,7 +45,7 @@ $(KUBECONFIG):
 .PHONY: civo-down
 civo-down:
 	@echo "Removing $(CLUSTER_NAME)"
-	@$(CIVO_CMD) k3s remove $(CLUSTER_NAME)
+	@$(CIVO_CMD) k3s remove $(CLUSTER_NAME) || true
 	@rm $(KUBECONFIG)
 
 .PHONY: civo-deploy
