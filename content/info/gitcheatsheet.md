@@ -19,6 +19,20 @@ Say...accidently commit a change to the master branch that I did not intent too.
 git checkout -B master origin/master
 ```
 
+## Sync local with upstream
+
+Recording this as my previous method (`git checkout master; git pull upstream/master)` resulted in extra commits I didn't want...
+
+Assume you already have an [upstream configured](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+
+```sh
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+Source: [Github](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+
 ## Submodule init and update
 
 
