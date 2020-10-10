@@ -44,6 +44,30 @@ And to display ingresses with hostname and path
 kubectl get ingress -o custom-columns=NAME:.metadata.name,HOST:.spec.rules[0].host,PATH:.spec.rules[0].http.paths[0].path
 ```
 
+## Testing Ingress
+
+Sometimes it's necessary to test an Ingress leveraging routing rules based on hostname.  Several methods to test this exist, depending on the specific situation:
+
+- Adjust the host header
+
+  ```sh
+  curl --header "Host: example.com" http://127.0.0.1/
+  ```
+
+- Temporarily adjust curl's name resolution (useful for setting teh SNI field correctly for SSL)
+
+  ```sh
+  curl --resolve example.com:443:127.0.0.1 https://example.com/
+  ```
+
+- Testing with a completely difference host/port mapping
+
+  ```sh
+  curl --connect-to example.com:443:host-47.example.com:443 https://example.com/
+  ```
+
+**Source:**  <https://daniel.haxx.se/blog/2018/04/05/curl-another-host/>
+
 ## Miscellaneous
 
 - [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
