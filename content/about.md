@@ -9,7 +9,7 @@ This is the personal website of Steve Miller.  [You can contact me here.](/conta
 
 ## Personal Summary
 
-Steve Miller is a Devops practitioner who enjoys creating robust architectures leveraging development and operational best practices.  His 18+ years of experience cover a wide variety of platforms in the public and private sectors.  His background also covers various virtualization, storage, and backup technologies. 
+Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices.  His 18+ years of experience cover a wide variety of platforms in the public and private sectors.  His background also covers various virtualization, storage, and backup technologies. 
 
 ## Site Name Origin
 
@@ -35,8 +35,8 @@ to put a cookie on the R15 resistor"
 Responsible for production infrastructure and site reliability engineering for Plex's SaaS offering.
 
 - Maintenance on on-prem and cloud (AKS, RKE) Kubernetes infrastructure
-- Primary technical lead to deploy containerize workloads such as VerneMQ and Grafana
-- Cost savings be taking part in adjustment of metrics being sent to third party monitoring integrations
+- Primary SRE lead in projects deploying containerize workloads such as VerneMQ and Grafana
+- Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
 
 ### Blue Medora - DevOps Engineer (Oct 2016 - Dec 2019)
