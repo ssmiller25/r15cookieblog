@@ -68,6 +68,29 @@ Sometimes it's necessary to test an Ingress leveraging routing rules based on ho
 
 **Source:**  <https://daniel.haxx.se/blog/2018/04/05/curl-another-host/>
 
+# Network Troubleshooting
+
+- Inject netshoot as a sidecar in a deployment (under `.spec.template.spec.containers`)
+
+```yaml
+     -  name: netshoot
+        command:
+        - /bin/sh
+        - -c
+        - sleep 10000
+        image: nicolaka/netshoot
+```
+
+- Capturing traffic from sidecar
+
+```sh
+kubectl exec -it -c netshoot <podname>
+# Capture traffic until user hits Ctrl+C
+tcpdump -w nodeport.pcap port 80
+# Dump out enough info to read HTTP headers
+tcpdump -vvvs 1024 -r nodeport.pcap
+```
+
 ## Miscellaneous
 
 - [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)

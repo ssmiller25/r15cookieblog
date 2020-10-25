@@ -58,6 +58,16 @@ Source: [Github](https://docs.github.com/en/free-pro-team@latest/github/collabor
 
 More submodule details at [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
+## Remove submodule
+
+```sh
+git submodule deinit -f path/to/submodule
+rm -rf .git/modules/path/to/submodule
+git rm -f path/to/submodule
+```
+
+Source: [StackOverflow](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232#21211232)
+
 ## Advance Fixes
 
 Also a good site all around:  [https://ohshitgit.com/](https://ohshitgit.com/)
