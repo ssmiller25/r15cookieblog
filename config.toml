@@ -6,15 +6,10 @@ theme = "kiera-ssmiller25"
 
 paginate = 5
 
-
 pygmentsCodeFences = true
 disqusShortname = "r15cookieblog" #Disqus shortname
 
 features = ["google-analytics","font-awesome"]
-
-[params]
-  description = "A DevOps practitioner with an appreciation for robust architectures."
-
 
 # Add Tag cloud
 [menu]
@@ -33,6 +28,7 @@ features = ["google-analytics","font-awesome"]
     instagram = ""  #Instagram username
 
 [params]
+  description = "A DevOps practitioner with an appreciation for robust architectures."
   mainSections = ["post"]
   # See http://tholman.com/github-corners/ for options
   # githubcorner = "https://www.github.com/ssmiller25/ssmiller.github.io"
