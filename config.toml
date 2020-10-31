@@ -3,6 +3,7 @@ disablePathToLower = true
 languageCode = "en-us"
 title = "R15Cookie Blog"
 theme = "kiera-ssmiller25"
+description = "A DevOps practitioner with an appreciation for robust architectures."
 
 paginate = 5
 
