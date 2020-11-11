@@ -28,6 +28,12 @@ kubectl api-resources --verbs=list --namespaced -o name \
   | xargs -n 1 kubectl get --show-kind --ignore-not-found -l <label>=<value> -n <namespace>
 ```
 
+## Job from Cronjob
+
+```sh
+kubectl create job --from=cronjob/<cronjob> <newjobname>
+```
+
 ## Custom columns!
 
 Super useful for a LOT of quick information.  For example, to display pods and their current nodes:
