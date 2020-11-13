@@ -42,9 +42,13 @@ good and in depth.
   - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best practices when running kubernetes in production
   - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
   - [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a lot of 
-  - [CNI Comparison](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-april-2019-4a9886efe9c4)
+  - CRI: Container Runtimes
+  - CNI: Network Plugins
+    - [CNI Comparison](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-april-2019-4a9886efe9c4)
 services that are potentially needed with running kuberntes in production.  I don't run the full
 production runtime, but I have used a majority of these services successfully.
+  - CSI: Storage Plugins
+    - [Kubernetes Storage Comparisions](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)
 - [Docker](https://www.docker.com/): Extremely light weight container system.
   - [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
   - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
