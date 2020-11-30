@@ -110,6 +110,7 @@ kubectl
 
 ## Post-Mortem
 
+- [Amazon Kinesis Aug 25 2020](https://aws.amazon.com/message/11201/)
 - [Matrix Apr 2019](https://matrix.org/blog/2019/05/08/post-mortem-and-remediations-for-apr-11-security-incident)
 - [Google Cloud June 2019](https://status.cloud.google.com/incident/cloud-networking/19009)
 - [Danluu's Post Mortem Repo](https://github.com/danluu/post-mortems)
