@@ -115,8 +115,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    # Keeping it down to an hour until I verify everything looks good
-    Strict-Transport-Security = "max-age=3600; includeSubDomains; preload"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     #Content-Security-Policy = "frame-ancestors https://www.facebook.com"
 
     # Multi-value headers are expressed with multi-line strings.
