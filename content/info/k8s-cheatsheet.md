@@ -109,3 +109,8 @@ I don't necessarily endorse these views, but also agree that elegant engineering
 
 - [Etcd, or why modern software makes me sad](https://www.roguelazer.com/2020/07/etcd-or-why-modern-software-makes-me-sad/)
 - [Protobuf are wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/index.html)
+
+
+## What?!?!
+
+- [Kubectl Create Pizza](https://ops.tips/notes/kubernetes-pizza/) and [Source Code](https://github.com/cirocosta/pizza-controller)
