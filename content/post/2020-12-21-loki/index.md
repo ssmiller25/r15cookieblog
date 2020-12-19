@@ -19,23 +19,20 @@ A broader logging solution can help overcome these deficiencies. Even in develop
 
 Loki is a lightweight logging solution, developed by Grafana. It has a similar design methodology to the popular monitoring system Prometheus, and even has the tagline  "Prometheus for logs". It certainly lives up to that name by providing a lightweight log management solution. 
 
-Let's test out Loki leveraging the Civo Kube100 Platform. This guide assumes you are [familiar with the Civo Platform](https://www.civo.com/learn/civo-kubernetes-quick-start-guide) and have the kubectl command available on your local device. If you want to test on your own Kubernetes platform, see the 
-
-[Source Code](#source-code) section at the end of this 
+Let's test out Loki leveraging the Civo Kube100 Platform. This guide assumes you are [familiar with the Civo Platform](https://www.civo.com/learn/civo-kubernetes-quick-start-guide) and have the kubectl command available on your local device. If you want to test on your own Kubernetes platform, see the [Source Code](#source-code) section at the end of this article.
 
 1. First, spin up a new cluster, and make sure to select the "Loki Stack" from the marketplace: 
-
-![Civo Cluster Creation](image3.png)
+    ![Civo Cluster Creation](image3.png)
 
 2. Once the cluster is up, download the kubeconfig file, and make sure a kubectl command works:
 
-```sh
-$ kubectl get nodes
-NAME STATUS ROLES AGE VERSION
-kube-master-6b7c Ready master 4m v1.18.6+k3s1
-kube-node-d7e6 Ready <none> 2m12s v1.18.6+k3s1
-kube-node-c0b1 Ready <none> 2m7s v1.18.6+k3s1
-```
+    ```sh
+    $ kubectl get nodes
+    NAME STATUS ROLES AGE VERSION
+    kube-master-6b7c Ready master 4m v1.18.6+k3s1
+    kube-node-d7e6 Ready <none> 2m12s v1.18.6+k3s1
+    kube-node-c0b1 Ready <none> 2m7s v1.18.6+k3s1
+    ```
 
 3. Grafana and Loki are both running as part of the Marketplace installations. However, Grafana needs to be configured to attach to our local Loki instance in order to view logs. 
 
@@ -45,17 +42,17 @@ kube-node-c0b1 Ready <none> 2m7s v1.18.6+k3s1
   kubectl port-forward -n monitoring service/prometheus-operator-grafana 8080:80
   ```
 
-* On your machine, browse to http://localhost:8080. Log in with the username _admin_ and password _prom-operator_ 
+* On your machine, browse to http://localhost:8080. Log in with the username _admin_ and password _prom-operator_
 
   ![Loki Login](image7.png)
 
 * Go to "Configuration" (gear icon along left hand side), then "Data Sources"
 
-  ![Grafana data sources](image4.png)
+  <img src=image4.png alt="Grafana data source" style="width: 50%">
 
 * Click "Add Data Source", then select Loki
 
-  ![Loki Grafana data source](image2.png "image_tooltip")
+  ![Loki Grafana data source](image2.png)
 
 * Set URL to `http://loki.loki.svc.cluster.local:3100`. Click the "Save and Test Source" button.
 
@@ -71,7 +68,7 @@ The examples listed should work, but feel free to explore further. Say, if you w
 
 Check out the "Log labels" drop down to see all the detected fields you can use to narrow down log results
 
-  ![Available Fields](image6.png "image_tooltip")
+  <img src=image6.png alt="Available Fields" style="width: 50%">
 
 ## Production Considerations
 

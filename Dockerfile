@@ -22,7 +22,7 @@ RUN mkdir -p /usr/local/src \
 
 WORKDIR /src
 COPY . /src
-RUN hugo
+RUN hugo --buildFuture
 
 
 # Build actual HTML serving directory
