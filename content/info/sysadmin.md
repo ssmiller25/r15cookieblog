@@ -85,9 +85,9 @@ full integration testing on a stack
   - [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
   - [The Outage Mailing List](https://puck.nether.net/pipermail/outages/) - Network admins chatting about global issues
 
-## Advance Debuggings
+## Advance Debugging
 
-- strace - Almost alwasy availble.  Potentially A LOT of performance impact
+- strace - Almost always available.  Potentially A LOT of performance impact
 - [Sysdig](https://github.com/draios/sysdig): Combo of strace and tcpdump - and with less performance impact
 - [Sysdig Inspect](https://github.com/draios/sysdig-inspect): Potential GUI for sysdig output
 - [eBPF.io](https://ebpf.io/): Resources for eBPF
@@ -119,13 +119,17 @@ kubectl
 - [Monzo Payment Outage](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
 - [First Kubernetes Outage - Helm Related](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 
-# Misc 
+## Scripting
+
+- [Minimally Safe Bash Script Teamplate](https://betterdev.blog/minimal-safe-bash-script-template/)
+
+# Misc
 
 - [NSA Proof Your Email System](http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/)
 - [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
 - [JQPlay](https://jqplay.org/): Quick way to debug jq filters.  [Also available as a Docker image](https://github.com/munntjlx/jqplay)
 
-# Reading 
+# Reading
 
 - [Art of Unix Programming](http://www.faqs.org/docs/artu/)
 - [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
