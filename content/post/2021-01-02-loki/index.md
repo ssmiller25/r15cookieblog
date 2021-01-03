@@ -1,9 +1,11 @@
 ---
-date: "2020-12-21"
+date: "2021-01-02"
 description: ""
 tags: ["ops"]
 title: "Kubernetes Logging with Grafana's Loki"
 ---
+
+Happy 2021!  And to get the year started, let's look at some modern logging stacks!
 
 I love modern application and stack observability. Anyone that remembers the old days of stringing together Nagios and Syslog into a cobbled-together stack can certainly sympathize. Now solutions exist that provide a more integrated experience across metrics, logs, and tracing. Today I'll be concentrating on the logs component with Grafana's Loki, and demonstrate that stack on a Civo k3s cluster.
 
@@ -19,7 +21,7 @@ A broader logging solution can help overcome these deficiencies. Even in develop
 
 Loki is a lightweight logging solution, developed by Grafana. It has a similar design methodology to the popular monitoring system Prometheus, and even has the tagline  "Prometheus for logs". It certainly lives up to that name by providing a lightweight log management solution. 
 
-Let's test out Loki leveraging the Civo Kube100 Platform. This guide assumes you are [familiar with the Civo Platform](https://www.civo.com/learn/civo-kubernetes-quick-start-guide) and have the kubectl command available on your local device. If you want to test on your own Kubernetes platform, see the [Source Code](#source-code) section at the end of this article.
+Let's test out Loki leveraging the Civo Kube100 Platform. This guide assumes you are [familiar with the Civo Platform](https://www.civo.com/learn/civo-kubernetes-quick-start-guide) and have the kubectl command available on your local device. If you want to test on your own Kubernetes platform, see the [Source Code](#source-code) section at the end of this post.
 
 1. First, spin up a new cluster, and make sure to select the "Loki Stack" from the marketplace: 
     ![Civo Cluster Creation](image3.png)
@@ -58,7 +60,7 @@ Let's test out Loki leveraging the Civo Kube100 Platform. This guide assumes you
 
   ![Grafana Loki Config](image5.png)
 
-Now Loki is set up! Test it out by going to the "Explore" icon on the left-hand side, and choosing Loki as a data source.
+Now Loki is set up! Test it out by going to the Explore (Compass Looking) icon on the left-hand side, and choosing Loki as a data source.
 
   ![Loki Explore](image1.png)
 
@@ -72,10 +74,10 @@ Check out the "Log labels" drop down to see all the detected fields you can use 
 
 ## Production Considerations
 
-Loki makes a great log collection system for small to medium sized clusters. If you want to keep logs across multiple clusters, there are a few options:
+Loki makes a great log collection system for small to medium sized clusters. If you want to keep logs across multiple clusters, there are a few options, current as of January 2021: 
 
 * [Grafana Cloud](https://grafana.com/products/cloud/): Same interface as you get with your in-cluster Grafana/Log stack. Log collection starts at the $49/month level + $0.50/GB/month. 
-* [Elastic Cloud](https://www.elastic.co/cloud/): If you prefer Kibana/traditional ELK stack experience, this might be for you. Pricing starts at $16/month for a minimally configured cluster. Pricing is **heavily** dependent on usage.
+* [Elastic Cloud](https://www.elastic.co/cloud/): If you prefer Kibana/traditional ELK stack experience, this might be for you. Pricing starts at $16/month for a minimally configured cluster. Pricing is **heavily** dependent on usage, and will tend to be a bit more expensive the Grafana Cloud for the same logging workload.
 * [ObservIQ](https://observiqlabs.com/): Still in beta, but provides a Kibana/ELK stack experience without the high-resource consumption usually associated with such stacks. Full disclosure: I am a former employee of Blue Medora, the company that is behind ObservIQ.
 
 ## Source Code
