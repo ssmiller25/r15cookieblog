@@ -56,6 +56,9 @@ production runtime, but I have used a majority of these services successfully.
   - [Clair](https://github.com/coreos/clair): Container security analysis
   - [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
 
+## Infrastructure As Code
+
+- [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
 
 ## Configuration Management
 
