@@ -9,7 +9,7 @@ This is the personal website of Steve Miller.  [You can contact me here.](/conta
 
 ## Personal Summary
 
-Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices.  His 18+ years of experience cover a wide variety of platforms in the public and private sectors.  His background also covers various virtualization, storage, and backup technologies. 
+Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices. His 19+ years of experience cover a wide variety of platforms in the public and private sectors. His background covers a wide variety of cloud, virtualization, and enterprise datacenter technologies.
 
 ## Site Name Origin
 
