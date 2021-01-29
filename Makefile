@@ -1,7 +1,8 @@
-currentepoch := $(shell date +%s)
-latestepoch := $(shell docker image ls | grep r15cookieblog | grep -v latest | awk ' { print $$2; } ' | sort -n | tail -n 1)
+git_hash = $(shell git rev-parse --short -q HEAD)
+version := 0.9.0
+release_date := $(shell date +%Y-%m-%d)
 
-DOCKER_REPO="ssmiller25"
+DOCKER_REPO=quay.io/ssmiller25
 
 CIVO_CMD="civo"
 # For Dockerize CIVO
