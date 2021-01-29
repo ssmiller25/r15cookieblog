@@ -18,6 +18,8 @@ to put a cookie on the R15 resistor"
 
 ## [Personal Projects](/projects)
 
+## [Personal Tech Stack](/stack)
+
 ## Professional Publications
 
 - [Introducing vROpsCLI from Blue Medora](https://bluemedora.com/introducing-vropscli-from-blue-medora/) - [Local Copy](/publications/intro-vropscli/)
