@@ -44,10 +44,12 @@ push:
 # Pull and cache dependent images
 .PHONY: cache-upstream
 cache-upstream:
-	docker pull alpine:${alpine_version} nginx:${nginx_version}
+	docker pull alpine:${alpine_version} 
+	docker pull nginx:${nginx_version}
 	docker tag alpine:${alpine_version} $(DOCKER_REPO)/alpine:${alpine_version}
 	docker tag nginx:${nginx_version} $(DOCKER_REPO)/nginx:${nginx_version}
-	docker push $(DOCKER_REPO)/alpine:${alpine_version} $(DOCKER_REPO)/nginx:${nginx_version}
+	docker push $(DOCKER_REPO)/alpine:${alpine_version} 
+	docker push $(DOCKER_REPO)/nginx:${nginx_version}
 
 
 .PHONY: civo-up
