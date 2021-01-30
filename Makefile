@@ -18,17 +18,23 @@ KUBECTL=kubectl --kubeconfig=$(KUBECONFIG)
 
 .PHONY: build
 build: 
-	@docker build . -t ssmiller25/r15cookieblog:${git_hash} \
+	@docker build . -t ${DOCKER_REPO}/r15cookieblog:${git_hash} \
+		$(docker_extra_param) \
 		--build-arg GIT_HASH=${git_hash} \
 		--build-arg VERSION=${version} \
 		--build-arg RELEASE_DATE=${release_date} \
 		--build-arg ALPINE_VERSION=${alpine_version} \
 		--build-arg NGINX_VERSION=${nginx_version}
-	@docker tag ssmiller25/r15cookieblog:${git_hash} ssmiller25/r15cookieblog:latest
+	@docker tag ${DOCKER_REPO}/r15cookieblog:${git_hash} ${DOCKER_REPO}/r15cookieblog:latest
+
+.PHONY: build-nocache
+build-nocache: docker_extra_param=--no-cache
+build-nocache: build
+
 
 .PHONY: run
 run:
-	@docker run -d --rm -p 8080:80 --name r15cookieblog ssmiller25/r15cookieblog:latest 
+	@docker run -d --rm -p 8080:80 --name r15cookieblog ${DOCKER_REPO}/r15cookieblog:latest 
 	@echo "Local running.  Go to http://localhost:8080/ to view"
 
 .PHONY: stop
@@ -38,8 +44,8 @@ stop:
 
 .PHONY: push
 push:
-	@docker push ssmiller25/r15cookieblog:$(git_hash)
-	@docker push ssmiller25/r15cookieblog:latest
+	@docker push ${DOCKER_REPO}/r15cookieblog:$(git_hash)
+	@docker push ${DOCKER_REPO}/r15cookieblog:latest
 
 # Pull and cache dependent images
 .PHONY: cache-upstream

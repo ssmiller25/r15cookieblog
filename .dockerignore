@@ -1,2 +1,5 @@
 .git
 public/
+LICENSE
+Dockerfile
+Makefile
