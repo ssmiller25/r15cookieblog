@@ -1,8 +1,8 @@
 git_hash = $(shell git rev-parse --short -q HEAD)
 version := 0.9.0
 release_date := $(shell date +%Y-%m-%d)
-alpine_version := 3.13.1@d6de6e6a9c2145e130764454005e254c91bd63657a0c0a03e8ba4d737a754a75  # alpine 3.13.1
-nginx_version := 1.19.6@a92e3a59132cf7731f39e1feeaf95195ca95e5845f5c97eed259ae2b99e104f2  # nginx 1.19.6
+alpine_version := 3.13.1
+nginx_version := 1.19.6
 
 DOCKER_REPO=quay.io/ssmiller25
 
