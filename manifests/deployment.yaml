@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: r15cookieblog
-        image: ssmiller25/r15cookieblog:latest
+        image: quay.io/ssmiller25/r15cookieblog:latest
         imagePullPolicy: Always
         resources:
           limits:
