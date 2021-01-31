@@ -97,6 +97,10 @@ tcpdump -w nodeport.pcap port 80
 tcpdump -vvvs 1024 -r nodeport.pcap
 ```
 
+## Debugging
+
+- [https://learnk8s.io/troubleshooting-deployments](https://learnk8s.io/troubleshooting-deployments?s=03)
+
 ## Miscellaneous
 
 - [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
