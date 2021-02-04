@@ -109,7 +109,8 @@ kubectl
 
 ## DNS
 
-- [IpIFY](https://www.ipify.org/): Light-weight API to get your public IP address
+- [IpIFY](https://www.ipify.org/): Light-weight API to get your public IP address.  Basic IP info is free to use.  Can register to get GeoIP Information.
+- [ip-api.com](https://ip-api.com/).  Provids IP, geo-location and ISP information at `http://ip-api.com/json`  Free for non-commercial purposes.
 - [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatice DNS based on IP address
 
 ## Post-Mortem
