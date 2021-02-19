@@ -6,7 +6,6 @@ tags: [
     "cli",
     "ops"
 ]
-date: "2012-08-17"
 meta: "false"
 ---
 
@@ -24,6 +23,7 @@ A complete desktop environment utilizing the command line
   - finch: IM
   - [Task Warrior](http://taskwarrior.org/) Command line task manager
   - [LedgerCLI](http://www.ledger-cli.org/) and [CSV2Ledger](https://github.com/jwiegley/CSV2Ledger|CSV2Ledger): Command-line accounting
+  - [Password Store](https://www.passwordstore.org/): Password manager following the Unix philosophy - does one thing well.  Built on GPG and stores passwords in plain files.
   - resty: REST interface (could be useful for automating web info, without using links)
   - irssi: IRCgfs
 
