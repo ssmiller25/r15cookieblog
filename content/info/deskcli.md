@@ -16,7 +16,7 @@ A complete desktop environment utilizing the command line
   - Javascript SSH for public console, with SSO
 - Command Environment
   - bash
-  - screen to allow easy multi-tasking, or perhaps [byobu](https://launchpad.net/byobu)
+  - tmux to allow easy multi-tasking, or perhaps [byobu](https://launchpad.net/byobu)
 - Utilities
   - links: Browser
   - https://www.passwordstore.org/
@@ -26,7 +26,7 @@ A complete desktop environment utilizing the command line
   - [Password Store](https://www.passwordstore.org/): Password manager following the Unix philosophy - does one thing well.  Built on GPG and stores passwords in plain files.
   - resty: REST interface (could be useful for automating web info, without using links)
   - irssi: IRCgfs
-
+  - [Command Lookup: cheat.sh](http://cheat.sh/): Quick Linux command/doc lookup.  [Source on Github](https://github.com/chubin/cheat.sh)
 ## Articles
 
 - [15 Tools to Customize Your Terminal and Command Line](https://www.shopify.com/partners/blog/customize-terminal)
