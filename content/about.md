@@ -25,7 +25,6 @@ to put a cookie on the R15 resistor"
 - [Introducing vROpsCLI from Blue Medora](https://bluemedora.com/introducing-vropscli-from-blue-medora/) - [Local Copy](/publications/intro-vropscli/)
 - [SOC2 Compliance In A Code Driven Infrastructure](https://bluemedora.com/soc-2-compliance-in-a-code-driven-infrastructure-blue-medora/) - [Local Copy](/publications/soc2-code-driven-infrastructure/)
 
-
 ## Speaking Engagements
 
 - [present.r15cookie.com](https://github.com/ssmiller25/present) - Newer presentations.
@@ -38,10 +37,9 @@ to put a cookie on the R15 resistor"
 
 Responsible for production infrastructure and site reliability engineering for Plex's SaaS offering.
 
-- Maintenance on on-prem and cloud (AKS, RKE) Kubernetes infrastructure
+- Maintenance on on-prem and cloud Kubernetes infrastructure, including kubeadm based clusters, Azure Kubernetes Service (AKS) and Rancher (RKE)
 - Primary SRE lead in projects deploying containerize workloads such as VerneMQ and Grafana
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
-
 
 ### Blue Medora - DevOps Engineer (Oct 2016 - Dec 2019)
 
@@ -59,7 +57,7 @@ Responsible for providing enterprise-level infrastructure and resources to the s
   - Cisco MDS, F5 BigIP, Palo Alto Firewall
   - Couchbase, Elasticsearch, Hadoop, Redis
   - Microsoft Technologies (AD, SCOM, SCVMM, HyperV, SQL)
-  - Nagios 
+  - Nagios
 
 ### Gordon Food Service - Security Engineer (May 2016 - Oct 2016)
 
@@ -110,10 +108,10 @@ Taught a variety of Computer Science, Computer Information Systems, and Networki
 - Received the Lighthouse Award for the creative use of blended instruction to run two classes simultaneously.
 - Used a variety of hands-on techniques to increase knowledge and retention.  Enhanced Java instruction using Java-based software robots to demonstrate object-oriented principles.
 - Classes taught:
-  - **Unix Admin:*- Intro to Unix/Linux, Unix/Linux System Administration, Web Server Administration
-  - **Development:*- Interactive Web Development, Perl Programming, Java Programming
-  - **Architecture:*- Computer Architecture, Advanced Computer Architecture
-  - **Security:*- Security+, Introduction to Cryptography
+  - **Unix Admin:**- Intro to Unix/Linux, Unix/Linux System Administration, Web Server Administration
+  - **Development:**- Interactive Web Development, Perl Programming, Java Programming
+  - **Architecture:**- Computer Architecture, Advanced Computer Architecture
+  - **Security:**- Security+, Introduction to Cryptography
 
 ### Marion Public Schools (Aug. 2003 - Feb. 2005)
 
@@ -138,14 +136,14 @@ endpoints to query data that was used in custom front-end code.
 
 # Skills
 
-- **Operating Systems:*- Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
+- **Operating Systems:** Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
 - **Virtualization/Containerization**: Vmware vSphere/ESXi, Docker, LXC, KVM
-- **Programming Languages:*- Shell Scripting, Python, Perl, PHP, Java, SQL
-- **Applications:*- Ansible, Apache, BEA WebLogic, CFEngine, Chef, ELK (Elasticsearch, Logstash, and Kibana), Git, Grafana, MySQL, Nagios, PostgreSQL, Prometheus, Puppet, Redis, Subversion, Vagrant 
-- **Cluster:*-  HP ServiceGuard, Veritas Cluster/File System, Kubernetes
-- **Network:*- F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
-- **Storage/Backup:*-  EMC Clariion, Netapp, Pure, Veritas Netbackup
-- **Cloud:*- Alibaba Cloud, Amazon AWS, Google Cloud, Microsoft Azure
+- **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
+- **Applications:** Ansible, Apache, BEA WebLogic, CFEngine, Chef, ELK (Elasticsearch, Logstash, and Kibana), Git, Grafana, MySQL, Nagios, PostgreSQL, Prometheus, Puppet, Redis, Subversion, Vagrant 
+- **Cluster:** HP ServiceGuard, Veritas Cluster/File System, Kubernetes
+- **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
+- **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
+- **Cloud:** Alibaba Cloud, Amazon AWS, Google Cloud, Microsoft Azure
 
 # Training/Certifications
 
