@@ -7,6 +7,8 @@ menu: main
 
 This is the personal website of Steve Miller.  [You can contact me here.](/contact)
 
+:toc:
+
 ## Personal Summary
 
 Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices. His 19+ years of experience cover a wide variety of platforms in the public and private sectors. His background covers a wide variety of cloud, virtualization, and enterprise datacenter technologies.
@@ -37,7 +39,8 @@ to put a cookie on the R15 resistor"
 
 Responsible for production infrastructure and site reliability engineering for Plex's SaaS offering.
 
-- Maintenance on on-prem and cloud Kubernetes infrastructure, including kubeadm based clusters, Azure Kubernetes Service (AKS) and Rancher (RKE)
+- Maintenance on on-prem and cloud kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
+- Maintenance and development of infrastructure as code (IaC) components for both Azure and on-prem leveraging Terraform
 - Primary SRE lead in projects deploying containerize workloads such as VerneMQ and Grafana
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
@@ -120,7 +123,13 @@ Responsible for the technology program, including all PC and Network maintenance
 - Used PHP and MySQL to develop a dynamic schedule for under-performing students, saving 20 person-hours a week of manual scheduling effort.
 - Installed and maintained an Exchange server used for administrative email and calendar services.  Used a Linux based SMTP frontend which provided security and email services for teachers, saving Exchange licensing costs across the district.
 
-# Volunteer/Organizations
+## Volunteer/Organizations
+
+### Michigan Amature Hockey Association District 6 (Aug 2011 - Present)
+
+- Webmaster for the primary MAHA website: https://www.mahadistrict6.org
+- Implements Google Workspace (Gsuite) for Non-Profits, allowing personalized mail and other Google Apps to be used within the organization. 
+- Deployed an online payment system for the District Tournaments
 
 ### Cornerstone Church (May 2014 - May 2016)
 
@@ -134,22 +143,24 @@ endpoints to query data that was used in custom front-end code.
 - Implemented an MVC system to make PHP code more manageable and support more centralized security methods.
 - Perform ongoing code and data administration.
 
-# Skills
+## Skills
 
 - **Operating Systems:** Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
-- **Virtualization/Containerization**: Vmware vSphere/ESXi, Docker, LXC, KVM
+- **Infrastructure As Code:** git, Terraform, Terragrunt, Packer, Vagrant
+- **Monitoring:** Prometheus, Grafana, Loki, ELK (Elasticsearch, Logstash, and Kibana), Nagios, VMWare vRealize Operations
+- **Virtualization/Containerization**: Kubernetes, Docker, Vmware vSphere/ESXi, LXC, KVM
 - **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
-- **Applications:** Ansible, Apache, BEA WebLogic, CFEngine, Chef, ELK (Elasticsearch, Logstash, and Kibana), Git, Grafana, MySQL, Nagios, PostgreSQL, Prometheus, Puppet, Redis, Subversion, Vagrant 
-- **Cluster:** HP ServiceGuard, Veritas Cluster/File System, Kubernetes
+- **Applications:** Ansible, Apache, BEA WebLogic, CFEngine, Chef, MySQL, , PostgreSQL, Puppet, Redis, Subversion, 
+- **Cluster:** HP ServiceGuard, Veritas Cluster/File System
 - **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
 - **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
 - **Cloud:** Alibaba Cloud, Amazon AWS, Google Cloud, Microsoft Azure
 
-# Training/Certifications
+## Training/Certifications
 
 - [Azure Security Best Practices](/assets/about/azure-sec-certificate.pdf)
 
-# Education
+## Education
 
 ### BS In Computer Information Systems
 
