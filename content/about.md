@@ -3,7 +3,6 @@ title: "About"
 description: "About Myself"
 meta: "false"
 menu: main
-toc: true
 ---
 
 This is the personal website of Steve Miller.  [You can contact me here.](/contact)
