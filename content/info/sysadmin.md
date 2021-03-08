@@ -54,6 +54,7 @@ perform such operations and actually performing practice runs of pulling back or
 - [Kubernetes](https://kubernetes.io/): Main Kubernetes page.  Docs are fairly
 good and in depth.
   - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best practices when running kubernetes in production
+  - [47 Things To Become a Kubernetes Expert](https://ymmt2005.hatenablog.com/entry/k8s-things) - Really good detailed items for k8s foundational work
   - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
   - [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a lot of 
   - [Kapitan](https://kapitan.dev/): Templating system for Kubernetes and Terraform.  Potential replacment for Helm/Kustomize/etc.
