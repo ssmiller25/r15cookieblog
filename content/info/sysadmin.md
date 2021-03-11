@@ -75,6 +75,10 @@ production runtime, but I have used a majority of these services successfully.
 ## Infrastructure As Code
 
 - [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
+- Cloud Instance Cost 
+  - [AWS: Vantage Instance Cost](https://instances.vantage.sh/): Used to be EC2Instances.info, but Vantage is now hosting. [Source is still on Github](https://github.com/vantage-sh/ec2instances.info)
+  - [Azure: Azureprice.net](https://azureprice.net/)
+  Great info.  Unfortunately source is not available.
 
 ## Configuration Management
 
