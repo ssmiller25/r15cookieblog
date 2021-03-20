@@ -4,7 +4,8 @@ draft: false
 tags: [
     "doku-import",
     "cli",
-    "ops"
+    "ops",
+    "wkstation"
 ]
 meta: "false"
 ---

@@ -27,5 +27,3 @@ hugo.linux
 kubeconfig.*
 *kubeconfig
 !.gitkeep
-
-
