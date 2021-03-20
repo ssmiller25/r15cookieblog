@@ -2,17 +2,17 @@
 date: "2021-03-20"
 description: ""
 tags: ["ops", "wkstation"]
-title: "ChromeOS Linux (Chrostini) Error on ChromeOS"
+title: "ChromeOS Linux (Chrostini) Error 58"
 ---
 
-With a recent update to 89.0.4389.82 of ChromeOS, there was also an update to the underlying container that hosts Linux.  Normally if this happens it's a relatively short process.  However, a few days ago this took far longer, and ended up with the error below:
+With a recent update to 89.0.4389.82 of ChromeOS, there was also an update to the underlying container that hosts Linux.  Normally if this happens it's a relatively short process.  However, a few days ago this took far longer, and ended up with a "Error starting penguin container: 58" message.  Not helpfule at all!  Fortunately with some searching, I found the solution on [Masaki Muranaka's blog](https://qiita.com/monamour555/items/2d8d58687c2c69941da4).  The article is in Japanese, but fortunately Google translate was able to work well enough for me to get the steps necessary to fix the issue.  Based on that article, the steps I took to fix are below.
+
+Full error I encountered:
 
 ```text
 [======= /] Starting the Linux container Error starting penguin container: 58
 Launching vmshell failed: Error starting crostini for terminal: 58
 ```
-
-Yikes, what to do!  Fortunately with some searching, I found the solution on [Masaki Muranaka's blog](https://qiita.com/monamour555/items/2d8d58687c2c69941da4).  The article is in Japanese, but fortunately Google translate was able to work well enough for me to get the steps necessary to fix the issue.  Based on that article, the steps I took to fix were:
 
 1. Start the crosh shell with `Ctrl + Alt + T`
 2. Enter the terminal (and yes there no **l** as the end of terminal. [Some explanation from the Chromium docs](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#overview))
