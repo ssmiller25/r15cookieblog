@@ -5,7 +5,7 @@ tags: ["ops", "wkstation"]
 title: "ChromeOS Linux (Chrostini) Error 58"
 ---
 
-With a recent update to 89.0.4389.82 of ChromeOS, there was also an update to the underlying container that hosts Linux.  Normally if this happens it's a relatively short process.  However, a few days ago this took far longer, and ended up with a "Error starting penguin container: 58" message.  Not helpfule at all!  Fortunately with some searching, I found the solution on [Masaki Muranaka's blog](https://qiita.com/monamour555/items/2d8d58687c2c69941da4).  The article is in Japanese, but fortunately Google translate was able to work well enough for me to get the steps necessary to fix the issue.  Based on that article, the steps I took to fix are below.
+With a recent update to 89.0.4389.82 of ChromeOS, there was also an update to the underlying container that hosts Linux.  Normally if this happens it's a relatively short process.  However, a few days ago this took far longer, and ended up with a "Error starting penguin container: 58" message.  Not helpful at all!  Fortunately with some searching, I found the solution on [Masaki Muranaka's blog](https://qiita.com/monamour555/items/2d8d58687c2c69941da4).  The article is in Japanese, but fortunately Google translate was able to work well enough for me to get the steps necessary to fix the issue.  Based on that article, the steps I took to fix are below.
 
 Full error I encountered:
 
