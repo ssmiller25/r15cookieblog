@@ -2,7 +2,7 @@
 layout: page
 title: "Windows Cheatsheet"
 meta: "false"
-tags: ["devops","ops", "windows"]
+tags: ["devops","ops", "windows", "wkstation"]
 ---
 Every now and then we do have to use windows.  So let's try to make it as Linux like as possible
 

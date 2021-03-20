@@ -11,6 +11,14 @@ To save myself searching for common it commands
 
 [gitignore.io](https://www.toptal.com/developers/gitignore): Quick was to generate gitignore files.  [Source code](https://github.com/toptal/gitignore.io)
 
+## Git Ignore keeps tracking files!
+
+[This Stackoverflow answer](https://stackoverflow.com/a/1274447) explains it, but need to remove any previously tracked files now in `.gitignore` with the command below:
+  
+```sh
+git rm --cached <file>
+```
+
 ## Reset master to origin/master
 
 Say...accidently commit a change to the master branch that I did not intent too...
