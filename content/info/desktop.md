@@ -4,7 +4,8 @@ title: "Desktop"
 layout: "single"
 meta: "false"
 tags: [
-    "ops"
+    "ops",
+    "wkstation"
 ]
 ---
 # General Workstations (Cloud)
