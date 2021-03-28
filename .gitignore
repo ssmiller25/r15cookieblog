@@ -27,3 +27,5 @@ hugo.linux
 kubeconfig.*
 *kubeconfig
 !.gitkeep
+
+*.log
