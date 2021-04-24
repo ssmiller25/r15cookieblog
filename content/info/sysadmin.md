@@ -137,7 +137,7 @@ kubectl
 
 ## Scripting
 
-- [Minimally Safe Bash Shell Script Template](https://betterdev.blog/minimal-safe-bash-script-template/)
+- [Scripting](/info/scripting)
 
 # Misc
 
