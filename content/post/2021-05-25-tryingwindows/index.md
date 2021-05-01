@@ -20,3 +20,6 @@ title: "Trying Windows"
     - Nested virtualization...not!
     - Would use "Dev Track" for newest features, but breaks my video on my Lenovo Thinkbook 14s.
     - X-win is a pain for mainline distros.  Yes, yes, eventuall WSLg will be a thing, but to the above, I can't run the dev builds on this particular model!
+  - GIT corruption!
+    - Not sure if it's related to WSL2 - but never had it happen in 5+ years of Linux/Mac usage and git (and granted, at least 1.5 years of Windows at work usage)
+    - ![GitError](giterror.png)
