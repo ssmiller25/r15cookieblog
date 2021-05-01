@@ -76,6 +76,40 @@ git rm -f path/to/submodule
 
 Source: [StackOverflow](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232#21211232)
 
+## Corrupted git objects
+
+If you see an error like the following:
+
+```text
+fatal: loose object cdd75ee0cbac88baa81b31d22b2dbe9ae5108526 (stored in .git/objects/cd/d75ee0cbac88baa81b31d22b2dbe9ae5108526) is corrupt
+```
+
+Two options (both assume you have a repo clones remotely)
+
+1. If you don't have anything you need to commit, just reclone the repo
+
+   ```sh
+   git remote -v   # Record current remote
+   cd ..
+   rm -rf <remoteclone>
+   git clone <remoteref>
+   ```
+
+2. If you have changes you wish to commit.  Note...this will cause you to lose your local commit history, but the files changes themselves will remain intact.
+
+   ```sh
+   tofixgit=$(pwd)
+   remote=$(git remote -v | grep origin | awk ' { print $2; } ' | head -1) # Get current remote
+   cd ..
+   cp -R $tofixgit ${tofixgit}-bak
+   git clone ${remote} ${tofixgit}-clean
+   rm -rf $tofixgit/.git
+   cp -r ${tofixgit}-clean/.git ${tofixgit}
+   rm -rf ${tofixgit}-clean
+   ```
+
+   Once done, should be able to recommit any changes.
+
 ## Advance Fixes
 
 Also a good site all around:  [https://ohshitgit.com/](https://ohshitgit.com/)
