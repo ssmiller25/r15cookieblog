@@ -1,0 +1,77 @@
+baseURL: https://www.r15cookie.com/
+languageCode: en-us
+defaultContentLanguage: en
+title: R15Cookie Blog
+theme: papercss-hugo-theme
+googleAnalytics: UA-65123306-1
+disqusShortname: r15cookieblog
+
+privacy:
+  disqus:
+    disable: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /post/:filename/
+
+imaging:
+  quality: 99
+
+params:
+  description: A DevOps practitioner with an appreciation for robust architectures.
+  homeMetaContent: A DevOps practitioner with an appreciation for robust architectures.
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  navTitleLink: /
+  mainSections: post
+
+menu:
+  nav:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Info
+      url: /info/
+      weight: 3
+    - name: Tags
+      url: /tags/
+      weight: 5
+#    - name: RSS
+#      url: /index.xml
+#      weight: 4
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 12
+    startLevel: 2
