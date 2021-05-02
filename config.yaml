@@ -2,9 +2,12 @@ baseURL: https://www.r15cookie.com
 languageCode: en-us
 defaultContentLanguage: en
 title: R15Cookie Blog
+
 theme: papercss-hugo-theme
 googleAnalytics: UA-65123306-1
 disqusShortname: r15cookieblog
+
+paginate: 5
 
 privacy:
   disqus:
@@ -22,6 +25,7 @@ imaging:
 params:
   description: A DevOps practitioner with an appreciation for robust architectures.
   homeMetaContent: A DevOps practitioner with an appreciation for robust architectures.
+  tagline: A DevOps practitioner with an appreciation for robust architectures.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   navTitleLink: /
