@@ -11,18 +11,29 @@ at least information I find interesting :-)
 
 # Development and Operations (DevOps...)
 
-  * [Desktop](/info/desktop/)
-  * [Development](/info/development)
-  * [Remote Work](/info/remote)
-  * [Security](/info/security)
-  * [System Administration](/info/sysadmin)
+Inspired by the [DevOps Toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
+
+Plan
+Create
+Verify
+Packaging
+Release
+Configure
+Monitor
+Version Control
+
+- [Desktop](/info/desktop/)
+- [Development](/info/development)
+- [Remote Work](/info/remote)
+- [Security](/info/security)
+- [System Administration](/info/sysadmin)
 
 # Maker Topics
 
 *"when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create."* [Source](http://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/#sthash.Q7C9i7R2.dpuf)
 
-  * [3D Printing](/info/3dprint)
-  * [Electronics](/info/electronics)
-  * [Embedded Systems](/info/embedded)
-  * [Weather](/info/weather)
+- [3D Printing](/info/3dprint)
+- [Electronics](/info/electronics)
+- [Embedded Systems](/info/embedded)
+- [Weather](/info/weather)
 
