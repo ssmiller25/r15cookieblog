@@ -22,9 +22,12 @@
 
   <link rel="stylesheet" type="text/css" href="{{ "css/paper.css" | relURL }}">
 
+
   {{ $customCssPath := "css/custom.css" }}
   {{ $customCss:= resources.Get $customCssPath | resources.ExecuteAsTemplate $customCssPath . }}
   <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
+
+  <!-- before corner -->
 
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
