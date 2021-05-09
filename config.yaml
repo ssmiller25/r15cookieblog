@@ -1,8 +1,8 @@
 baseURL: https://www.r15cookie.com
 languageCode: en-us
 defaultContentLanguage: en
-title: R15Cookie Blog
-copyright: "Steve Miller [![BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)"
+title: R15Cookie Blog 
+copyright: "Steve Miller [BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)"
 
 
 theme: papercss-hugo-theme
@@ -34,6 +34,7 @@ params:
   mainSections: post
   #github_corner_url: "https://github.com/ssmiller25/r15cookieblog"
   gitlab_corner_url: "https://gitlab.com/ssmiller25/r15cookieblog"
+  footer: true
 
 menu:
   nav:

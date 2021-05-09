@@ -6,7 +6,10 @@
       {{ partial "nav.html" . }}
       <main>
         {{ block "main" . }}{{ end }}
-        {{ partial "footer" . }}
+        
+        {{ if eq .Site.Params.footer true }}
+          {{ partial "footer" . }}
+        {{ end }}
       </main>
       {{ partial "google-analytics-async.html" . }}
       
