@@ -10,6 +10,7 @@ Captures ad-hoc scripting and process needs.  Also includes resources making the
 ## Shell
 
 - [Minimally Safe Bash Shell Script Template](https://betterdev.blog/minimal-safe-bash-script-template/)
+- [Bash Style Guidelines](https://github.com/progrium/bashstyle)
 
 ## Higher Level
 
