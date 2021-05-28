@@ -3,7 +3,6 @@ title: "Blackberry Tethering on Linux"
 draft: "false"
 tags:
   - ops
-  - doku-import
 date: "2010-10-31"
 meta: "false"
 ---

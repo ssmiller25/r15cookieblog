@@ -6,9 +6,6 @@ tags: [
     "sec"
 ]
 ---
-
-# Security
-
 ## SSL/TLS Information
 
 - [Let's Encrypt](https://letsencrypt.org/):  Freely available certificates for websites.

@@ -2,7 +2,6 @@
 title: "Desktop Command Line"
 draft: false
 tags: [
-    "doku-import",
     "cli",
     "ops",
     "wkstation"

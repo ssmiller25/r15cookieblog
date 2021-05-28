@@ -4,9 +4,6 @@ title: "Go Language Resources"
 meta: "false"
 tags: ["dev", "git"]
 ---
-
-# Go Language Resources
-
 ## Development
 
 - [A tour of Go](https://tour.golang.org/welcome/1)

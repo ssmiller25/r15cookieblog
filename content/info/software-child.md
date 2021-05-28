@@ -2,8 +2,7 @@
 title: "Software Development For Children"
 draft: false
 tags: [
-    "dev",
-    "childdev"
+    "dev"
 ]
 meta: "false"
 ---

@@ -2,7 +2,6 @@
 title: "Home Automation"
 draft: "false"
 tags: [
-    "doku-import",
     "ops"
 ]
 date: "2015-02-13"

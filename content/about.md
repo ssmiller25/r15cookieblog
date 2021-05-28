@@ -2,6 +2,7 @@
 title: "About"
 description: "About Myself"
 meta: "false"
+toc: true
 menu: main
 ---
 
@@ -18,9 +19,10 @@ Steve Miller is a DevOps practitioner who enjoys creating robust architectures l
 The domain name is from a phrase that came while drifting asleep: "We need
 to put a cookie on the R15 resistor"  
 
-## [Personal Projects](/projects)
+## Projects
 
-## [Personal Tech Stack](/stack)
+- [Overall Projects](/projects)
+- [Personal Tech Stack](/stack)
 
 ## Professional Publications
 

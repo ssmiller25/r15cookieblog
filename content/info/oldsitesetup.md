@@ -1,8 +1,7 @@
 ---
-title: "V1 Site Setup"
+title: "Old Site Setup"
 draft: false
 tags: [
-    "doku-import",
     "ops"
 ]
 date: "2011-03-06"

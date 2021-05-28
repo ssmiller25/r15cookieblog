@@ -34,7 +34,7 @@ kubectl api-resources --verbs=list --namespaced -o name \
 kubectl create job --from=cronjob/<cronjob> <newjobname>
 ```
 
-## Custom columns!
+## Custom columns
 
 Super useful for a LOT of quick information.  For example, to display pods and their current nodes:
 
@@ -42,7 +42,7 @@ Super useful for a LOT of quick information.  For example, to display pods and t
 kubectl get pods -o custom-columns=NAME:.metadata.name,NODE:.spec.nodeName
 ```
 
-(PS, the above info is also provided in `kubectl get pods -o wide`, but above still useful if you are ONLY looking ofr nodenames)
+(PS, the above info is also provided in `kubectl get pods -o wide`, but above still useful if you are ONLY looking for nodenames)
 
 And to display ingresses with hostname and path
 
