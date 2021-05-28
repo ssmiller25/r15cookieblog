@@ -10,7 +10,7 @@ meta: "false"
 Various resources on working remotely.
 
 ## Guides
- 
+
 - Gitlab Remote Resources
   - [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
   - [Gitlab Guide to Starting a Remote Position](https://about.gitlab.com/company/culture/all-remote/getting-started/)

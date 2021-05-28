@@ -43,20 +43,19 @@ Source: [Github](https://docs.github.com/en/free-pro-team@latest/github/collabor
 
 ## Submodule init and update
 
-
-- Initialize submodules with new repo
+### Initialize submodules with new repo
 
   ```sh
   git submodule init && git submodule update
   ```
 
-- Initialize submodules with new repo (during clone)
+### Initialize submodules with new repo (during clone)
 
   ```sh
   git clone --recurse-submodules git://myawesomeproject...
   ```
 
-- Update Submodules 
+### Update submodules
 
   ```sh
   cd <submodule dir>
@@ -66,7 +65,7 @@ Source: [Github](https://docs.github.com/en/free-pro-team@latest/github/collabor
 
 More submodule details at [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
-## Remove submodule
+### Remove submodule
 
 ```sh
 git submodule deinit -f path/to/submodule

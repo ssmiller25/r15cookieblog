@@ -8,7 +8,6 @@ date: "2014-07-25"
 meta: "false"
 ---
 
-
 - Kubernetes - Really the next base for server operations.  I kind of wrap is up as "Core" infrstrucutre
   - [RancherOS](https://github.com/rancher/os) - Lightweight distro dedicated to running Kubernetes
   - [K3OS](https://github.com/rancher/k3os) - Distro developed to run k3s.  Based on LinuxKit

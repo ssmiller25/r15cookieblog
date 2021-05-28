@@ -2,6 +2,7 @@
 title: "About"
 description: "About Myself"
 meta: "false"
+toc: true
 menu: main
 ---
 
@@ -18,9 +19,10 @@ Steve Miller is a DevOps practitioner who enjoys creating robust architectures l
 The domain name is from a phrase that came while drifting asleep: "We need
 to put a cookie on the R15 resistor"  
 
-## [Personal Projects](/projects)
+## Projects
 
-## [Personal Tech Stack](/stack)
+- [Overall Projects](/projects)
+- [Personal Tech Stack](/stack)
 
 ## Professional Publications
 
@@ -29,7 +31,7 @@ to put a cookie on the R15 resistor"
 
 ## Speaking Engagements
 
-- [present.r15cookie.com](https://github.com/ssmiller25/present) - Newer presentations.
+- [present.r15cookie.com](https://present.r15cookie.com) - Newer presentations. [Source](https://github.com/ssmiller25/present)
 - [Automation test and tools for Civo marketplace apps](https://www.youtube.com/watch?v=6E5-ZaMROKs) - with [code repo](https://github.com/ssmiller25/civo-marketplace-template)
 - [Grand Rapids Cyber Security Conference: Using Security Baselines](https://grandrapidscybersecuritycon2015.sched.com/event/4EZl/gordon-foods-using-security-baselines) ([Presentation](/assets/using-security-baselines.pdf))
 
@@ -40,20 +42,20 @@ to put a cookie on the R15 resistor"
 Responsible for production infrastructure and site reliability engineering for Plex's SaaS offering.
 
 - Maintenance on on-prem and cloud kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
-- Maintenance and development of infrastructure as code (IaC) components for both Azure and on-prem leveraging Terraform
-- Primary SRE lead in projects deploying containerize workloads such as VerneMQ and Grafana
+- Assisting in debugging GitOps based workflows centered around Kustomize and FluxCD
+- Maintenance and development of infrastructure as code (IaC) components for both Azure and on-prem environments leveraging Terraform
+- Primary SRE lead in projects deploying VerneMQ and Grafana in a containerize platform
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
 ### Blue Medora - DevOps Engineer (Oct 2016 - Dec 2019)
 
 Responsible for providing enterprise-level infrastructure and resources to the sales and engineering teams, both on-premise and remote.
 
+- Developed a custom Python utility, [vROpsCLI](https://github.com/BlueMedoraPublic/vropscli), that leverages a REST API interface to enable larger customers an easier method to manage their environments.
 - Built out an on-prem OS deployment system leveraging Foreman to deploy systems on a vCenter/ESXi cluster.  Included integrations to DNS, Active Directory, and Chef.  This system enabled rapid deployment of environments based on developer and project demands, leveraging both image and PXE based builds
+- Primary DevOps Engineer on the SaaS application platform, Bindplane.  This involved management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI and Jenkins.  Migrated the SaaS application to Google Cloud platform, leveraging Terraform for infrastructure management.
 - Built and supported the demo environments for use by sales and partners.  Later migrated to Amazon AWS in order to improve uptime and availability to our worldwide sales teams.
 - Offered direct assistance to the Sales team for several larger deals.  This included enhancing documentation as well as providing custom-compiled utilities in order to diagnose and support more complex configurations, such as Kerberos against Active Directory within a Java application.
-- Developed a custom Python utility, [vROpsCLI](https://github.com/BlueMedoraPublic/vropscli), that leverages a REST API interface to enable larger customers an easier method to manage their environments.
-- DevOps Engineer on the SaaS application platform, including management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI and Jenkins.  
-- Introduced Terraform to the SaaS to better manage core infrastructure outside of Kubernetes.
 - Played a crucial role in achieving SOC2 compliance.  This included fully documenting the deployment pipeline, and ensuring all documented policies tied back to technical controls to ensure compliance.
 - Directly supported developers and QA in the following technologies:
   - Amazon AWS, Google Cloud, Microsoft Azure
@@ -68,6 +70,8 @@ Responsible for monitoring and adjusting security controls within Gordon Food
 Service.  Perform risk assessments against various software solutions.
 Perform security assessments against potential breach situations as necessary.
 
+- Developed and leveraged a Vagrant based workflow to assist with upgrades and configuration testing.
+- Developed a Python based CLI tool to generate tickets based on events observed from the security incident response system.
 - Performed a migration and upgrade of the primary file integrity monitoring
 system.
 - Assisted with upgrading the security information and event management
@@ -76,17 +80,15 @@ system (SIEM), including the diagnosis of potential OS level bugs.
 documentation and evidence that was used for vendor remediation.
 - Hardened a bastion box by implementing common security controls and
 two-factor authentication.
-- Used a Vagrant based workflow to assist with upgrades and configuration testing.
-- Developed a Python based CLI tool to generate tickets based on events observed from the security incident response system.
 
 ### Gordon Food Service - System Administrator (March 2008 - May 2016)
 
 Responsible for the management of 170+ remote Linux servers, 20+
 Linux/HPUX/AIX/Windows central servers, 700+ Windows workstations, and 700+ point of sale systems.
 
-- Technical lead for the rollout of new credit card authorization system. Engineered a redundant system that met disaster recovery targets. The system successfully passed an external PCI evaluation as well as an internal threat model review.
+- Technical lead for the rollout of a new credit card authorization system. Engineered a redundant system that met disaster recovery targets. The system successfully passed an external PCI evaluation as well as an internal threat model review.
 - Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Migrated that configuration management system to Puppet in order to leverage shared resources across the company.
-- Developed a remote PXE network-based imaging system for Linux servers, Windows workstations, and 4690 POS systems. The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.  The imaging system was capable of automating the setup of HP's BMC technology, iLO. 
+- Developed a remote PXE network-based imaging system for Linux servers, Windows workstations, and 4690 POS systems. The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.  The imaging system was capable of automating the setup of HP's BMC technology, iLO.
 *Performed forensic work on a Linux based appliance, as well as a Windows-based DVR. Provided written documentation used for later remediation and vendor negotiation processes.
 - Migrated system administration scripts and configurations to subversion in order to improve development, as well as to support SOX and PCI compliance audits.
 - Implemented a VMWare Cluster for the Marketplace division. Migrated a major application from HPUX to Linux running on top of vSphere.
@@ -120,12 +122,12 @@ Taught a variety of Computer Science, Computer Information Systems, and Networki
 
 Responsible for the technology program, including all PC and Network maintenance, budget and grant writing, policy development and collaboration with other districts.
 
-- Used PHP and MySQL to develop a dynamic schedule for under-performing students, saving 20 person-hours a week of manual scheduling effort.
+- Developed a dynamic scheduling system for under-performing students to leverage available open study period slots, saving 20 person-hours a week of manual scheduling effort.
 - Installed and maintained an Exchange server used for administrative email and calendar services.  Used a Linux based SMTP frontend which provided security and email services for teachers, saving Exchange licensing costs across the district.
 
 ## Volunteer/Organizations
 
-### Michigan Amature Hockey Association District 6 (Aug 2011 - Present)
+### Michigan Amateur Hockey Association District 6 (Aug 2011 - May 2021)
 
 - Webmaster for the primary MAHA website: https://www.mahadistrict6.org
 - Implements Google Workspace (Gsuite) for Non-Profits, allowing personalized mail and other Google Apps to be used within the organization. 
