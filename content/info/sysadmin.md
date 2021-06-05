@@ -152,4 +152,3 @@ kubectl
 
 - [Art of Unix Programming](http://www.faqs.org/docs/artu/)
 - [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
-- [9 Open Source DevOps Tools We Love](http://devops.com/2015/08/07/9-open-source-devops-tools-love/)
