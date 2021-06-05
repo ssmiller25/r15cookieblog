@@ -11,6 +11,7 @@ meta: "false"
 
 A complete desktop environment utilizing the command line
 
+- [ASCIINema](https://asciinema.org/): An ingenious way to share a text-based walkthrough/presentation [Source](https://github.com/asciinema/asciinema) along with [Javascript Player Source](https://github.com/asciinema/asciinema-player) and [Webcast Server Source](https://github.com/asciinema/asciinema-server)
 - SSH Access
   - Pure SSH
   - Javascript SSH for public console, with SSO
@@ -27,6 +28,7 @@ A complete desktop environment utilizing the command line
   - resty: REST interface (could be useful for automating web info, without using links)
   - irssi: IRCgfs
   - [Command Lookup: cheat.sh](http://cheat.sh/): Quick Linux command/doc lookup.  [Source on Github](https://github.com/chubin/cheat.sh)
+
 ## Articles
 
 - [15 Tools to Customize Your Terminal and Command Line](https://www.shopify.com/partners/blog/customize-terminal)

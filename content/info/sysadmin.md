@@ -55,6 +55,7 @@ perform such operations and actually performing practice runs of pulling back or
 good and in depth.
   - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best practices when running kubernetes in production
   - [47 Things To Become a Kubernetes Expert](https://ymmt2005.hatenablog.com/entry/k8s-things) - Really good detailed items for k8s foundational work
+  - [100 Days of Kubernetes](https://100daysofkubernetes.io/) - [Source](https://github.com/100daysofkubernetes/100DaysOfKubernetes)
   - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
   - [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a lot of 
   - [Kapitan](https://kapitan.dev/): Templating system for Kubernetes and Terraform.  Potential replacment for Helm/Kustomize/etc.
@@ -91,7 +92,7 @@ production runtime, but I have used a majority of these services successfully.
   - [Ansible](https://github.com/ansible/ansible): Ansible core project
   - [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
 - Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
-- [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
+
 - [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
 
@@ -121,11 +122,13 @@ kubectl
 
 
 
-## Backups 
-(need to research...probably Bacula or Amanda)
+## Backups
 
-## Audit 
+- [Restic](https://restic.net/)
 
+## Audit
+
+- [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
 - [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
 ## DNS
