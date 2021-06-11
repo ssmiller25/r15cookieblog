@@ -21,7 +21,7 @@ tags: ["dev", "web"]
     - [Twilio](https://www.twilio.com/): Interact with customer via web UI, SMS, What's App, etc
     - [GoTell](https://github.com/netlify/gotell): Interesting way to run forum threads using a static site/version control as storage.
   - Dashboards
-    - [Vizzlo](https://vizzlo.com/)    
+    - [Vizzlo](https://vizzlo.com/)
   - Databases
     - [FaunaDB](https://fauna.com/)
   - Image/Database Hosting
@@ -29,6 +29,10 @@ tags: ["dev", "web"]
   - Monitoring
     - [PagerDuty](https://www.pagerduty.com/): The big Saas monitoring solution, a ton of options and well used.
     - [UptimeRobot](https://uptimerobot.com/): For simpler web monitoring, up to 50 monitors at the free tier.
+  - Privacy Policy/Terms Of Service
+    - [Privacy Policy](https://www.privacypolicygenerator.info/)
+    - [Sample Terms and Conditions](https://www.privacypolicygenerator.info/sample-terms-conditions-template/)
+    - [Cookie Policy Generator](https://www.cookiepolicygenerator.com/)
 - Web Brainstorming
   - [Wordoid](https://wordoid.com/): Word brainstorming
   - To Check Availability
