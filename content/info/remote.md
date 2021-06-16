@@ -1,4 +1,4 @@
----
+  ---
 layout: page
 title: "Remote Work Articles"
 tags: [
@@ -19,6 +19,7 @@ Various resources on working remotely.
 ## Articles
 
 - [47 Insanely Practical Work From Home Tips from Our 100% Remote Team](https://www.groovehq.com/blog/work-from-home)
+- [Driving Engagement In a Remote Work World](https://www.cfo.com/workplace-issues/2021/04/driving-engagement-in-a-remote-work-world/)
 - [How to Ace an Online Job Interview](https://www.wired.com/story/tips-for-online-job-interviews/): Also great tips for remote meetings in general
 - [My Week Shadowing a Gitlab SRE](https://about.gitlab.com/blog/2019/12/16/sre-shadow/): Not directly related, but Gitlab being a 100% remote company, it's still an interesting article
 - [On Messing Up Your Remote Team...and Then Getting It Right](https://angel.co/blog/on-messing-up-your-remote-team-and-then-getting-it-right?utm_source=platform-newsletter&utm_medium=email&utm_campaign=platform-newsletter-20191219&alla[source]=platform)
