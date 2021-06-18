@@ -2,7 +2,7 @@
 layout: page
 title: "k8s Cheatsheet"
 meta: "false"
-tags: ["dev", "k8s", "kubernetes"]
+tags: ["ops", "k8s", "kubernetes"]
 ---
 ## Force a Redeployment
 

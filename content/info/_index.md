@@ -15,7 +15,7 @@ at least information I find interesting :-)
   * [Development](/info/development)
   * [Remote Work](/info/remote)
   * [Security](/info/security)
-  * [System Administration](/info/sysadmin)
+  * [Operations](/info/operations)
 
 # Maker Topics
 
