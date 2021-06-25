@@ -16,6 +16,8 @@ Starting with a new 3D printer can be exciting, but also scary! Here are some in
 - [My prints look like this, let's fix them!](https://www.simplify3d.com/support/print-quality-troubleshooting/)
 - [3D Calibration Guide](https://teachingtechyt.github.io/calibration.html): Excellent guide to calibrating your printer
 - [How to Calibrate Your Extruder](https://www.matterhackers.com/articles/how-to-calibrate-your-extruder): A little focused around Matter Controls, but show be helpful for most printers
+- [Layer Shifting Guide](https://forums.matterhackers.com/topic/76/how-to-fix-shifting-layers)
+- [Ultimaker Visual Troubleshooting Guide](https://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide)
 
 ### Delta Printer Guides 
 
