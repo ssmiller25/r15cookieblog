@@ -1,4 +1,4 @@
-  ---
+---
 layout: page
 title: "Remote Work Articles"
 tags: [
@@ -27,7 +27,8 @@ Various resources on working remotely.
 
 ## Sites
 
+- [FlexJobs](https://www.flexjobs.com/)
+- [DeskHiker](https://www.deskhiker.com/en)
 - [Remote.ok](https://remoteok.io/)
 - [Stack Overflow Remote Jobs](https://stackoverflow.com/jobs/remote-developer-jobs)
 - [We Work Remotely](https://weworkremotely.com/)
-- [FlexJobs](https://www.flexjobs.com/)
