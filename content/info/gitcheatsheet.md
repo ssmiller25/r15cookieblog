@@ -19,6 +19,19 @@ To save myself searching for common it commands
 git rm --cached <file>
 ```
 
+## Git rebase
+
+TL;DR
+
+```sh
+git rebase master # or origin/master
+# Resolve merge conflicts
+git push --force-with-lease  #Force push rebased local branch
+```
+
+- [Git Rebase: Don't be Afaird of Force Push](https://blog.verslu.is/git/git-rebase/)
+- [Force-with-lease: an alternative to Force Push](http://weiqingtoh.github.io/force-with-lease/)
+
 ## Reset master to origin/master
 
 Say...accidently commit a change to the master branch that I did not intent too...
