@@ -14,6 +14,7 @@ good and in depth.
 - [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a production cluster
 - [47 Things To Become a Kubernetes Expert](https://ymmt2005.hatenablog.com/entry/k8s-things) - Really good detailed items for k8s foundational work
 - [100 Days of Kubernetes](https://100daysofkubernetes.io/) - [Source](https://github.com/100daysofkubernetes/100DaysOfKubernetes)
+- [Why you should build on Kubernetes from day one](https://stackoverflow.blog/2021/07/21/why-you-should-build-on-kubernetes-from-day-one/)
 
 ## Components
 
