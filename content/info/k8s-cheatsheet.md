@@ -104,7 +104,7 @@ tcpdump -vvvs 1024 -r nodeport.pcap
 ## Miscellaneous
 
 - [Quarantine Pods for Debugging](https://www.reddit.com/r/kubernetes/comments/gt3uvg/how_to_quarantine_pods/)
-- [Kubectl tips and trips](https://coreos.com/blog/kubectl-tips-and-tricks)
+- [Mastering KubeConfig](https://ahmet.im/blog/mastering-kubeconfig/)
 - [Prometheus Scraping External Configs](https://github.com/cablespaghetti/k3s-monitoring/blob/master/blackbox-exporter-values.yaml)
 
 ## General K8S/K8S Engineering Articles
