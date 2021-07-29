@@ -28,6 +28,7 @@ A complete desktop environment utilizing the command line
   - resty: REST interface (could be useful for automating web info, without using links)
   - irssi: IRCgfs
   - [Command Lookup: cheat.sh](http://cheat.sh/): Quick Linux command/doc lookup.  [Source on Github](https://github.com/chubin/cheat.sh)
+  - Super-Light SSH VPN: [SShuttle](https://sshuttle.readthedocs.io/en/stable/overview.html)
 
 ## Articles
 
