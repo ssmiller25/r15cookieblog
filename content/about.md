@@ -127,17 +127,22 @@ Responsible for the technology program, including all PC and Network maintenance
 
 ## Volunteer/Organizations
 
-### Michigan Amateur Hockey Association District 6 (Aug 2011 - May 2021)
+### Civo - Ambassador (Oct 2020 - Present)
 
-- Webmaster for the primary MAHA website: https://www.mahadistrict6.org
-- Implements Google Workspace (Gsuite) for Non-Profits, allowing personalized mail and other Google Apps to be used within the organization. 
-- Deployed an online payment system for the District Tournaments
+- Assist the Civo and Kubernetes community in technical issue and questions
+- Develop applications for the [Civo Marketplace](https://github.com/civo/kubernetes-marketplace)
 
 ### Cornerstone Church (May 2014 - May 2016)
 
 - Developed the back-end code to load data from SaaS data solution, through REST API, using C#.  Also developed REST
 endpoints to query data that was used in custom front-end code.
 - Assisted in maintenance of content on website.
+
+### Michigan Amateur Hockey Association District 6 (Aug 2011 - May 2021)
+
+- Webmaster for the primary MAHA website: https://www.mahadistrict6.org
+- Implements Google Workspace (Gsuite) for Non-Profits, allowing personalized mail and other Google Apps to be used within the organization. 
+- Deployed an online payment system for the District Tournaments
 
 ### Adray Hockey Association (July 2001 - July 2018)
 
