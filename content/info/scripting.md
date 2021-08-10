@@ -29,6 +29,7 @@ trap cleanup SIGINT SIGTERM ERR EXIT
 
 script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd -P)
 
+
 usage() {
   cat <<EOF
 Usage: $(basename "${BASH_SOURCE[0]}") [-h] [-v] [-f] -p param_value arg1 [arg2...]
@@ -105,4 +106,27 @@ msg "${RED}Read parameters:${NOFORMAT}"
 msg "- flag: ${flag}"
 msg "- param: ${param}"
 msg "- arguments: ${args[*]-}"
+```
+
+## Quick Bash Template
+
+When I don't wnat a ton of boilerplate, and assuming most things coming from command line
+
+```sh
+#!/usr/bin/env bash
+
+set -Eeuo pipefail
+trap cleanup SIGINT SIGTERM ERR EXIT
+
+cleanup() {
+  trap - SIGINT SIGTERM ERR EXIT
+  # script cleanup here
+}
+
+# Required first parameter
+requireedparam=${1?"Must supply parameters!"}
+
+# Optional value passed from cmdline - 2nd parameter
+optionalparam=${2-"defaultvalue}
+
 ```
