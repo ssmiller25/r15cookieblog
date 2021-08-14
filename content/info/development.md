@@ -1,12 +1,17 @@
 ---
 layout: page
-title: "Development"
+title: "Development/Architecture"
 meta: "false"
 tags: [
     "dev"
 ]
 ---
 
+## Architecture/Engineering
+
+- [The Platform Engineer](https://engineering.razorpay.com/the-platform-engineer-db2b21434911)
+
+## Development
 
 - Developer Relations
   - [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
