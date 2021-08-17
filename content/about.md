@@ -167,6 +167,9 @@ endpoints to query data that was used in custom front-end code.
 
 - [Azure Security Best Practices](/assets/about/azure-sec-certificate.pdf)
 - Certified Kubernetes Administrator (CKA)
+
+### Badges
+
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3e8fe644-dfda-45db-973e-1593d3dd2d64" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## Education
