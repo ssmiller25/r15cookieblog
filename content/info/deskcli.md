@@ -18,6 +18,7 @@ A complete desktop environment utilizing the command line
 - Command Environment
   - bash
   - tmux to allow easy multi-tasking, or perhaps [byobu](https://launchpad.net/byobu)
+  - [Modern Unix Commands](https://github.com/ibraheemdev/modern-unix)
 - Utilities
   - links: Browser
   - https://www.passwordstore.org/
