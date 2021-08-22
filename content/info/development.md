@@ -18,6 +18,7 @@ tags: [
 - No-Code
   - [NoCode List](https://nocodelist.co/)
   - [SaltCorn](https://saltcorn.com/)
+  - [Budibase](https://www.budibase.com/)
 - [Development - Web](/info/webdev)
 - [Development - Go](/info/golang)
 - [Development - Python](/info/python)
