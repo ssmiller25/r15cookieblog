@@ -37,13 +37,13 @@ to put a cookie on the R15 resistor"
 
 ## Professional Experience
 
-### Plex Systems - Sr. Systems Engineer (Dec 2019 - Present)
+### Plex Systems - Sr. Software Engineer (Dec 2019 - Present)
 
-Responsible for production infrastructure and site reliability engineering for Plex's SaaS offering.
+Responsible for development and operation of production infrastructure and site reliability engineering for Plex's SaaS offering.
 
+- Part of a team developing a containerized platform for Plex, leveraging Kubernetes (Rancher) on both vSphere and Azure.   The platform is managed in a GitOps methodology leveraging FluxCD as well as Atlantis to manage Terraform.
+- Served as an internal advocate for the Kubernetes container platform, including documenting walkthroughs and technical documentation, presenting on the platform, and providing one on one assistance.
 - Maintenance on on-prem and cloud kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
-- Assisting in debugging GitOps based workflows centered around Kustomize and FluxCD
-- Maintenance and development of infrastructure as code (IaC) components for both Azure and on-prem environments leveraging Terraform
 - Primary SRE lead in projects deploying VerneMQ and Grafana in a containerize platform
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
@@ -166,6 +166,11 @@ endpoints to query data that was used in custom front-end code.
 ## Training/Certifications
 
 - [Azure Security Best Practices](/assets/about/azure-sec-certificate.pdf)
+- Certified Kubernetes Administrator (CKA)
+
+### Badges
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3e8fe644-dfda-45db-973e-1593d3dd2d64" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## Education
 

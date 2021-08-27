@@ -25,14 +25,17 @@ services that are potentially needed with running kuberntes in production.  I do
 production runtime, but I have used a majority of these services successfully.
 - CSI: Storage Plugins
   - [Kubernetes Storage Comparisions](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)
-
+- ServiceMesh
+  - [Istio](https://istio.io/): The granddaddy of ServiceMesh - but not a full CNCF project...
+  - [OpenServiceMesh](https://openservicemesh.io/) - CNCF Sandbox Project, leveraging Envoy to implemment the [ServiceMesh Interface](https://smi-spec.io/)
+  - [Gloo](https://github.com/solo-io/gloo) API gateway that supports [several ServiceMesh technologies](https://docs.solo.io/gloo-edge/latest/guides/integrations/service_mesh/)
 
 ## Deployment
 
 - [Kustomize](https://kustomize.io/)
 - [Kapitan](https://kapitan.dev/): Templating system for Kubernetes and Terraform.  Potential replacment for Helm/Kustomize/etc.
-- FluxCD
-- HelmCD
+- [FluxCD](https://fluxcd.io/)
+- [Deploy Docker Register in K8S](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180)
 
 ## Development/Testing
 
