@@ -27,11 +27,11 @@ continuous delivery framework.  As quoted from the [ScaledAgileFramework](https:
 quickly and easily roll back releases that experience unexpected issues.  This includes having the tooling in place to 
 perform such operations and actually performing practice runs of pulling back or fixing forward.
 
-# DevOps Culture
+## DevOps Culture
 
 - [How They SRE](https://github.com/upgundecha/howtheysre)
 
-## Post-Mortem
+### Post-Mortem
 
 - [Amazon Kinesis Aug 25 2020](https://aws.amazon.com/message/11201/)
 - [Matrix Apr 2019](https://matrix.org/blog/2019/05/08/post-mortem-and-remediations-for-apr-11-security-incident)
@@ -41,18 +41,19 @@ perform such operations and actually performing practice runs of pulling back or
 - [Monzo Payment Outage](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
 - [First Kubernetes Outage - Helm Related](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 
-# Tools
+## Tools
 
-## System Build Tools
+### System Build Tools
 
 - [TheForeman](https://www.theforeman.org/): I've used in the past. A little larger and more cumbersome then I would like.
 - [DigitalRebar](https://github.com/digitalrebar): A new project that I'd like to investigate more heavily.
 - [ClusterAPI](https://cluster-api.sigs.k8s.io/): Kubernetes focused provisioning.
 
-## [Kubernetes/Container](/info/k8s)
+### [Kubernetes/Container](/info/k8s)
 
-## Infrastructure As Code
+### Infrastructure As Code
 
+- [tf-free](https://github.com/gruberdev/tf-free): Provision free-tier resources across a variety of cloud providers.
 - [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
 - [Terraservice](https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization): A model for services in Terraform
 - Cloud Instance Cost 
@@ -60,7 +61,7 @@ perform such operations and actually performing practice runs of pulling back or
   - [Azure: Azureprice.net](https://azureprice.net/)
   Great info.  Unfortunately source is not available.
 
-## Configuration Management
+### Configuration Management
 
 - [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
 - CFEngine:  The oldest, and also the most complex to setup.
@@ -70,12 +71,11 @@ perform such operations and actually performing practice runs of pulling back or
   - [Ansible](https://github.com/ansible/ansible): Ansible core project
   - [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
 - Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
-
 - [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
 
 
-## Monitoring 
+### Monitoring
 
 - Nagios
 - Sensu
@@ -88,45 +88,40 @@ full integration testing on a stack
   - [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
   - [The Outage Mailing List](https://puck.nether.net/pipermail/outages/) - Network admins chatting about global issues
 
-## Advance Debugging
+### Advance Debugging
 
 - strace - Almost always available.  Potentially A LOT of performance impact
 - [Sysdig](https://github.com/draios/sysdig): Combo of strace and tcpdump - and with less performance impact
 - [Sysdig Inspect](https://github.com/draios/sysdig-inspect): Potential GUI for sysdig output
 - [eBPF.io](https://ebpf.io/): Resources for eBPF
-- [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP from
-kubectl
+- [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP fromkubectl
 
-
-
-
-## Backups
+### Backups
 
 - [Restic](https://restic.net/)
 
-## Audit
+### Audit
 
 - [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
 - [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
-## DNS
+### DNS
 
 - [IpIFY](https://www.ipify.org/): Light-weight API to get your public IP address.  Basic IP info is free to use.  Can register to get GeoIP Information.
 - [ip-api.com](https://ip-api.com/).  Provids IP, geo-location and ISP information at `http://ip-api.com/json`  Free for non-commercial purposes.
-- [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatice DNS based on IP address
+- [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatic DNS based on IP address
 
-
-## Scripting
+### Scripting
 
 - [Scripting](/info/scripting)
 
-# Misc
+## Misc
 
 - [NSA Proof Your Email System](http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/)
 - [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
 - [JQPlay](https://jqplay.org/): Quick way to debug jq filters.  [Also available as a Docker image](https://github.com/munntjlx/jqplay)
 
-# Reading
+## Reading
 
 - [Art of Unix Programming](http://www.faqs.org/docs/artu/)
 - [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
