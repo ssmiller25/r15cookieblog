@@ -41,9 +41,11 @@ production runtime, but I have used a majority of these services successfully.
 
 - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
 - [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
+- [Filebrowser as a sidecar](https://www.reddit.com/r/selfhosted/comments/piziv1/file_browser_container_sidecar_for_kubernetes/): Interesting idea to allow for easy edits on files within a container
 - [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
 - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
 - [KUTTL](https://github.com/kudobuilder/kuttl): Kubernetes Test TooL.  A declaritive testing framework.
+
 
 ## Security
 
