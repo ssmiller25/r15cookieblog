@@ -42,6 +42,8 @@ to put a cookie on the R15 resistor"
 Responsible for development and operation of production infrastructure and site reliability engineering for Plex's SaaS offering.
 
 - Part of a team developing a containerized platform for Plex, leveraging Kubernetes (Rancher) on both vSphere and Azure.   The platform is managed in a GitOps methodology leveraging FluxCD as well as Atlantis to manage Terraform.
+- Assisted in the deployment an Istio ServiceMesh to help enable more advance Microservice features in application
+architectures.
 - Served as an internal advocate for the Kubernetes container platform, including documenting walkthroughs and technical documentation, presenting on the platform, and providing one on one assistance.
 - Maintenance on on-prem and cloud kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
 - Primary SRE lead in projects deploying VerneMQ and Grafana in a containerize platform
@@ -165,8 +167,8 @@ endpoints to query data that was used in custom front-end code.
 
 ## Training/Certifications
 
-- [Azure Security Best Practices](/assets/about/azure-sec-certificate.pdf)
-- Certified Kubernetes Administrator (CKA)
+- [Azure Security Best Practices](/assets/about/azurckae-sec-certificate.pdf)
+- Certified Kubernetes Administrator (CKA) - [ID LF-7f8oeffrte](https://www.credly.com/badges/3e8fe644-dfda-45db-973e-1593d3dd2d64)
 
 ### Badges
 

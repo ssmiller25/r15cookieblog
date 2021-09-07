@@ -13,8 +13,6 @@ tags: [
 
 ## Development
 
-- Developer Relations
-  - [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
 - No-Code
   - [NoCode List](https://nocodelist.co/)
   - [SaltCorn](https://saltcorn.com/)
