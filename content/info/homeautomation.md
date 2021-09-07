@@ -8,10 +8,10 @@ date: "2015-02-13"
 meta: "false"
 ---
 
-Software I want to research:
+## Current Stack
 
-[OpenHab](http://www.openhab.org|OpenHab): Java based, but very slick.
+- [Home Assistant](https://www.home-assistant.io/) - Python based, great available integrations.
 
-http://misterhouse.sourceforge.net/: Perl based home automation
+## Hardware Resources
 
-http://www.instructables.com/id/Uber-Home-Automation-w-Arduino-Pi/: Home automation with OpenHab and Arduino
+- [Phillip Hue - Supported Devices](https://iconnecthue.com/supported-devices/): Comprehesive list of all devices supported by the Hue bridge
