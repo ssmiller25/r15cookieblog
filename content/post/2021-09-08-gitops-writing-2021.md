@@ -1,5 +1,5 @@
 ---
-date: "2020-05-31"
+date: "2021-09-08"
 description: ""
 tags: ["dev"]
 title: "Android GitOps 2021"
