@@ -5,6 +5,8 @@ tags: ["dev"]
 title: "Android For GitOps Writing Workflow"
 ---
 
+**Notice:** Updated in [Android Gitops 2021](2021-09-08-gitops-writing-2021.md)
+
 My sister got me a Logitech K480 Bluetooth keyboard for Christmas!  What makes me truly excited about this gift is the 
 mental exercise of using my Android phone as a content creation device.  It's a bit of a stretch, but with this kind 
 of powerful technology in our pockets, we should be able to leverage these devices more productively.
