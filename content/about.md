@@ -31,9 +31,13 @@ to put a cookie on the R15 resistor"
 
 ## Speaking Engagements
 
-- [present.r15cookie.com](https://present.r15cookie.com) - Newer presentations. [Source](https://github.com/ssmiller25/present)
+- [DevOps BootCamp 2021: People Over Process](https://www.youtube.com/watch?v=1oLuww9IfcI)
+- [DevOps BootCamp 2021: Fast Feedback](https://www.youtube.com/watch?v=4zfKuDoXwQI) - [Presentation](https://present.r15cookie.com/civo-fastfeedback.md#/)
 - [Automation test and tools for Civo marketplace apps](https://www.youtube.com/watch?v=6E5-ZaMROKs) - with [code repo](https://github.com/ssmiller25/civo-marketplace-template)
 - [Grand Rapids Cyber Security Conference: Using Security Baselines](https://grandrapidscybersecuritycon2015.sched.com/event/4EZl/gordon-foods-using-security-baselines) ([Presentation](/assets/using-security-baselines.pdf))
+
+Presentation Site: <https://present.r15cookie.com> - [Source](https://github.com/ssmiller25/present)
+
 
 ## Professional Experience
 
