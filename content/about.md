@@ -12,7 +12,7 @@ This is the personal website of Steve Miller.
 
 ## Personal Summary
 
-Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices. His 19+ years of experience cover a wide variety of platforms in the public and private sectors. His background covers a wide variety of cloud, virtualization, and enterprise datacenter technologies.
+Steve Miller is a DevOps practitioner who enjoys creating robust architectures leveraging development and operational best practices. His nearly 20 years of experience cover a wide variety of platforms in the public and private sectors. His background covers a wide variety of cloud, virtualization, and enterprise datacenter technologies.
 
 ## Site Name Origin
 
@@ -31,9 +31,13 @@ to put a cookie on the R15 resistor"
 
 ## Speaking Engagements
 
-- [present.r15cookie.com](https://present.r15cookie.com) - Newer presentations. [Source](https://github.com/ssmiller25/present)
+- [DevOps BootCamp 2021: People Over Process](https://www.youtube.com/watch?v=1oLuww9IfcI)
+- [DevOps BootCamp 2021: Fast Feedback](https://www.youtube.com/watch?v=4zfKuDoXwQI) - [Presentation](https://present.r15cookie.com/civo-fastfeedback.md#/)
 - [Automation test and tools for Civo marketplace apps](https://www.youtube.com/watch?v=6E5-ZaMROKs) - with [code repo](https://github.com/ssmiller25/civo-marketplace-template)
 - [Grand Rapids Cyber Security Conference: Using Security Baselines](https://grandrapidscybersecuritycon2015.sched.com/event/4EZl/gordon-foods-using-security-baselines) ([Presentation](/assets/using-security-baselines.pdf))
+
+Presentation Site: <https://present.r15cookie.com> - [Source](https://github.com/ssmiller25/present)
+
 
 ## Professional Experience
 
@@ -45,7 +49,7 @@ Responsible for development and operation of production infrastructure and site 
 - Assisted in the deployment an Istio ServiceMesh to help enable more advance Microservice features in application
 architectures.
 - Served as an internal advocate for the Kubernetes container platform, including documenting walkthroughs and technical documentation, presenting on the platform, and providing one on one assistance.
-- Maintenance on on-prem and cloud kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
+- Maintenance on on-prem and cloud Kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
 - Primary SRE lead in projects deploying VerneMQ and Grafana in a containerize platform
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
@@ -53,9 +57,9 @@ architectures.
 
 Responsible for providing enterprise-level infrastructure and resources to the sales and engineering teams, both on-premise and remote.
 
+- Primary DevOps Engineer on the SaaS application platform, Bindplane.  This involved management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI and Jenkins.  Migrated the SaaS application to Google Cloud platform, leveraging Terraform for infrastructure management.
 - Developed a custom Python utility, [vROpsCLI](https://github.com/BlueMedoraPublic/vropscli), that leverages a REST API interface to enable larger customers an easier method to manage their environments.
 - Built out an on-prem OS deployment system leveraging Foreman to deploy systems on a vCenter/ESXi cluster.  Included integrations to DNS, Active Directory, and Chef.  This system enabled rapid deployment of environments based on developer and project demands, leveraging both image and PXE based builds
-- Primary DevOps Engineer on the SaaS application platform, Bindplane.  This involved management of a Kubernetes cluster in Amazon AWS, and a build pipeline leveraging TravisCI and Jenkins.  Migrated the SaaS application to Google Cloud platform, leveraging Terraform for infrastructure management.
 - Built and supported the demo environments for use by sales and partners.  Later migrated to Amazon AWS in order to improve uptime and availability to our worldwide sales teams.
 - Offered direct assistance to the Sales team for several larger deals.  This included enhancing documentation as well as providing custom-compiled utilities in order to diagnose and support more complex configurations, such as Kerberos against Active Directory within a Java application.
 - Played a crucial role in achieving SOC2 compliance.  This included fully documenting the deployment pipeline, and ensuring all documented policies tied back to technical controls to ensure compliance.
@@ -132,6 +136,7 @@ Responsible for the technology program, including all PC and Network maintenance
 ### Civo - Ambassador (Oct 2020 - Present)
 
 - Assist the Civo and Kubernetes community in technical issue and questions
+- Led several webinars to present technologies and concepts to the community
 - Develop applications for the [Civo Marketplace](https://github.com/civo/kubernetes-marketplace)
 
 ### Cornerstone Church (May 2014 - May 2016)
