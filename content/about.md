@@ -45,12 +45,13 @@ Presentation Site: <https://present.r15cookie.com> - [Source](https://github.com
 
 Responsible for development and operation of production infrastructure and site reliability engineering for Plex's SaaS offering.
 
-- Part of a team developing a containerized platform for Plex, leveraging Kubernetes (Rancher) on both vSphere and Azure.   The platform is managed in a GitOps methodology leveraging FluxCD as well as Atlantis to manage Terraform.
+- Developed major components of the internal hybrid-cloud containerization platform leveraging Kubernetes (Rancher) on both vSphere and Azure.   The platform is managed in a GitOps methodology leveraging FluxCD as well as Atlantis to manage Terraform.
 - Assisted in the deployment an Istio ServiceMesh to help enable more advance Microservice features in application
 architectures.
 - Served as an internal advocate for the Kubernetes container platform, including documenting walkthroughs and technical documentation, presenting on the platform, and providing one on one assistance.
 - Maintenance on on-prem and cloud Kubernetes infrastructure, including kubeadm based, Azure Kubernetes Service (AKS) and Rancher (RKE) based clusters
-- Primary SRE lead in projects deploying VerneMQ and Grafana in a containerize platform
+- Primary SRE Lead on a project to deploy VerneMQ in Kubernetes, to provide MQTT services for the Plex IIoT Platform.
+- Lead a team to roll out Grafana within the internal platform, allowing a reduction of cost by migrating away from a SaaS deployed version.
 - Cost savings by adjustment of metrics being sent to third party monitoring integrations
 
 ### Blue Medora - DevOps Engineer (Oct 2016 - Dec 2019)
@@ -131,6 +132,21 @@ Responsible for the technology program, including all PC and Network maintenance
 - Developed a dynamic scheduling system for under-performing students to leverage available open study period slots, saving 20 person-hours a week of manual scheduling effort.
 - Installed and maintained an Exchange server used for administrative email and calendar services.  Used a Linux based SMTP frontend which provided security and email services for teachers, saving Exchange licensing costs across the district.
 
+## Open Source Community Contributions
+
+- Civo: [Kubernetes Marketplace](https://github.com/civo/kubernetes-marketplace)
+  - Official Ambassador in the Kubernetes Slack Channel
+  - Contributed several applications to Civo's Kubernetes Marketplace 
+- Plex Systems: [Sinker](https://github.com/plexsystems/sinker)
+  - A utility to synchronize container registries.   Includes the ability to scan Kubernetes manifests for container definitions.
+- Blue Medora: [vROpsCLI](https://github.com/bluemedorapublic/vropscli)
+  - Manage vRealize Operations from the command line or from within an automation platform
+- Rancher: [k3os](https://github.com/rancher/k3os/)
+  - An immutable OS for running k3s, a Kubernetes distribution.
+- [Kubeserial](https://github.com/janekbaraniewski/kubeserial)
+  - Kubernetes Operator to provision and deprovision resources based on hardware events.
+
+
 ## Volunteer/Organizations
 
 ### Civo - Ambassador (Oct 2020 - Present)
@@ -164,7 +180,7 @@ endpoints to query data that was used in custom front-end code.
 - **Monitoring:** Prometheus, Grafana, Loki, ELK (Elasticsearch, Logstash, and Kibana), Nagios, VMWare vRealize Operations
 - **Virtualization/Containerization**: Kubernetes, Docker, Vmware vSphere/ESXi, LXC, KVM
 - **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
-- **Applications:** Ansible, Apache, BEA WebLogic, CFEngine, Chef, MySQL, , PostgreSQL, Puppet, Redis, Subversion, 
+- **Applications:** Active Directory, Apache, Ansible, Chef, Git, MySQL, Nagios, Hashicorp Packer, Puppet, Terraform, Tomcat, Vagrant
 - **Cluster:** HP ServiceGuard, Veritas Cluster/File System
 - **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
 - **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
