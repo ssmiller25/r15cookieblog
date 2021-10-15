@@ -30,6 +30,11 @@ production runtime, but I have used a majority of these services successfully.
   - [OpenServiceMesh](https://openservicemesh.io/) - CNCF Sandbox Project, leveraging Envoy to implemment the [ServiceMesh Interface](https://smi-spec.io/)
   - [Gloo](https://github.com/solo-io/gloo) API gateway that supports [several ServiceMesh technologies](https://docs.solo.io/gloo-edge/latest/guides/integrations/service_mesh/)
 
+
+## Monitoring
+
+- [5 Tricks to be a Prometheus God](https://coralogix.com/blog/promql-tutorial-5-tricks-to-become-a-prometheus-god/)
+
 ## Deployment
 
 - [Kustomize](https://kustomize.io/)
