@@ -25,3 +25,4 @@ tags: [
 
 - [yagni - You Aren't Gonna Need It](https://martinfowler.com/bliki/Yagni.html): Could also easily apply to IaC code-bases
 - [ChgLog](https://github.com/goreleaser/chglog) implementing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+- [GitHub Flow](https://guides.github.com/introduction/flow/): A pretty standard process for committing to many open-source projects.
