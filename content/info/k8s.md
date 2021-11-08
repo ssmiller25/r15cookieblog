@@ -49,6 +49,7 @@ production runtime, but I have used a majority of these services successfully.
 - [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
 - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
 - [KUTTL](https://github.com/kudobuilder/kuttl): Kubernetes Test TooL.  A declaritive testing framework.
+- SemGrep Static Analysis for [Docker](https://semgrep.dev/p/dockerfile) and [Kubernetes Manifests](https://semgrep.dev/p/kubernetes)
 
 
 ## Security
