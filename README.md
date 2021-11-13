@@ -4,8 +4,20 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/ssmiller25/r15cookieblog/-/tree/main)
 
-Using Hugo, and currently set to use the hugo-kiera theme at https://github.com/ssmiller25/hugo-kiera.git (fork of https://github.com/avianto/hugo-kiera)
- 
+## GitLab Setup
+
+Transitioning to mostly a GitPod based workflow.  In order to use the GitLab extension
+
+1. Follow [these instructions](https://gitlab.com/gitlab-org/gitlab-vscode-extension#step-1-create-your-personal-access-token) to create a PAT
+2. Run the following
+
+```sh
+gp env GITLAB_WORKFLOW_INSTANCE_URL=https://gitlab.com
+gp env GITLAB_WORKFLOW_TOKEN=<token>
+```
+
+
+## Local Env Work
 
 Make sure to run
 ```sh
