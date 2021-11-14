@@ -20,10 +20,14 @@ tags: ["dev", "web"]
   - Communication
     - [Twilio](https://www.twilio.com/): Interact with customer via web UI, SMS, What's App, etc
     - [GoTell](https://github.com/netlify/gotell): Interesting way to run forum threads using a static site/version control as storage.
+    - [Utterances](https://utteranc.es/): Leverage Github issues for blog comments
   - Dashboards
     - [Vizzlo](https://vizzlo.com/)
   - Databases
     - [FaunaDB](https://fauna.com/)
+  - E-commerce
+    - [Trolley](https://trolley.link/)
+    - [Snipcart](https://snipcart.com/)
   - Image/Database Hosting
     - [Cloudinary](https://cloudinary.com/): Does on-the-fly image manipulation
   - Monitoring
