@@ -31,6 +31,15 @@ git rm --cached <file>
 
 Source: <https://h.daily-dev-tips.com/removing-a-env-file-from-git-history>
 
+## Push an Empty Commit
+
+Mostly useful to retrigger CI/CD without making a "junk" change:
+
+```sh
+git commit --allow-empty -m “Message”
+```
+
+Source: <https://devdojo.com/kodewithchirag/learn-to-push-an-empty-commit>
 ## Git Rebase
 
 TL;DR
