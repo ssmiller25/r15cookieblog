@@ -19,7 +19,19 @@ To save myself searching for common it commands
 git rm --cached <file>
 ```
 
-## Git rebase
+## Remove file permanently from git history
+
+1. Add the file to `.gitignore` so it doens't happen again.
+2. Then run the following:
+
+    ```sh
+    git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch <filetoremove>" HEAD
+    git push --force
+    ```
+
+Source: <https://h.daily-dev-tips.com/removing-a-env-file-from-git-history>
+
+## Git Rebase
 
 TL;DR
 
@@ -34,7 +46,7 @@ git push --force-with-lease  #Force push rebased local branch
 
 ## Reset master to origin/master
 
-Say...accidently commit a change to the master branch that I did not intent too...
+Say...accidentally commit a change to the master branch that I did not intent too...
 
 ```sh
 git checkout -B master origin/master
