@@ -18,8 +18,8 @@ tags: ["dev", "web"]
   - CMS
     - [NetlifyCMS](https://github.com/netlify/netlify-cms): SPA that allows for committing markdown changes to version control
   - Communication
+    - [Disqus](https://disqus.com/): Emable comments on any webpage
     - [Twilio](https://www.twilio.com/): Interact with customer via web UI, SMS, What's App, etc
-    - [GoTell](https://github.com/netlify/gotell): Interesting way to run forum threads using a static site/version control as storage.
     - [Utterances](https://utteranc.es/): Leverage Github issues for blog comments
   - Dashboards
     - [Vizzlo](https://vizzlo.com/)
