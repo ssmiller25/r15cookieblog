@@ -31,6 +31,34 @@ perform such operations and actually performing practice runs of pulling back or
 
 - [How They SRE](https://github.com/upgundecha/howtheysre)
 
+## DevOps Toolchain
+
+[Love this idea](https://dzone.com/articles/devops-toolchain-for-beginners) from DZone, but some of the specific tools I had some issues with.  A summary below, with the tooling I prefer:
+
+- Benefits:
+  - Fast and Efficient Deployments (I'd also add efficent roll-backs to promote high-velocity deployments)
+  - Incident Management
+  - Improved Software Quality
+  - Workflow Automation
+  - Security
+- Tool Catagories
+  - Project Management: GitHub Issues or Jira
+  - Source Code Repositories: GitHub or GitLab
+  - CI/CD Pipelines/Orchestration:
+    - Github Actions
+    - Argo Workflows - To capture traditional CI pipelines in pure K8S
+    - ArgoCD or FluxCD - For continuous deployment
+  - Test Automation: Selenium
+  - Configuration Management: Generally an anti-pattern.  Much perfer leveraging Packer to build immutable images, and Terraform or Crossplane to deploy
+  - Monitoring: Prometheus, Grafana, Loki
+  - Continuous Feedback Tools: From users, no actual tools identified
+  - Artifact repository: 
+    - Docker/OCI Focused: Docker Hub, Github Container Registry, Quay.io
+    - General: Github Packages, JFrog Artifactory
+  - Issue Tracking: Github Issues, Jira
+  - Collaboration: [Github Team Discussions](https://docs.github.com/en/organizations/collaborating-with-your-team/about-team-discussions), Slack
+  - Planning: Asana
+  - Database Tools: Various CLI tools (mysql, psql, etc), [BeeKeeperStudio (have to try)](https://www.beekeeperstudio.io/) or [DBeaver (have used, but a bit heavy)](https://dbeaver.io/)
 ### Post-Mortem
 
 - [Amazon Kinesis Aug 25 2020](https://aws.amazon.com/message/11201/)
@@ -64,22 +92,17 @@ perform such operations and actually performing practice runs of pulling back or
 ### Configuration Management
 
 - [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
-- CFEngine:  The oldest, and also the most complex to setup.
-- Puppet:  Designed to be easier than CFEngine.  True for the most part, but requires a bit of work to bootstrap, at least for the pure open source version.
-- Salt:  Need to look at this one.  Requires a client install (unlike Ansible), but with 0MQ could be far more scalable.
-- Ansible:  I really like the lightweight distribution and no client side libraries required.  However, I do worry about scalability because of the use of SSH as a transport protocol.  Although this could be mitigated by a pull architecture, although report collection because a little more difficult.
+- Ansible:
   - [Ansible](https://github.com/ansible/ansible): Ansible core project
   - [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
-- Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
+- [Packer](https://www.packer.io/): Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in external configuration management such as Ansible if desired.
 - [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
 
 
 ### Monitoring
 
-- Nagios
-- Sensu
-- [Collectd](http://collectl.sourceforge.net/): Monitoring OS system stats.
+- [Node Exporter](https://github.com/prometheus/node_exporter): Prometheus exporter for server/OS statistics 
 - [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
 - Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
 - Internet Monitoring (globally)
@@ -94,7 +117,8 @@ full integration testing on a stack
 - [Sysdig](https://github.com/draios/sysdig): Combo of strace and tcpdump - and with less performance impact
 - [Sysdig Inspect](https://github.com/draios/sysdig-inspect): Potential GUI for sysdig output
 - [eBPF.io](https://ebpf.io/): Resources for eBPF
-- [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP fromkubectl
+- [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP from kubectl
+- [Pixie Labs](https://pixielabs.ai/): Troubleshoot K8S apps relatively easily, leveraging eBFP
 
 ### Backups
 
@@ -102,7 +126,7 @@ full integration testing on a stack
 
 ### Audit
 
-- [Goss](https://github.com/aelsabbahy/goss): Simple server testing framework (light-weight version of inSpec/ServerSpec)
+- [TerraTest](https://terratest.gruntwork.io/) and [Terratest, even without Terraform](https://terratest.gruntwork.io/docs/testing-best-practices/alternative-testing-tools/)
 - [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
 
 ### DNS
