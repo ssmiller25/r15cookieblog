@@ -13,6 +13,7 @@ tags: ["dev", "web"]
     - [Auth0](https://auth0.com/): Provide JWT authentication based SaaS
     - [Netlify Identity](https://www.netlify.com/docs/identity/): Netlify's Authentication...basically a hosted version of their Open-source GoTrue library.
     - [GoTrue](https://github.com/netlify/gotrue): Open soruce JWT authentication backend)
+    - [SuperTokens](https://github.com/supertokens/supertokens-core): Open source authentication solution, similar to Auth0
   - Captcha
     - [hCaptcha](https:///www.hcaptcha.com/): More privacy focused Captcha
   - CMS
