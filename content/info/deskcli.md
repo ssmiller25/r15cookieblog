@@ -12,6 +12,7 @@ meta: "false"
 A complete desktop environment utilizing the command line
 
 - [ASCIINema](https://asciinema.org/): An ingenious way to share a text-based walkthrough/presentation [Source](https://github.com/asciinema/asciinema) along with [Javascript Player Source](https://github.com/asciinema/asciinema-player) and [Webcast Server Source](https://github.com/asciinema/asciinema-server)
+- [AsciiFlow](https://github.com/lewish/asciiflow) - Not really a CLI App, but a handle ASCII chart design tool.
 - SSH Access
   - Pure SSH
   - Javascript SSH for public console, with SSO
