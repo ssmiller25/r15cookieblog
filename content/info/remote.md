@@ -29,6 +29,10 @@ Various resources on working remotely.
 - [Remote work: Lessons from a remote-first company](https://enterprisersproject.com/article/2020/3/remote-work-lessons)
 - [Twitter Tread - How to Maintain Connections](https://twitter.com/rothgar/status/1440828264822435848?s=19): Great strategy to maintain connections across a remote company
 
+## Day in a Life
+
+- [Day in the life of a BoxBoat DevOps Engineer](https://boxboat.com/2021/03/11/day-in-the-life-boxboat-devops-engineer/)
+
 ## Sites
 
 - [FlexJobs](https://www.flexjobs.com/)
