@@ -11,10 +11,11 @@ tags: [
 - [Let's Encrypt](https://letsencrypt.org/):  Freely available certificates for websites.
 Requires a client as the certficates are only valid for 90 days, but many clients
 exist.  I currently use [EFF Certbot](https://certbot.eff.org/)
-- [Zero SSL](hhttps://zerossl.com/#crt):  Method to obtain Let's Encrypt Certificates without installation. *WARNING:- If 
+- [Zero SSL](https://zerossl.com/#crt):  Method to obtain Let's Encrypt Certificates without installation. *WARNING:- If 
 using their website tools, you are completely trusting this site.  Do not do this for any site in which sensitive information
 will be transmitted!  Although honestly, those type of sites should probably purchase an EV certification.
   - Also supports 1 year certificates, and ACME protocol integration.  I nice alternative SSL provider if needed
+- [Step-CA](https://smallstep.com/docs/step-ca) - Automated on-prem solution.  Needs additional research - and more inclinded to just leverage SSL Private CA below.
 
 ## SSL Private CA
 
@@ -40,6 +41,32 @@ will be transmitted!  Although honestly, those type of sites should probably pur
 ```sh
   openssl ca -config openssl.cnf -in mydomain.csr -out mydomain.crt
 ```
+
+### Using a Private CA - Cert Manager
+
+Leveraging [cert-manager](https://github.com/jetstack/cert-manager)
+
+Create a secrete with the crt and key above (base64 encoded)
+
+```sh
+kubectl create secret tls internalca --cert=path/to/cert/file --key=path/to/key/file
+```
+
+Then create an issuer for that key
+
+```sh
+kubectl apply -f - <EOF
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: ca-issuer
+spec:
+  ca:
+    secretName: internalca
+EOF
+```
+
+```sh
 
 ## External Links
 
