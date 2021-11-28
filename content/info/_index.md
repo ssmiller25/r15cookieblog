@@ -9,16 +9,16 @@ meta: "false"
 Welcome to the generic information namespace.  Here I maintain links and articles of interesting information...or
 at least information I find interesting :-)
 
-## Development and Operations (DevOps...)
+## DevSecOps
 
-  * [Desktop](/info/desktop/)
-  * [Development](/info/development)
-  * [Remote Work](/info/remote)
-  * [Security](/info/security)
-  * [Operations](/info/operations)
+- [Development](/info/development)
+- [Remote Work](/info/remote)
+- [Security](/info/security)
+- [Operations](/info/operations)
 
 ## Developer/DevOps Advocate
 
+- [Desktop Utilities](/info/desktop/)
 - [Developer/DevOps Advocate Resources](/info/devrel)
 
 ## Maker Topics
