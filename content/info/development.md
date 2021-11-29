@@ -10,6 +10,11 @@ tags: [
 ## Architecture/Engineering
 
 - [The Platform Engineer](https://engineering.razorpay.com/the-platform-engineer-db2b21434911)
+- Example Applications
+  - [RealWorld](https://github.com/gothinkster/realworld) - The ultimate demo app, with multiple frontend and backend frameworks
+  - [Google's Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) - True Microservice e-commerce app, written as a pologot style service covering most modern development languages today (Node, Go, Python, C#, Java)
+  - [Google's Bank of Anthos](https://github.com/GoogleCloudPlatform/bank-of-anthos) - A lighter microservice example app - only Python and Java.  Both referencing PostgreSQL databases for persistence.
+  - [WeaveWorks' Sock Shop](https://microservices-demo.github.io/) - Another example Microservice app.  Leverages Spring Boot, Go, and Node.js.  Also leverages RabbitMQ.
 
 ## Development
 
