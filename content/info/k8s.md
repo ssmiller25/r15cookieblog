@@ -39,6 +39,8 @@ production runtime, but I have used a majority of these services successfully.
 
 - [Kustomize](https://kustomize.io/)
 - [FluxCD](https://fluxcd.io/)
+- [ArgoCD](https://argoproj.github.io/cd/)
+  - [Using Kustomize to Post-Render Helm Charts in ArgoCD](https://dev.to/camptocamp-ops/use-kustomize-to-post-render-helm-charts-in-argocd-2ml6)
 - [Deploy Docker Register in K8S](https://medium.com/swlh/deploy-your-private-docker-registry-as-a-pod-in-kubernetes-f6a489bf0180)
 
 ## Development/Testing
