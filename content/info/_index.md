@@ -11,15 +11,30 @@ at least information I find interesting :-)
 
 ## DevSecOps
 
-- [Development](/info/development)
-- [Remote Work](/info/remote)
-- [Security](/info/security)
-- [Operations](/info/operations)
+![DevOps Toolchain](/assets/info/devops-toolchain.png)
+
+- DevOps Overall
+  - [Operations](/info/operations)
+- Core Chain
+  - Plan
+  - [Create(Develop}](/info/development)
+  - Verify
+  - Package
+  - Release
+  - Configure
+  - Protect
+  - Monitor
+- Chain Managment
+  - [Secure](/info/security)
+  - Manage
+
+
 
 ## Developer/DevOps Advocate
 
 - [Desktop Utilities](/info/desktop/)
 - [Developer/DevOps Advocate Resources](/info/devrel)
+- [Remote Work](/info/remote)
 
 ## Maker Topics
 

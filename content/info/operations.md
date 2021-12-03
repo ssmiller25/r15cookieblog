@@ -15,7 +15,7 @@ From [ScaledAgileFramework](https://www.scaledagileframework.com/devops)
 
 - *Collaboration and organization*: A primary focus of Devops is around culture.  Instead of an "us versus them" mentality
 between production and development teams, high integration of those roles is necessary.
-- *Automate everything mindset*: In today fast-paced world, automation is key.  This includes everything from infrasturcture
+- *Automate everything mindset*: In today fast-paced world, automation is key.  This includes everything from infrastructure
 deployment, automated testing frameworks, and CI/CD tooling so releases require no manual work.
 - *Lean flow accelerates delivery*: In line with an Agile mindset, reduce the "work in progress" tasks, reduce the batch
 sizes themselves, and make sure work queues are low.  Instead of a few large releases, aim for continuous delivery of a lot
