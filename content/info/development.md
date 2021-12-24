@@ -25,13 +25,22 @@ tags: [
 - [Development - Web](/info/webdev)
 - [Development - Go](/info/golang)
 - [Development - Python](/info/python)
+- [Development - Scripting](/info/scripting)
 
 ## Security
 
 - [Reproductable Builds](https://reproducible-builds.org/)
 
+## Tools
+
+- [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
+- [JQPlay](https://jqplay.org/): Quick way to debug jq filters.  [Also available as a Docker image](https://github.com/munntjlx/jqplay)
+
 ## Articles
 
+- [Art of Unix Programming](http://www.faqs.org/docs/artu/)
 - [ChgLog](https://github.com/goreleaser/chglog) implementing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 - [GitHub Flow](https://guides.github.com/introduction/flow/): A pretty standard process for committing to many open-source projects.
+- [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
 - [yagni - You Aren't Gonna Need It](https://martinfowler.com/bliki/Yagni.html): Could also easily apply to IaC code-bases
+

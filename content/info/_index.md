@@ -16,19 +16,17 @@ at least information I find interesting :-)
 - DevOps Overall
   - [Operations](/info/operations)
 - Core Chain
-  - Plan
+  - [Plan](plan.md)
   - [Create(Develop}](/info/development)
   - Verify
   - Package
   - Release
-  - Configure
-  - Protect
-  - Monitor
+  - [Configure](configure.md)
+  - [Protect](protect.md)
+  - [Monitor](monitor.md)
 - Chain Managment
   - [Secure](/info/security)
   - Manage
-
-
 
 ## Developer/DevOps Advocate
 
