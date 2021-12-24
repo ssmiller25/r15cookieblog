@@ -87,6 +87,7 @@ perform such operations and actually performing practice runs of pulling back or
 - [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
 - [Terraservice](https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization): A model for services in Terraform
 - [Terracognita](https://github.com/cycloidio/terracognita): Generate IaC from existing code.
+- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer): Produce terraform from existing resources.
 - Cloud Instance Cost 
   - [AWS: Vantage Instance Cost](https://instances.vantage.sh/): Used to be EC2Instances.info, but Vantage is now hosting. [Source is still on Github](https://github.com/vantage-sh/ec2instances.info)
   - [Azure: Azureprice.net](https://azureprice.net/)

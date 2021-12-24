@@ -11,6 +11,14 @@ To save myself searching for common it commands
 
 [gitignore.io](https://www.toptal.com/developers/gitignore): Quick was to generate gitignore files.  [Source code](https://github.com/toptal/gitignore.io)
 
+## Git FF only
+
+```sh
+git config --global pull.ff only
+```
+
+Good discussion: [Why use should use git pull --ff-only](https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a)
+
 ## Git Ignore keeps tracking files!
 
 [This Stackoverflow answer](https://stackoverflow.com/a/1274447) explains it, but need to remove any previously tracked files now in `.gitignore` with the command below:
