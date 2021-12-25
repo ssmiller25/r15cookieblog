@@ -15,5 +15,4 @@ Protect your infrastructure - some overlap with [secure](security.md), so this w
 
 ### Audit
 
-- [TerraTest](https://terratest.gruntwork.io/) and [Terratest, even without Terraform](https://terratest.gruntwork.io/docs/testing-best-practices/alternative-testing-tools/)
-- [ServerSpec](http://serverspec.org): Perhaps start for TDD for entire stack.
+- [Kube Bench](https://github.com/aquasecurity/kube-bench) - Scan K8S clsuter against CIS best practices.
