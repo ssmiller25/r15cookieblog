@@ -9,17 +9,30 @@ meta: "false"
 Welcome to the generic information namespace.  Here I maintain links and articles of interesting information...or
 at least information I find interesting :-)
 
-## Development and Operations (DevOps...)
+## DevSecOps
 
-  * [Desktop](/info/desktop/)
-  * [Development](/info/development)
-  * [Remote Work](/info/remote)
-  * [Security](/info/security)
-  * [Operations](/info/operations)
+![DevOps Toolchain](/assets/info/devops-toolchain.png)
+
+- DevOps Overall
+  - [Operations](/info/operations)
+- Core Chain
+  - [Plan](plan.md)
+  - [Create(Develop}](/info/development)
+  - Verify
+  - Package
+  - Release
+  - [Configure](configure.md)
+  - [Protect](protect.md)
+  - [Monitor](monitor.md)
+- Chain Managment
+  - [Secure](/info/security)
+  - Manage
 
 ## Developer/DevOps Advocate
 
+- [Desktop Utilities](/info/desktop/)
 - [Developer/DevOps Advocate Resources](/info/devrel)
+- [Remote Work](/info/remote)
 
 ## Maker Topics
 
