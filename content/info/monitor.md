@@ -11,7 +11,8 @@ All things monitoring related.
 
 My preferred stack:  Prometheus, Grafana, Loki
 - [Node Exporter](https://github.com/prometheus/node_exporter): Prometheus exporter for server/OS statistics 
-- [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
+- [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment): ELK tends to be a bit heavy, but keeping this around just in case
+- [Changd](https://github.com/paschmann/changd): Notify if WebUI changes.
 - Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
 - Internet Monitoring (globally)
   - [Pingdom's State of the Internet](https://livemap.pingdom.com/)
