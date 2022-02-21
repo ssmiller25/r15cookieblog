@@ -6,6 +6,25 @@ tags: [
     "sec"
 ]
 ---
+
+
+## General Info
+
+- [Free CyberSecurity Services and Tools - CISA](https://www.cisa.gov/free-cybersecurity-services-and-tools)
+- Configuration Standards
+  - [Center for Internet Security](http://www.cisecurity.org/): Provides configuration guides for common OS and server software.
+  - [Linux Foundation Workstation Guidelines](https://github.com/lfit/itpol/blob/master/linux-workstation-security.md): Excellent overview for securely configuring a Linux workstation
+- Security Scanners
+  - [GovReady Github](https://github.com/GovReady): An entire Government sponsored site that integrates open source tools into government standards.  Policies for CentOS and Ubuntu exist, as well as a lot of other resources.
+  - [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
+  - [Lynis](https://cisofy.com/lynis/):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.
+- [Endian](http://www.endian.com): Appliance for security and hotspot management
+- [IPFire](http://www.ipfire.org/): Linux based firewall distro
+- [Mailu](https://mailu.io/): Docker based e-mail system.  If I were to deploy a mail system today, this would be the basis.  Granted, I feel that there is limited justification for hosting one's own mail system.
+- [Odessa](http://odessa.sourceforge.net/): Alternative to Autopsy/Sleuth Kit for Open Source forensics work.
+- [OPNSense](https://opnsense.org/):  OpenBSD based firewall.  Prefer it architecturally to pfSense
+- [Snort](https://www.snort.org/): Open source intrusion detection system.
+
 ## SSL/TLS Information
 
 - [Let's Encrypt](https://letsencrypt.org/):  Freely available certificates for websites.
@@ -66,25 +85,6 @@ spec:
 EOF
 ```
 
-```sh
-
-## External Links
-
-Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
-
-- Configuration Standards
-  - [Center for Internet Security](http://www.cisecurity.org/): Provides configuration guides for common OS and server software.
-  - [Linux Foundation Workstation Guidelines](https://github.com/lfit/itpol/blob/master/linux-workstation-security.md): Excellent overview for securely configuring a Linux workstation
-- Security Scanners
-  - [GovReady Github](https://github.com/GovReady): An entire Government sponsored site that integrates open source tools into government standards.  Policies for CentOS and Ubuntu exist, as well as a lot of other resources.
-  - [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
-  - [Lynis](https://cisofy.com/lynis/):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.  However, I have not tested either at this point.
-- [Endian](http://www.endian.com): Appliance for security and hotspot management
-- [IPFire](http://www.ipfire.org/): Linux based firewall distro
-- [MailScanner](http://www.mailscanner.info/):  Seems easier then attempting to roll Spamassassin, ClamAV, greylisting, etc.
-- [Odessa](http://odessa.sourceforge.net/): Alternative to Autopsy/Sleuth Kit for Open Source forensics work.
-- [PFSense](https://www.pfsense.org/):  Pretty solid when I last used the project a few years ago.  Based on FreeBSD, so limited to whatever FreeBSD supports hardware wise.
-- [Snort](https://www.snort.org/): Open source intrusion detection system.
 
 ## Reading
 
