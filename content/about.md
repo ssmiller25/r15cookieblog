@@ -41,7 +41,11 @@ Presentation Site: <https://present.r15cookie.com> - [Source](https://github.com
 
 ## Professional Experience
 
-### Plex Systems - Sr. Software Engineer (Dec 2019 - Present)
+### Tuition.io - Sr. DevOps Engineer (Dec 2021 - Present)
+
+Responsible for development and operation of production infrastructure and site reliability engineering at Tuition.io
+
+### Plex Systems - Sr. Software Engineer (Dec 2019 - Dec 2021)
 
 Responsible for development and operation of production infrastructure and site reliability engineering for Plex's SaaS offering.
 
@@ -177,10 +181,11 @@ endpoints to query data that was used in custom front-end code.
 
 - **Operating Systems:** Linux (Redhat, Suse, Ubuntu, Debian, OEL), Windows Server 2008-2016, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
 - **Infrastructure As Code:** git, Terraform, Terragrunt, Packer, Vagrant
+- **CI/CD Pipelines:** Azure DevOps, Github Actions, CircleCI, TravisCI
 - **Monitoring:** Prometheus, Grafana, Loki, ELK (Elasticsearch, Logstash, and Kibana), Nagios, VMWare vRealize Operations
 - **Virtualization/Containerization**: Kubernetes, Docker, Vmware vSphere/ESXi, LXC, KVM
-- **Programming Languages:** Shell Scripting, Python, Perl, PHP, Java, SQL
-- **Applications:** Active Directory, Apache, Ansible, Chef, Git, MySQL, Nagios, Hashicorp Packer, Puppet, Terraform, Tomcat, Vagrant
+- **Programming Languages:** Shell Scripting (Bash, KSH), GoLang, Python, Perl, PHP, Java, SQL
+- **Applications:** Active Directory, Apache, Ansible, Chef, Git, MySQL, Nagios, Puppet, Tomcat
 - **Cluster:** HP ServiceGuard, Veritas Cluster/File System
 - **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS, Palo Alto Firewall
 - **Storage/Backup:**  EMC Clariion, Netapp, Pure, Veritas Netbackup
