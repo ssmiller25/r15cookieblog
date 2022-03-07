@@ -36,7 +36,7 @@ perform such operations and actually performing practice runs of pulling back or
 [Love this idea](https://dzone.com/articles/devops-toolchain-for-beginners) from DZone, but some of the specific tools I had some issues with.  A summary below, with the tooling I prefer:
 
 - Benefits:
-  - Fast and Efficient Deployments (I'd also add efficent roll-backs to promote high-velocity deployments)
+  - Fast and Efficient Deployments (I'd also add efficient roll-backs to promote high-velocity deployments)
   - Incident Management
   - Improved Software Quality
   - Workflow Automation
