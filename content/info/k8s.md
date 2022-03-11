@@ -49,6 +49,7 @@ production runtime, but I have used a majority of these services successfully.
 - [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
 - [Filebrowser as a sidecar](https://www.reddit.com/r/selfhosted/comments/piziv1/file_browser_container_sidecar_for_kubernetes/): Interesting idea to allow for easy edits on files within a container
 - [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
+- [Kubernetes API with Curl](https://blog.tilt.dev/2021/03/18/kubernetes-is-so-simple.html)
 - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
 - [KUTTL](https://github.com/kudobuilder/kuttl): Kubernetes Test TooL.  A declaritive testing framework.
 - SemGrep Static Analysis for [Docker](https://semgrep.dev/p/dockerfile) and [Kubernetes](https://semgrep.dev/p/kubernetes)
