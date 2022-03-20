@@ -89,3 +89,4 @@ EOF
 ## Reading
 
 - [Lessons From Reviewing Postmortems](http://danluu.com/postmortem-lessons/)
+- [The Problem with PGP](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html)
