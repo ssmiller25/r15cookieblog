@@ -153,4 +153,5 @@ Two options (both assume you have a repo clones remotely)
 
 ## Advance Fixes
 
-Also a good site all around:  [https://ohshitgit.com/](https://ohshitgit.com/)
+- [https://ohshitgit.com/](https://ohshitgit.com/)
+- [10 Git tips we can't live without](https://opensource.com/article/22/4/git-tips)
