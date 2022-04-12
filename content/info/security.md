@@ -8,16 +8,26 @@ tags: [
 ---
 
 
+## Automated Code/Infra Scanning
+
+Toward the top, as automated scanning of code and infrastructure is the first line of defense against security compromise.
+
+- [Semgrep](https://semgrep.dev/): Static Analysis at ludicrous speed.  
+  - Includes [Docker](https://semgrep.dev/p/dockerfile) and [Kubernetes](https://semgrep.dev/p/kubernetes) analysis
+- [tfsec](https://github.com/aquasecurity/tfsec): Terraform Security Scanner
+
+## Infrastructure Scanning
+
+- [GovReady Github](https://github.com/GovReady): An entire Government sponsored site that integrates open source tools into government standards.  Policies for CentOS and Ubuntu exist, as well as a lot of other resources.
+- [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
+- [Lynis](https://cisofy.com/lynis/):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.
+
 ## General Info
 
 - [Free CyberSecurity Services and Tools - CISA](https://www.cisa.gov/free-cybersecurity-services-and-tools)
 - Configuration Standards
   - [Center for Internet Security](http://www.cisecurity.org/): Provides configuration guides for common OS and server software.
   - [Linux Foundation Workstation Guidelines](https://github.com/lfit/itpol/blob/master/linux-workstation-security.md): Excellent overview for securely configuring a Linux workstation
-- Security Scanners
-  - [GovReady Github](https://github.com/GovReady): An entire Government sponsored site that integrates open source tools into government standards.  Policies for CentOS and Ubuntu exist, as well as a lot of other resources.
-  - [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
-  - [Lynis](https://cisofy.com/lynis/):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.
 - [Endian](http://www.endian.com): Appliance for security and hotspot management
 - [IPFire](http://www.ipfire.org/): Linux based firewall distro
 - [Mailu](https://mailu.io/): Docker based e-mail system.  If I were to deploy a mail system today, this would be the basis.  Granted, I feel that there is limited justification for hosting one's own mail system.
