@@ -18,7 +18,7 @@ at least information I find interesting :-)
 - Core Chain
   - [Plan](/info/plan)
   - [Create(Develop}](/info/development)
-  - Verify
+  - [Verify](/info/verify)
   - Package
   - Release
   - [Configure](/info/configure)

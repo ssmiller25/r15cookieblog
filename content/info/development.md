@@ -27,6 +27,10 @@ tags: [
 - [Development - Python](/info/python)
 - [Development - Scripting](/info/scripting)
 
+## Docker
+
+- [Docker Anti-Patterns](https://codefresh.io/containers/docker-anti-patterns/)
+
 ## Security
 
 - [Reproductable Builds](https://reproducible-builds.org/)
