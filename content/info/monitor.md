@@ -32,7 +32,7 @@ My preferred stack:  Prometheus, Grafana, Loki
 
 ## Post-Mortum
 
-Also see [plan](plan.md) for actual retrpsective stores - as those are the basis for planning improvements
+Also see [plan](plan.md) for actual retrospective stores - as those are the basis for planning improvements
 
 - [How to write Meaningful Retrospectives](https://www.blameless.com/incident-response/how-to-write-meaningful-retrospectives)
 
