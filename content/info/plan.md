@@ -7,6 +7,10 @@ tags: ["dev", "devops"]
 
 Planning for a DevOps Cycle
 
+## Architecture
+
+- [Redhat Demo Central](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples) - Architectures for a wide range of cloud infrastructures and problems.
+
 ## Post-Mortem
 
 Post mortums are the basis of planning for future improvements.
