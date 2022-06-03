@@ -34,5 +34,9 @@ Post mortums are the basis of planning for future improvements.
 - [Monzo Payment Outage](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
 - [First Kubernetes Outage - Helm Related](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 
+## Small Environment/Home Lab
 
+Small Environment/Home Lab Planning resources
 
+- [k8s-at-home](https://k8s-at-home.com/)
+- [k8s-at-home Search](https://whazor.github.io/k8s-at-home-search) - Search FluxCD based HelmReleases of software
