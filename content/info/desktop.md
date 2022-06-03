@@ -14,6 +14,7 @@ tags: [
   - [Asana CLI](https://github.com/thash/asana): Asana CLI in Go.  
   - [Asana Project Mover](https://asana.kothar.net/):  Move projects between workspaces
 - [GifCAP](https://gifcap.dev/): Completely client based animated GIF capture tool!  [Source code](https://github.com/joaomoreno/gifcap)
+- 
 
 ## Linux Workstations
 
@@ -27,21 +28,4 @@ tags: [
 ## Remote Support 
 
 - [MeshCentral](https://www.meshcommander.com/meshcentral2)
-
-# Remote Support for Linux Workstations
-
-**Untested!**
-
-A method to provide remote control to remote users, generally behind there own firewall
-
-The user must perform a few tasks to allow remote control
-
-- Run "gconftool-2 -s -t bool /desktop/gnome/remote_access/enabled true" to enable VNC Remote control
-- Create an SSH tunnel to a common destination machine "ssh -R 5900:localhost:5900 <remote machine>"
-
-Remote machine
-
-- Connect to common machine "ssh -L 5900:localhost:5900 <remote machine>"
-- With a vnc viewer "vncviewer localhost:0"
-
-
+- [RustDesk](https://github.com/rustdesk/rustdesk)
