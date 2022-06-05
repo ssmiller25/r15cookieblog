@@ -30,6 +30,7 @@ tags: [
 ## Docker
 
 - [Docker Anti-Patterns](https://codefresh.io/containers/docker-anti-patterns/)
+- [GUI Apps In Docker](https://www.trickster.dev/post/running-gui-apps-within-docker-containers/)
 
 ## Security
 
