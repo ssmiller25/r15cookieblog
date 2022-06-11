@@ -20,8 +20,9 @@ tags: [
 
 - No-Code
   - [NoCode List](https://nocodelist.co/)
-  - [SaltCorn](https://saltcorn.com/)
   - [Budibase](https://www.budibase.com/)
+  - [Cortez Project](https://cortezaproject.org/) - Golang based No-code Platform
+  - [SaltCorn](https://saltcorn.com/)
 - [Development - Web](/info/webdev)
 - [Development - Go](/info/golang)
 - [Development - Python](/info/python)
