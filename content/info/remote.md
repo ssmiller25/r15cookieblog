@@ -41,4 +41,5 @@ Various resources on working remotely.
 - [DeskHiker](https://www.deskhiker.com/en)
 - [Remote.ok](https://remoteok.io/)
 - [Stack Overflow Remote Jobs](https://stackoverflow.com/jobs/remote-developer-jobs)
+- [Vadim Kravcenko's Blog](https://vadimkravcenko.com/) - Co-founder & CTO.  Lots of good remote work/remote management articles
 - [We Work Remotely](https://weworkremotely.com/)
