@@ -20,6 +20,7 @@ A complete desktop environment utilizing the command line
   - bash
   - tmux to allow easy multi-tasking, or perhaps [byobu](https://launchpad.net/byobu)
   - [Modern Unix Commands](https://github.com/ibraheemdev/modern-unix)
+  - [ripgrep-all](https://github.com/phiresky/ripgrep-all): Ripgrep, that also searches PDFs, eBooks, Office Docs, etc.
 - Utilities
   - links: Browser
   - https://www.passwordstore.org/

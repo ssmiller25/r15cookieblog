@@ -65,3 +65,4 @@ perform such operations and actually performing practice runs of pulling back or
 
 - [NSA Proof Your Email System](http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/)
 - [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
+- [Devops Exercises](https://github.com/bregman-arie/devops-exercises)
