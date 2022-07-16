@@ -9,7 +9,8 @@ tags: [
 
 
 - Developer Relations
-  - [Deveoper Evangelism Handbook](http://developer-evangelism.com/toc.php)
+  - [Developer Evangelism Handbook](http://developer-evangelism.com/toc.php)
+  - [The Three Pillars of Developer Relations](https://changelog.com/posts/three-pillars-of-developer-relations)
 - Tools
   - [Reveal.js](https://revealjs.com/) Javascript based presentation framework.  Supports writing presentations in Markdown.  The primary tool used for my presentation site at <https://present.r15cookie.com>
   - [Excalidraw](https://excalidraw.com/) - Nice tool for building graphics that look hand-drawn.  [Source](https://github.com/excalidraw/excalidraw)
