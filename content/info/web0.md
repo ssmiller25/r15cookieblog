@@ -19,6 +19,7 @@ Recently have discovered a diverse community of individual rejecting the current
 
 ## Articles
 
+- [Digital Wellbing](https://omoulo.com/digitalwellbeing.html)
 - [No to Web3](https://yesterweb.org/no-to-web3/)
 
 ## Sites
