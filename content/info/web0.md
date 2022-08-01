@@ -31,3 +31,4 @@ Recently have discovered a diverse community of individual rejecting the current
 - [Status Cafe](https://status.cafe/) - A simple service to just display one's current status.
 - [Sadgrl's Webring Directory](https://sadgrl.online/cyberspace/webrings.html) - Webrings are an interesting way to discover new content, and glad to see there are many still around and maintained.
 - [NeoCities](https://neocities.org/) - The successor of Geocites.  Great if you want a basic web hosting environment.
+- [Create Your Own Webring](https://mincerafter42.github.io/tutorial/webring/) - A nice process for hosting a webring on Netlify, driven by Github.
