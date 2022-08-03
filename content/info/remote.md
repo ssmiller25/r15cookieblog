@@ -17,6 +17,7 @@ Various resources on working remotely.
   - [GitLab Information Communication in an all-remote environment](https://about.gitlab.com/company/culture/all-remote/informal-communication/)
 - [Increment: A guide to distributed teams](https://increment.com/teams/a-guide-to-distributed-teams/)
 - [Microsoft: Staying productive while working remotely](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/): Although focused slightly around Microsoft Teams, some good overall strategies for remote work. 
+- [TechLead Development Ladder](https://github.com/jorgef/engineeringladders/blob/master/TechLead.md)
 - [Toptal Remote Work Playbook](https://www.toptal.com/remote-work-playbook)
 
 ## Articles

@@ -53,5 +53,6 @@ tags: [
 - [GitHub Flow](https://guides.github.com/introduction/flow/): A pretty standard process for committing to many open-source projects.
 - [Uncurled](https://un.curl.dev/) ([Source](https://github.com/bagder/uncurled)): From the author of curl,  "everything I know and learned about running and maintaining Open Source projects for three decades."
 - [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
+- [The End of Localhost](https://www.swyx.io/the-end-of-localhost/): Proposal for development in the cloud
 - [yagni - You Aren't Gonna Need It](https://martinfowler.com/bliki/Yagni.html): Could also easily apply to IaC code-bases
 
