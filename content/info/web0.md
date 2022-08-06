@@ -5,7 +5,7 @@ meta: "false"
 tags:
   - dev
 ---
-Recently have discovered a diverse community of individual rejecting the current Web2 (social media) and Web3 (Blockchain/NFT/metaverse/whatever else is bucketed in Web3) and back to the non-commercial, unique roots of the Internet that existed before the widespread centralization of the Internet to the Facebook/Twitter/Instagram/TikTok/etc.  A time when site's goals were not to get you addicted to the dopamine hits of likes and aggravation.
+Recently have discovered a diverse community of individuals rejecting the current Web2 (social media) and Web3 (Blockchain/NFT/metaverse/whatever else is bucketed in Web3) and back to the non-commercial, unique roots of the Internet that existed before the widespread centralization of the Internet.  A time when site's goals were not to get you addicted to the dopamine hits of likes and aggravation, but to simply express the creativity and interest of their creators.
 
 ## May Web 0 Projects
 
@@ -19,7 +19,7 @@ Recently have discovered a diverse community of individual rejecting the current
 
 ## Articles
 
-- [Digital Wellbing](https://omoulo.com/digitalwellbeing.html)
+- [Digital Wellbeing](https://omoulo.com/digitalwellbeing.html)
 - [No to Web3](https://yesterweb.org/no-to-web3/)
 
 ## Sites
