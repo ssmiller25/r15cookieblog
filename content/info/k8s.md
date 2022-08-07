@@ -48,14 +48,17 @@ production runtime, but I have used a majority of these services successfully.
 
 - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
 - [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
+- [Docker Best Practices](https://github.com/hexops/dockerfile)
 - [Filebrowser as a sidecar](https://www.reddit.com/r/selfhosted/comments/piziv1/file_browser_container_sidecar_for_kubernetes/): Interesting idea to allow for easy edits on files within a container
 - [Hadolint](https://github.com/hadolint/hadolint): Linter for Docker Files
 - [Kubernetes API with Curl](https://blog.tilt.dev/2021/03/18/kubernetes-is-so-simple.html)
 - [Kubernetes YAML Validation Tools](https://learnk8s.io/validating-kubernetes-yaml)
 - [KUTTL](https://github.com/kudobuilder/kuttl): Kubernetes Test TooL.  A declaritive testing framework.
+- [Reduce 502 errors by caring about PID-1 in Kubernetes](https://about.gitlab.com/blog/2022/05/17/how-we-removed-all-502-errors-by-caring-about-pid-1-in-kubernetes/)
 
 ## Security
 
 - [Clair](https://github.com/coreos/clair): Container security analysis
 - [Kyverno](https://kyverno.io/): Native k8s Policy Management
+- [Kubescape](https://hub.armosec.io/docs/repository-scanning)
 - [Rate Limited with Nginx-Ingress Controller](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#rate-limiting)

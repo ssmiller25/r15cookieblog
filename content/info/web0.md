@@ -15,12 +15,13 @@ Recently have discovered a diverse community of individuals rejecting the curren
 ## Manifestos
 
 - [Internet Manifesto by sadgrl.online](https://sadgrl.online/cyberspace/internet-manifesto.html)
-- [Web0 Manifest](https://web0.small-web.org/)
+- [Web0 Manifesto](https://web0.small-web.org/)
 
 ## Articles
 
 - [Digital Wellbeing](https://omoulo.com/digitalwellbeing.html)
 - [No to Web3](https://yesterweb.org/no-to-web3/)
+- [Smartphones Are the New Cigarettes](https://markmanson.net/smartphones)
 
 ## Sites
 

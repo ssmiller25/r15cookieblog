@@ -27,6 +27,10 @@ Kubernetes(k8s) is the best modern approach for deploying and maintaining code.
   - [Azure: Azureprice.net](https://azureprice.net/)
   Great info.  Unfortunately source is not available.
 
+## Amazon Web Services (AWS)
+
+- [AWS NAT Gateway Alternative](https://github.com/AndrewGuenther/fck-nat)
+
 ## System Build Tool
 
 
