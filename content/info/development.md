@@ -48,6 +48,7 @@ tags: [
 ## Articles/Books
 
 - [A Dev's Thoughts On Developer Productivity](https://about.sourcegraph.com/blog/developer-productivity-thoughts): A great discussion on optimizing the "inner" developer loop.
+- [Advance Git](https://dev.to/g_abud/advanced-git-reference-1o9j): Advance git techniques and shortcuts
 - [Art of Unix Programming](http://www.faqs.org/docs/artu/)
 - [ChgLog](https://github.com/goreleaser/chglog) implementing [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 - [GitHub Flow](https://guides.github.com/introduction/flow/): A pretty standard process for committing to many open-source projects.
