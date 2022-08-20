@@ -2,7 +2,7 @@
 layout: page
 title: "Remote Work Articles"
 tags: [
-    "ops"
+    "ops", "career"
 ]
 meta: "false"
 ---
@@ -23,6 +23,7 @@ Various resources on working remotely.
 ## Articles
 
 - [47 Insanely Practical Work From Home Tips from Our 100% Remote Team](https://www.groovehq.com/blog/work-from-home)
+- [Algorithms You Should Know Before You Take a System Design Interview](https://blog.bytebytego.com/p/algorithms-you-should-know-before)
 - [Driving Engagement In a Remote Work World](https://www.cfo.com/workplace-issues/2021/04/driving-engagement-in-a-remote-work-world/)
 - [How to Ace an Online Job Interview](https://www.wired.com/story/tips-for-online-job-interviews/): Also great tips for remote meetings in general
 - [How to Mentor Remote Workers](https://www.theatlantic.com/ideas/archive/2022/01/good-management-mentorship-remote-world/621219/)
