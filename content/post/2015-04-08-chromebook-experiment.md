@@ -2,6 +2,7 @@
 date: "2015-04-08T00:00:00Z"
 tags:
 - chromebook
+- wkstation
 title: "Chromebook Experiment"
 ---
 
