@@ -67,4 +67,4 @@ production runtime, but I have used a majority of these services successfully.
 ## Tools
 
 - [Kubie](https://github.com/sbstp/kubie)
-- [K9S](https://k9scli.io/)
+- [k9s](https://k9scli.io/)
