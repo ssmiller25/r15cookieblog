@@ -10,6 +10,7 @@ meta: "false"
 Random links I wish to track, but can't not really an obvious category for.
 
 - [After 45 Birthdays, Here are 12 Rules for Life](https://getpocket.com/explore/item/after-45-birthdays-here-are-12-rules-for-life)
+- [I am a mediocre developer](https://dev.to/sobolevn/i-am-a-mediocre-developer--30hn)
 - [I Want Simple, Not Just Easy](https://kristoff.it/blog/simple-not-just-easy/)
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 - [The Last Question](https://www.multivax.com/last_question.html) - Short story by Isaac Asimov.  [Wikipedia Article](https://en.wikipedia.org/wiki/The_Last_Question)
