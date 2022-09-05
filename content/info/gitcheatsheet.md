@@ -83,6 +83,16 @@ git merge upstream/master
 
 Source: [Github](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
+## Refuse to Merge Unrelated Histories
+
+```sh
+# Since I don't usually enable pull merged
+git fetch origin
+git merge origin master --allow-unrelated-histories
+```
+
+From <https://www.educative.io/answers/the-fatal-refusing-to-merge-unrelated-histories-git-error>
+
 ## Submodule init and update
 
 ### Initialize submodules with new repo
