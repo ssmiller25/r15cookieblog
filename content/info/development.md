@@ -28,6 +28,10 @@ tags: [
 - [Development - Python](/info/python)
 - [Development - Scripting](/info/scripting)
 
+## Development Workflow
+
+- [Reverse Pull Request](https://dzone.com/articles/reverse-pull-requests): A way to review code in rapid-release cycles.
+
 ## Docker
 
 - [Docker Anti-Patterns](https://codefresh.io/containers/docker-anti-patterns/)
