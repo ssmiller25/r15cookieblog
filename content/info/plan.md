@@ -9,6 +9,7 @@ Planning for a DevOps Cycle
 
 ## Architecture
 
+- [Platform Engineering](https://platformengineering.org/): Home for Platform Engineers.  Includes a comprehensive tech library of stacks/solutions.
 - [Redhat Demo Central](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples) - Architectures for a wide range of cloud infrastructures and problems.
 - [Who Cares If It Scales](https://betterprogramming.pub/who-cares-if-it-scales-1946adca8167) - Avoiding pre-mature optimization.
 
