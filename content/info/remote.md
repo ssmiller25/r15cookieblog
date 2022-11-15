@@ -9,6 +9,10 @@ meta: "false"
 
 Various resources on working remotely.
 
+## Tools
+
+- [World Time Buddy](https://www.worldtimebuddy.com/) - Great site to quickly track local time. 
+
 ## Guides
 
 - Gitlab Remote Resources
