@@ -1,8 +1,8 @@
 ---
 date: "2015-11-11T00:00:00Z"
 description: ""
-tags: []
-title: CloudReady in Virtualbox
+tags: ["wkstation", "chromebook"]
+title: "CloudReady in Virtualbox"
 ---
 
 The ChromeOS has been a great experience so far.  One problem, however, is that you generally need to purchase a 

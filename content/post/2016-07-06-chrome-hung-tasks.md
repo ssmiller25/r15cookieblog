@@ -1,7 +1,7 @@
 ---
 date: "2016-07-06T00:00:00Z"
 description: ""
-tags: []
+tags: ["wkstation", "chromebook"]
 title: Chromebook Mysterious Reboot
 ---
 
