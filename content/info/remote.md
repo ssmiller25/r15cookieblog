@@ -9,6 +9,11 @@ meta: "false"
 
 Various resources on working remotely.
 
+## Tools
+
+- [Github Business Card](https://crd.so/) [Source](https://github.com/scastiel/github-business-card)
+- [World Time Buddy](https://www.worldtimebuddy.com/) - Great site to quickly track local time. 
+
 ## Guides
 
 - Gitlab Remote Resources
