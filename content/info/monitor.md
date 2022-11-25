@@ -19,6 +19,8 @@ My preferred stack:  Prometheus, Grafana, Loki
   - [Down Detector](https://downdetector.com/)
   - [Oracle Internet Intelligence](https://map.internetintel.oracle.com/)
   - [The Outage Mailing List](https://puck.nether.net/pipermail/outages/) - Network admins chatting about global issues
+- Internet Monitoring (locally)
+  - [Open Speed Test](https://github.com/openspeedtest/Speed-Test): Browser based, no client login required.
 
 ## Advance Debugging
 
@@ -39,3 +41,7 @@ Also see [plan](plan.md) for actual retrospective stores - as those are the basi
 ## Articles
 
 - [Everyone Should Be On-Call](https://incident.io/blog/on-call-at-incident-io) - with appropriate life balance and compensation
+
+## Sites
+
+- [End Of Life](https://endoflife.date/): Quick End of Life Reference

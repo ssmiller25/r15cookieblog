@@ -16,6 +16,12 @@ tags: [
   - [Google's Bank of Anthos](https://github.com/GoogleCloudPlatform/bank-of-anthos) - A lighter microservice example app - only Python and Java.  Both referencing PostgreSQL databases for persistence.
   - [WeaveWorks' Sock Shop](https://microservices-demo.github.io/) - Another example Microservice app.  Leverages Spring Boot, Go, and Node.js.  Also leverages RabbitMQ.
 
+## Cloud Development Environment
+
+- [Coder](https://coder.com/)
+  - [Coder versus Codespaces (and why self-hosted cloud env)](https://coder.com/blog/github-codespaces-coder-and-enterprise-customers)
+- [GitPod](https://gitpod.io/)
+
 ## Development
 
 - No-Code

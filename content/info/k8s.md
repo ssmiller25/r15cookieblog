@@ -11,7 +11,7 @@ Kubernetes - the API for the modern data-center!  At least why I find it so exci
 - [Kubernetes](https://kubernetes.io/): Main Kubernetes page.  Docs are fairly
 good and in depth.
 - [Kubernetes Production Check List](https://learnk8s.io/production-best-practices/): Good list of best practices when running kubernetes in production
-- [Bitnami Kubernetes Production Runtime](https://kubeprod.io/): A great starting point for a production cluster
+- [Ambassador K8S Initializer](https://app.getambassador.io/initializer/#configurator-argo): Opinionated monitoring/Gitops stack generator.
 - [47 Things To Become a Kubernetes Expert](https://ymmt2005.hatenablog.com/entry/k8s-things) - Really good detailed items for k8s foundational work
 - [100 Days of Kubernetes](https://100daysofkubernetes.io/) - [Source](https://github.com/100daysofkubernetes/100DaysOfKubernetes)
 - [Why you should build on Kubernetes from day one](https://stackoverflow.blog/2021/07/21/why-you-should-build-on-kubernetes-from-day-one/)
@@ -66,5 +66,7 @@ production runtime, but I have used a majority of these services successfully.
 
 ## Tools
 
+- [KubeCampus](https://kubecampus.io/): Kubernetes training
 - [Kubie](https://github.com/sbstp/kubie)
+- [KubeShark](https://github.com/kubeshark/kubeshark): Wireshark/TCPDump for Kubernetes
 - [k9s](https://k9scli.io/)
