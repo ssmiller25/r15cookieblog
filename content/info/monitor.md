@@ -31,6 +31,9 @@ My preferred stack:  Prometheus, Grafana, Loki
 - [KubeCTL Trace](https://github.com/iovisor/kubectl-trace): Easily run eBFP from kubectl
 - [Pixie Labs](https://pixielabs.ai/): Troubleshoot K8S apps relatively easily, leveraging eBFP
 
+## Tuning
+
+- [Scaling Mastodon](https://hazelweakly.me/blog/scaling-mastodon/) - Also some great general tips for Rails, Sidekiq, and Redis.
 
 ## Post-Mortum
 
