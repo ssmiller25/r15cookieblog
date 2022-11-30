@@ -34,6 +34,7 @@ My preferred stack:  Prometheus, Grafana, Loki
 ## Tuning
 
 - [Scaling Mastodon](https://hazelweakly.me/blog/scaling-mastodon/) - Also some great general tips for Rails, Sidekiq, and Redis.
+- [Scaling Mastodon to 128K Users](https://gist.github.com/Gargron/aa9341a49dc91d5a721019d9e0c9fd11)
 
 ## Post-Mortum
 
