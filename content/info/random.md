@@ -19,4 +19,4 @@ Random links I wish to track, but can't not really an obvious category for.
 ## Soundscapes
 
 - [myNoise](https://mynoise.net/): Background noices and interactive soundscapes.
-- [Moodly](https://moodly.site/): Client-side noise generator.  [Source](https://github.com/Uvacoder/moodly)
+- [Moodly - Hosted by R15Cookie](https://moodly.r15cookie.com/): Client-side noise generator.  [Source](https://github.com/Uvacoder/moodly)
