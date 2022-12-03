@@ -23,6 +23,7 @@ Generic career resources
 ## Tools
 
 - [Github Business Card](https://crd.so/) [Source](https://github.com/scastiel/github-business-card)
+- [Time Zone Converter](https://mlocati.github.io/timezone-converter/) - Open source web timezone converter [Source](https://github.com/mlocati/timezone-converter)
 - [World Time Buddy](https://www.worldtimebuddy.com/) - Great site to quickly track local time. 
 
 
