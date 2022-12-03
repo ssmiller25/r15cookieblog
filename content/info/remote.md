@@ -9,11 +9,6 @@ meta: "false"
 
 Various resources on working remotely.
 
-## Tools
-
-- [Github Business Card](https://crd.so/) [Source](https://github.com/scastiel/github-business-card)
-- [World Time Buddy](https://www.worldtimebuddy.com/) - Great site to quickly track local time. 
-
 ## Guides
 
 - Gitlab Remote Resources
@@ -22,7 +17,6 @@ Various resources on working remotely.
   - [GitLab Information Communication in an all-remote environment](https://about.gitlab.com/company/culture/all-remote/informal-communication/)
 - [Increment: A guide to distributed teams](https://increment.com/teams/a-guide-to-distributed-teams/)
 - [Microsoft: Staying productive while working remotely](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/): Although focused slightly around Microsoft Teams, some good overall strategies for remote work. 
-- [TechLead Development Ladder](https://github.com/jorgef/engineeringladders/blob/master/TechLead.md)
 - [Toptal Remote Work Playbook](https://www.toptal.com/remote-work-playbook)
 
 ## Articles
@@ -39,10 +33,6 @@ Various resources on working remotely.
 - [Remote work: Lessons from a remote-first company](https://enterprisersproject.com/article/2020/3/remote-work-lessons)
 - [Things to Know Before Joining a Startup](https://foretecher.hashnode.dev/should-you-join-a-startup)
 - [Twitter Tread - How to Maintain Connections](https://twitter.com/rothgar/status/1440828264822435848?s=19): Great strategy to maintain connections across a remote company
-
-## Day in a Life
-
-- [Day in the life of a BoxBoat DevOps Engineer](https://boxboat.com/2021/03/11/day-in-the-life-boxboat-devops-engineer/)
 
 ## Sites
 
