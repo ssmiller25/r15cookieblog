@@ -20,6 +20,10 @@ Generic career resources
 
 - [Day in the life of a BoxBoat DevOps Engineer](https://boxboat.com/2021/03/11/day-in-the-life-boxboat-devops-engineer/)
 
+## Management
+
+- [Engineering Manager](https://github.com/ryanburgess/engineer-manager)
+
 ## Tools
 
 - [Github Business Card](https://crd.so/) [Source](https://github.com/scastiel/github-business-card)
