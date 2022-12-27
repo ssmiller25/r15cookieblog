@@ -24,6 +24,7 @@ Post mortums are the basis of planning for future improvements.
 
 ### 2022
 
+- [Incident.IO - Intermittent Downtime](https://incident.io/blog/intermittent-downtime): Discussion of analysis and resolution in a Heroku app
 - [Gitpod - Sustained Workspace Performance Degradation](https://www.gitpod.io/blog/sustained-performance-degradation)
 
 ### 2020
