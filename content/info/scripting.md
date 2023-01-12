@@ -12,6 +12,7 @@ Captures ad-hoc scripting and process needs.  Also includes resources making the
 - [Minimally Safe Bash Shell Script Template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Bash Style Guidelines](https://github.com/progrium/bashstyle)
 - [Gum - Pretty Shellscript Addon](https://github.com/charmbracelet/gum)
+- [Testing Shell Scripts/CLI leveraging Go's Testing Framework](https://bitfieldconsulting.com/golang/test-scripts)
 
 ## Higher Level
 
