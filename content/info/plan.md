@@ -22,6 +22,10 @@ Post mortums are the basis of planning for future improvements.
 - [Kubernetes Fail Stories](https://k8s.af/) and [Source](https://github.com/hjacobs/kubernetes-failure-stories)
 - [Danluu's Post Mortem Repo](https://github.com/danluu/post-mortems)
 
+### 2023
+
+- [CircleCI Security Breach](https://circleci.com/blog/jan-4-2023-incident-report/)
+
 ### 2022
 
 - [Incident.IO - Intermittent Downtime](https://incident.io/blog/intermittent-downtime): Discussion of analysis and resolution in a Heroku app

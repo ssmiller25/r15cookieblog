@@ -14,6 +14,7 @@ Generic career resources
 
 - [Awesome CTO](https://github.com/kuchin/awesome-cto)
 - [TechLead Development Ladder](https://github.com/jorgef/engineeringladders/blob/master/TechLead.md)
+- [Staff Engineer](https://staffeng.com/)
 
 
 ## Day in a Life

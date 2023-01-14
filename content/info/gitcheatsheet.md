@@ -165,3 +165,7 @@ Two options (both assume you have a repo clones remotely)
 
 - [https://ohshitgit.com/](https://ohshitgit.com/)
 - [10 Git tips we can't live without](https://opensource.com/article/22/4/git-tips)
+
+## General Understanding
+
+- [Undertstanding git through images](https://dev.to/nopenoshishi/understanding-git-through-images-4an1)
