@@ -34,6 +34,7 @@ Post mortums are the basis of planning for future improvements.
 
 - [Incident.IO - Intermittent Downtime](https://incident.io/blog/intermittent-downtime): Discussion of analysis and resolution in a Heroku app
 - [Gitpod - Sustained Workspace Performance Degradation](https://www.gitpod.io/blog/sustained-performance-degradation)
+- [How A Single Developer Dropped AWS Costs by 90% Then Disappeared](https://bootcamp.uxdesign.cc/how-a-single-developer-dropped-aws-costs-by-90-then-disappeared-2b46a115103a) - Good story/retrospective about why you whould always have software peer reviewed.
 
 ### 2020
 
