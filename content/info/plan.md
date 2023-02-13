@@ -30,7 +30,7 @@ Post mortums are the basis of planning for future improvements.
 
 - [CircleCI Security Breach](https://circleci.com/blog/jan-4-2023-incident-report/)
 - [NameCheap Spam Email](https://www.namecheap.com/status-updates/archives/74848)
-  - [Details based on spam I received](post-mortem-namecheap) - third party provider most likely Sendgrid
+  - [Details based on spam I received](/info/post-mortem-namecheap) - third party provider most likely Sendgrid
 
 ### 2022
 
