@@ -37,6 +37,8 @@ Post mortums are the basis of planning for future improvements.
 - [Incident.IO - Intermittent Downtime](https://incident.io/blog/intermittent-downtime): Discussion of analysis and resolution in a Heroku app
 - [Gitpod - Sustained Workspace Performance Degradation](https://www.gitpod.io/blog/sustained-performance-degradation)
 - [How A Single Developer Dropped AWS Costs by 90% Then Disappeared](https://bootcamp.uxdesign.cc/how-a-single-developer-dropped-aws-costs-by-90-then-disappeared-2b46a115103a) - Good story/retrospective about why you whould always have software peer reviewed.
+- [Lastpass Security Breach](https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/)
+  - [Root Cause: APT against Sr. DevOps Engineer Though Plex Media Player](https://arstechnica.com/information-technology/2023/02/lastpass-hackers-infected-employees-home-computer-and-stole-corporate-vault/)
 
 ### 2020
 
