@@ -39,6 +39,7 @@ tags: [
 
 ## Development Workflow
 
+- [How atomic Git commits dramatically increased my productivity - and will increase yours too](https://dev.to/samuelfaure/how-atomic-git-commits-dramatically-increased-my-productivity-and-will-increase-yours-too-4a84)
 - [Reverse Pull Request](https://dzone.com/articles/reverse-pull-requests): A way to review code in rapid-release cycles.
 
 ## Docker
@@ -56,11 +57,16 @@ tags: [
 - [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
 - [JQPlay](https://jqplay.org/): Quick way to debug jq filters.  [Also available as a Docker image](https://github.com/munntjlx/jqplay)
 - Makefile: Explained in [Makefiles for Modern Development](https://dzone.com/articles/makefiles-for-modern-development)
+- [Fossil SCM](https://www.fossil-scm.org/home/doc/trunk/www/index.wiki) - Distributed source control with wiki, issues, etc.
+
 
 ## Docker/Kubernetes Build Tools
 
-- [Tilt](https://tilt.dev/): Tool for rapid rebuild/live build environments.
 - [DevSpaces](https://www.devspace.sh/): Another tool for rapid rebuild/deploy/live environments
+- [Garden.io](https://garden.io/): Another tool for rapid rebuild/live build environments, with additional focus on CI/CD (versus Tilt)
+- [Tilt](https://tilt.dev/): Tool for rapid rebuild/live build environments.
+
+
 
 ## Articles/Books
 
