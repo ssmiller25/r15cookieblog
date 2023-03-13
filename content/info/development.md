@@ -44,6 +44,7 @@ tags: [
 
 ## Docker
 
+- [Containers.dev](https://containers.dev/): Opening up the VSCode devcontainer.json for standardization
 - [Docker Anti-Patterns](https://codefresh.io/containers/docker-anti-patterns/)
 - [GUI Apps In Docker](https://www.trickster.dev/post/running-gui-apps-within-docker-containers/)
 - [Using Docker for All Development](https://www.smashingmagazine.com/2022/07/using-nothing-but-docker-projects/)
