@@ -17,11 +17,13 @@ Kubernetes(k8s) is the best modern approach for deploying and maintaining code.
 
 - [CrossPlane](https://crossplane.io/): Infrastructure provider as k8s resources
   - [Is Crossplane the Infrastructure LLVM?](https://danielmangum.com/posts/crossplane-infrastructure-llvm/)
-- [tf-free](https://github.com/gruberdev/tf-free): Provision free-tier resources across a variety of cloud providers.
-- [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
-- [Terraservice](https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization): A model for services in Terraform
-- [Terracognita](https://github.com/cycloidio/terracognita): Generate IaC from existing code.
-- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer): Produce terraform from existing resources.
+- [Terraform](https://github.com/hashicorp/terraform): A very popular IaC platform
+  - [tf-free](https://github.com/gruberdev/tf-free): Provision free-tier resources across a variety of cloud providers.
+  - [Infracost](https://www.infracost.io/): Terraform Infrastructure Cost estimation, which can be baked into a CD pipeline for better review of what infrastructure costs will be.
+  - [Terraservice](https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization): A model for services in Terraform
+  - [Terracognita](https://github.com/cycloidio/terracognita): Generate IaC from existing code.
+  - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer): Produce terraform from existing resources.
+  - [Testing Terraform with pytest](https://betterprogramming.pub/terraform-resource-testing-101-c9da424faaf3) - an Interesting concept to directly test against the Terraform state file, versus something like [Terratest](https://terratest.gruntwork.io/) that actually builds out infrastructure.
 - Cloud Instance Cost 
   - [AWS: Vantage Instance Cost](https://instances.vantage.sh/): Used to be EC2Instances.info, but Vantage is now hosting. [Source is still on Github](https://github.com/vantage-sh/ec2instances.info)
   - [Azure: Azureprice.net](https://azureprice.net/)
