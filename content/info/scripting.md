@@ -20,6 +20,14 @@ Captures ad-hoc scripting and process needs.  Also includes resources making the
 - Python
 - [Shell-like Scripting In Go](https://github.com/bitfield/script) - Might be a nice bridge when a shell script gets complex enough that you want to use a more robust langauge, but maintain a lot of "shell-like" features
 
+## Cheatsheet
+
+- Passing variables to curl bash (Example from [coder](https://coder.com/))
+
+  ```sh
+  curl -L https://coder.com/install.sh | sh -s -- --version 0.19.2
+  ```
+
 ## Bash Template
 
 Directly from [Article above](https://gist.github.com/m-radzikowski/53e0b39e9a59a1518990e76c2bff8038), but here for my copy/paste needs.  [MIT licensed](https://gist.github.com/m-radzikowski/d925ac457478db14c2146deadd0020cd).
