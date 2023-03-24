@@ -32,6 +32,10 @@ Post mortums are the basis of planning for future improvements.
 - [NameCheap Spam Email](https://www.namecheap.com/status-updates/archives/74848)
   - [Details based on spam I received](/info/post-mortem-namecheap) - third party provider most likely Sendgrid
 
+### 2023
+
+- [Reddit Pi Day Outage](https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/) - Great overview of a Kuberentes outage centered around an upgrade from 1.23 to 1.24
+
 ### 2022
 
 - [Incident.IO - Intermittent Downtime](https://incident.io/blog/intermittent-downtime): Discussion of analysis and resolution in a Heroku app
