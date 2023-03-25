@@ -13,6 +13,10 @@ Planning for a DevOps Cycle
 - [Redhat Demo Central](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples) - Architectures for a wide range of cloud infrastructures and problems.
 - [Who Cares If It Scales](https://betterprogramming.pub/who-cares-if-it-scales-1946adca8167) - Avoiding pre-mature optimization.
 
+## Statistics
+
+- [Github Release Download Stats](https://www.markhneedham.com/blog/2018/03/23/github-release-download-count/): For public projects, perhaps useful to gauge how popular certain packages are - espcially if one is NOT collecting telemetry data directly from users.
+
 ## Tech Debt
 
 - [We invested 10% to pay back tech debt; Here's what happened](https://blog.alexewerlof.com/p/tech-debt-day)
