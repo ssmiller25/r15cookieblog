@@ -60,3 +60,8 @@ tags: ["dev", "web"]
     - [Flash Mega Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world): Full tutorial of using Flask, including database
     - [RESTful API with Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask): RESTful API with Flask
   - [D3](https://github.com/mbostock/d3/wiki/Gallery):  Javascript library for visualizations 
+
+## FrontEnd
+
+- [Biggest Next.js BoilerPlates of 2023](https://blog.logrocket.com/biggest-next-js-boilerplates-2023/)
+- 
