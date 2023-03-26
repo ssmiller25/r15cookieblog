@@ -8,6 +8,10 @@ tags: [
 ---
 
 
+## Authentication
+
+- [Securing Git with SSH and FIDO security keys](https://developers.yubico.com/SSH/Securing_git_with_SSH_and_FIDO2.html)
+
 ## Automated Code/Infra Scanning
 
 Toward the top, as automated scanning of code and infrastructure is the first line of defense against security compromise.
