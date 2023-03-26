@@ -32,6 +32,7 @@ tags: [
   - [OpenBlocks](https://github.com/openblocks-dev/openblocks) - Open Source Retool Clone
   - [Pocketbase](https://pocketbase.io/): Realtime DB + Auth + Objectstore
   - [SaltCorn](https://saltcorn.com/)
+- [Development - AI](/fino/ai)
 - [Development - Web](/info/webdev)
 - [Development - Go](/info/golang)
 - [Development - Python](/info/python)
