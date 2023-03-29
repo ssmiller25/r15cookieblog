@@ -70,3 +70,12 @@ production runtime, but I have used a majority of these services successfully.
 - [Kubie](https://github.com/sbstp/kubie)
 - [KubeShark](https://github.com/kubeshark/kubeshark): Wireshark/TCPDump for Kubernetes
 - [k9s](https://k9scli.io/)
+
+## Alternative Perspective
+
+- [De-cloud and de-k8s — bringing our apps back home](https://dev.37signals.com/bringing-our-apps-back-home/)
+  - Personally I'm more in line with a lot of the [comments on hackernews](https://news.ycombinator.com/item?id=35263285). They replicated a lot of Kubernetes architecture to build their own, which introduces this custom bespoke container orchestration and infra buildout system. Most enjoyable was [this comment](https://news.ycombinator.com/item?id=35263285#35268865), quoted below:
+
+    > We are talking about 37Signals here. This is the company that, when faced with the problem of making a shared to-do list application, created Ruby on Rails. And when they decided to write up their remote working policy, published a New York Times bestselling business book.
+
+    > This is not a company that merely shaves its Yaks. It offers a full menu of Yak barber services, and then launches a line of successful Yak grooming products.
