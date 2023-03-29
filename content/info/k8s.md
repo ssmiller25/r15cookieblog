@@ -48,6 +48,7 @@ production runtime, but I have used a majority of these services successfully.
 ## Development/Testing
 
 - [Container Structure Test](https://github.com/GoogleContainerTools/container-structure-test): Simple testing framework for Docker containers
+- [Draft](https://github.com/Azure/draft/): Quickly "draft" out Dockerfile/Kubernetes manifests in a development repo.
 - [Dive](https://github.com/wagoodman/dive): Analyze Docker image layers
 - [Docker Best Practices](https://github.com/hexops/dockerfile)
 - [Filebrowser as a sidecar](https://www.reddit.com/r/selfhosted/comments/piziv1/file_browser_container_sidecar_for_kubernetes/): Interesting idea to allow for easy edits on files within a container
