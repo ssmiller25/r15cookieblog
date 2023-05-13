@@ -17,3 +17,4 @@ meta: "false"
 quote from Seneca the Younger quoting Demetrius that is also good:  ''The best wrestler,'' he would say, ''is not he who has learned thoroughly all the tricks and twists of the art, which are seldom met with in actual wrestling, but he who has well and carefully trained himself in one or two of them, and watches keenly for an opportunity of practising them.''
 - ''Any man can stand adversity — only a great man can stand prosperity.'' - Haratio Alger (1883), Abraham Lincoln: The Backwoods Boy; or, How a Young Rail-Splitter became President
   - Often [mis-attributed to Lincoln directly](https://en.wikiquote.org/wiki/Abraham_Lincoln#Misattributed)
+- ''Without data, you’re just another person with an opinion '' - [W. Edwards Deming](https://www.arcaspicio.com/insights/without-data-its-just-an-opinion#:~:text=As%20the%20legendary%20engineer%20W,on%20biases%20or%20false%20assumptions.)
