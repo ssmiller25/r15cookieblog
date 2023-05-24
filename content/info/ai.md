@@ -10,7 +10,9 @@ With the Hype around ChatGPT, good to gather some resources
 
 ## Prompt Engineering
 
+- [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT Users](https://artificialcorner.com/youre-using-chatgpt-wrong-here-s-how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54)
+
 
 ## Github Copilot
 
