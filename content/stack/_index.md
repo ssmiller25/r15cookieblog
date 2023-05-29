@@ -13,7 +13,6 @@ title: "Personal Stack"
 - Workstation
   - Primary Personal Laptop: Macbook Air M2 2022, 8GB RAM.  Not a powerful machine, but I can run in the cloud...
   - Secondary Laptop: Asus Chromebook.  By both allowing Android apps and having a Linux layer that can be enabled, which works with both X apps and docker, it's a pretty serviceable workstation.  Especially bring a laptop into situations where the laptop could potentially be stolen - far less expensive to replace, and automatically encrypted. 
-  - Work Laptop:  Windows 10
   - All of these comfigured with a combo of [wksetup](https://github.com/ssmiller25/wksetup) for initial setup.
 - Private Infrastructure
   - TBD: Eventually a small-ish k3s cluster on x86 SBCs.
