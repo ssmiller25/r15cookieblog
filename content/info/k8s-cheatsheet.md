@@ -6,10 +6,10 @@ tags: ["ops", "k8s", "kubernetes"]
 ---
 ## Force a Redeployment
 
-If you want to recycle pods in a deployment without deleting the pods ([Source](https://www.kevinsimper.dk/posts/trigger-a-redeploy-in-kubernetes))
+If you want to recycle pods in a deployment 
+
 ```sh
-kubectl patch deployment your_deployment \
--p "{\"spec\": {\"template\": {\"metadata\": { \"labels\": {  \"redeploy\": \"$(date +%s)\"}}}}}"
+kubectl rollout restart deploy/<mydeployment>
 ```
 
 ## Get ALL resources
