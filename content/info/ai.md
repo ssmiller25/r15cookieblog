@@ -18,6 +18,10 @@ With the Hype around ChatGPT, good to gather some resources
 
 - [Copilot Quickstart](https://docs.github.com/en/copilot/quickstart)
 
+## Copilot Alternatives
+
+- [HuggingFace VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=HuggingFace.huggingface-vscode). - leveraging the [StarCoder](https://huggingface.co/blog/starcoder) model
+
 ## Alternative Models
 
 - [FauxPilot](https://github.com/fauxpilot/fauxpilot): Attempt for locally-hosted Copilot (nVidia GPUs required)

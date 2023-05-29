@@ -2,7 +2,8 @@
 title: "Home Automation"
 draft: "false"
 tags: [
-    "ops"
+    "ops",
+    "homenetwork"
 ]
 date: "2015-02-13"
 meta: "false"
