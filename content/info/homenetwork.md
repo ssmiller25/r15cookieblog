@@ -2,7 +2,8 @@
 title: "Home Network"
 draft: "false"
 tags: [
-    "ops"
+    "ops",
+    "homenetwork"
 ]
 date: "2023-05-29"
 meta: "false"
