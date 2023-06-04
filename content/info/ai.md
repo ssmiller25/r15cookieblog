@@ -24,6 +24,7 @@ With the Hype around ChatGPT, good to gather some resources
 
 ## Alternative Models
 
+- [A List of Billion+ Parameter Models](https://matt-rickard.com/a-list-of-1-billion-parameter-llms)
 - [FauxPilot](https://github.com/fauxpilot/fauxpilot): Attempt for locally-hosted Copilot (nVidia GPUs required)
 - [GPT4All](https://github.com/nomic-ai/gpt4all): An ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue
 - [OpenAssistant](https://huggingface.co/OpenAssistant): Open source ChatAI
