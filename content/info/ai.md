@@ -21,11 +21,16 @@ With the Hype around ChatGPT, good to gather some resources
 ## Copilot Alternatives
 
 - [HuggingFace VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=HuggingFace.huggingface-vscode). - leveraging the [StarCoder](https://huggingface.co/blog/starcoder) model
+- [FauxPilot](https://github.com/fauxpilot/fauxpilot): Attempt for locally-hosted Copilot (nVidia GPUs required)
 
 ## Alternative Models
 
 - [A List of Billion+ Parameter Models](https://matt-rickard.com/a-list-of-1-billion-parameter-llms)
-- [FauxPilot](https://github.com/fauxpilot/fauxpilot): Attempt for locally-hosted Copilot (nVidia GPUs required)
 - [GPT4All](https://github.com/nomic-ai/gpt4all): An ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue
 - [OpenAssistant](https://huggingface.co/OpenAssistant): Open source ChatAI
 - [Hello Dolly: Democratizing the magic of ChatGPT with open models](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)
+
+## Local LLMs
+
+- [LocalGPT](https://github.com/PromtEngineer/localGPT): Based on PrivateGPT, but replaced the GPT4ALL model with Vicuna-7B model and we are using the InstructorEmbeddings instead of LlamaEmbedding
+- [PrivateGPT](https://github.com/imartinez/privateGPT): Ask question of your documentation
