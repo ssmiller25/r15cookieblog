@@ -19,7 +19,7 @@ at least information I find interesting :-)
   - [Plan](/info/plan)
   - [Create(Develop}](/info/development)
   - [Verify](/info/verify)
-  - Package
+  - [Package](/info/package)
   - Release
   - [Configure](/info/configure)
   - [Protect](/info/protect)
