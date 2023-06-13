@@ -16,7 +16,6 @@ Generic career resources
 - [TechLead Development Ladder](https://github.com/jorgef/engineeringladders/blob/master/TechLead.md)
 - [Staff Engineer](https://staffeng.com/)
 
-
 ## Day in a Life
 
 - [Day in the life of a BoxBoat DevOps Engineer](https://boxboat.com/2021/03/11/day-in-the-life-boxboat-devops-engineer/)
@@ -24,6 +23,10 @@ Generic career resources
 ## Management
 
 - [Engineering Manager](https://github.com/ryanburgess/engineer-manager)
+
+## New Employees
+
+- [Onboarding Anti-patterns](https://www.dcaulfield.com/onboarding-antipatterns)
 
 ## Tools
 
