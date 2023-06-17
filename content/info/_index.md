@@ -33,6 +33,7 @@ at least information I find interesting :-)
 - [Desktop Utilities](/info/desktop/)
 - [Developer/DevOps Advocate Resources](/info/devrel)
 - [Remote Work](/info/remote)
+- [DevOps Team Structure and Anti-Patterns](https://web.devopstopologies.com/index.html)
 
 ## Maker Topics
 
