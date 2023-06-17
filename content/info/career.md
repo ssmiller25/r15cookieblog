@@ -13,6 +13,7 @@ Generic career resources
 ## Career Path
 
 - [Awesome CTO](https://github.com/kuchin/awesome-cto)
+- [DevOps Patterns/Anti-Patterns](https://web.devopstopologies.com/index.html) - A structure useful to determine in the interview process.
 - [TechLead Development Ladder](https://github.com/jorgef/engineeringladders/blob/master/TechLead.md)
 - [Staff Engineer](https://staffeng.com/)
 
