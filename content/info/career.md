@@ -23,6 +23,7 @@ Generic career resources
 
 ## Management
 
+- [Cancel Annoying Workplace Habits](https://www.forbes.com/sites/lisabodell/2023/06/27/lets-cancel-annoying-workplace-rules/?sh=7a5f67f6503c)
 - [Engineering Manager](https://github.com/ryanburgess/engineer-manager)
 
 ## New Employees

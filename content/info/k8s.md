@@ -71,6 +71,7 @@ production runtime, but I have used a majority of these services successfully.
 - [Kubie](https://github.com/sbstp/kubie)
 - [KubeShark](https://github.com/kubeshark/kubeshark): Wireshark/TCPDump for Kubernetes
 - [k9s](https://k9scli.io/)
+- [node-shell](https://itnext.io/kubernetes-node-shell-5b1d6d7e0c44)
 
 ## Alternative Perspective
 
