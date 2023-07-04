@@ -29,6 +29,7 @@ Post mortums are the basis of planning for future improvements.
 
 - [Kubernetes Fail Stories](https://k8s.af/) and [Source](https://github.com/hjacobs/kubernetes-failure-stories)
 - [Danluu's Post Mortem Repo](https://github.com/danluu/post-mortems)
+- [Scaling up Prive Video By Migration to a Monolith](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90): A good case study that some workloads are better served by a Monolithic app.  Of course intersting that "monolith" in this case is an ECS container that processes an entire stream - perhaps describe better as a case-study in the downsides of extereme Microservice engineering for certain cases (large batch video processing for instance)
 
 ### 2023
 
