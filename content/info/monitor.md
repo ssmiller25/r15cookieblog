@@ -22,6 +22,12 @@ My preferred stack:  Prometheus, Grafana, Loki
 - Internet Monitoring (locally)
   - [Open Speed Test](https://github.com/openspeedtest/Speed-Test): Browser based, no client login required.
 
+## Alternative Software I want to Look At Someday
+
+- [Signoz](https://signoz.io/): Open source, lightweight, log, metrics, traces, all working with OpenTelementry
+- [BindplaneOP](https://observiq.com/solutions/bindplane-op/): Manage sources that are OpenTelementry Specific
+
+
 ## Advance Debugging
 
 - strace - Almost always available.  Potentially A LOT of performance impact
