@@ -38,9 +38,8 @@ Kubernetes(k8s) is the best modern approach for deploying and maintaining code.
 
 
 - [Packer](https://www.packer.io/): Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in external configuration management such as Ansible if desired.
-- [TheForeman](https://www.theforeman.org/): I've used in the past. A little larger and more cumbersome then I would like.
-- [DigitalRebar](https://github.com/digitalrebar): A new project that I'd like to investigate more heavily.
 - [ClusterAPI](https://cluster-api.sigs.k8s.io/): Kubernetes focused provisioning.
+- [Tinkerbell](https://tinkerbell.org/): Provision and Manange Bare Metal Anywhere
 
 
 ## Configuration Management
