@@ -31,8 +31,8 @@ Kubernetes(k8s) is the best modern approach for deploying and maintaining code.
 
 ## Amazon Web Services (AWS)
 
-- [AWS NAT Gateway Alternative](https://github.com/AndrewGuenther/fck-nat)
-- [AWS NAT Gateway Alternative #2 - AlterNAT](https://github.com/1debit/alternat)
+- [AWS NAT Gateway Alternative #1 - AlterNAT](https://github.com/1debit/alternat): Redundant, but self managed (although Terraform and Lambdas cover most use-cases)
+- [AWS NAT Gateway Alternative #2 - fck-nat](https://github.com/AndrewGuenther/fck-nat): Simplier solution
 
 ## System Build Tool
 
