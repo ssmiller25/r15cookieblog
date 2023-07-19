@@ -24,3 +24,7 @@ tags: ["dev", "python"]
 
 - [PyOxidizer](https://github.com/indygreg/PyOxidizer): Method for "compiling" Python
 - [Cordon](https://github.com/exaloop/codon): A true Python "Compiler", results in a **fast** executable. 
+
+## Books
+
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
