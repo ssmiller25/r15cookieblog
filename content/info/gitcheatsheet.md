@@ -11,6 +11,25 @@ To save myself searching for common it commands
 
 [gitignore.io](https://www.toptal.com/developers/gitignore): Quick was to generate gitignore files.  [Source code](https://github.com/toptal/gitignore.io)
 
+## Good General Advice on Git Mistakes
+
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
+
+## Accidently Committed to Wrong Branch!
+
+```sh
+# In bad branch
+git log # Record commit id of correct commit you want to save
+# Now in new branch
+git checkout <correct-branch>
+git checkk-pick COMMIT_ID
+# Fix the branch with bad commit
+git checkout <wrong-branch>
+git reset --hard HEAD^
+```
+
+Source: <https://wizardzines.com/comics/oh-shit-wrong-branch/>
+
 ## Git FF only
 
 ```sh
