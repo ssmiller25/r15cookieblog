@@ -11,6 +11,12 @@ To save myself searching for common it commands
 
 [gitignore.io](https://www.toptal.com/developers/gitignore): Quick was to generate gitignore files.  [Source code](https://github.com/toptal/gitignore.io)
 
+Debug why a file is being ignored ([Source](https://alexwlchan.net/2020/til-using-git-check-ignore-to-debug-your-gitignore/)):
+
+```sh
+git check-ignore --verbose <file>
+```
+
 ## Good General Advice on Git Mistakes
 
 - [Oh Shit, Git!?!](https://ohshitgit.com/)

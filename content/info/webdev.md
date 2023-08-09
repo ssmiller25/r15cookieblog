@@ -16,6 +16,7 @@ tags: ["dev", "web"]
     - [SuperTokens](https://github.com/supertokens/supertokens-core): Open source authentication solution, similar to Auth0
   - Captcha
     - [hCaptcha](https:///www.hcaptcha.com/): More privacy focused Captcha
+    - [mCaptcha](https://mcaptcha.org/): Open source PoW Captcha [mCaptcha Source](https://github.com/mCaptcha/mCaptcha)
   - CMS
     - [NetlifyCMS](https://github.com/netlify/netlify-cms): SPA that allows for committing markdown changes to version control
   - Communication
