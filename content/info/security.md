@@ -50,54 +50,9 @@ will be transmitted!  Although honestly, those type of sites should probably pur
   - Also supports 1 year certificates, and ACME protocol integration.  I nice alternative SSL provider if needed
 - [Step-CA](https://smallstep.com/docs/step-ca) - Automated on-prem solution.  Needs additional research - and more inclinded to just leverage SSL Private CA below.
 
-## SSL Private CA
+## OpenSSl Usage and CA 
 
-- Build a CA
-  - See [JamieLinux.com](https://jamielinux.com/docs/openssl-certificate-authority/create-the-root-pair.html) for a good walkthrough.
-- Build a new certificate
-
-```sh
-  openssl req -out mydomain.csr -new -sha256 -newkey rsa:2048 -nodes -keyout mydoamin.key
-```
-
-- Parameters
-  - Country: US
-  - State: Michigan
-  - Locality Name: Full City Name
-  - Organization Name: Company
-  - Organizational Unit: Department
-  - Common name: fqdn.mydomain.com
-  - Email: blank
-  - Defaults for rest
-- Sign Certificate
-
-```sh
-  openssl ca -config openssl.cnf -in mydomain.csr -out mydomain.crt
-```
-
-### Using a Private CA - Cert Manager
-
-Leveraging [cert-manager](https://github.com/jetstack/cert-manager)
-
-Create a secrete with the crt and key above (base64 encoded)
-
-```sh
-kubectl create secret tls internalca --cert=path/to/cert/file --key=path/to/key/file
-```
-
-Then create an issuer for that key
-
-```sh
-kubectl apply -f - <EOF
-apiVersion: cert-manager.io/v1
-kind: ClusterIssuer
-metadata:
-  name: ca-issuer
-spec:
-  ca:
-    secretName: internalca
-EOF
-```
+See [OpenSSL Cheatsheet](/info/openssl-cheatsheet)
 
 
 ## Reading
