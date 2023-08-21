@@ -12,7 +12,7 @@ With the Hype around ChatGPT, good to gather some resources
 
 - [Awesome ChatGPT Prompts](https://prompts.chat/)
 - [You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT Users](https://artificialcorner.com/youre-using-chatgpt-wrong-here-s-how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54)
-
+- [Why you (probably) Don't Need to Fine Tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/?utm_source=tldrnewsletter): Seems like advance prompt engineering might get you there.
 
 ## Github Copilot
 
