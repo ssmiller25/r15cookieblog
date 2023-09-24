@@ -1,7 +1,7 @@
 ---
 date: "2022-08-22"
 description: ""
-tags: ["wkstation"]
+tags: ["wkstation","smartphone"]
 title: "Generic USB Hub with Dex!"
 ---
 [Samsung Dex](https://www.samsung.com/us/apps/dex/) is a Samsung solution to let one interact with your phone on a full size display, either with a [dedicated dock](https://www.samsung.com/us/mobile/mobile-accessories/phones/dex-station---black-ee-mg950tbegus/) or a software application. I've always though about getting one, but the use cases were pretty mimimal, thus making the $100 spend a little hard to stomach.

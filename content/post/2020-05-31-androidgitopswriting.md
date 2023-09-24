@@ -1,7 +1,7 @@
 ---
 date: "2020-05-31"
 description: ""
-tags: ["dev"]
+tags: ["dev","smartphone"]
 title: "Android For GitOps Writing Workflow"
 ---
 
