@@ -33,6 +33,7 @@ In Approximate Order of what I check:
 
 ### CLI Forecast Sites
 
+- [wthrtxt.com](https://wthrtxt.com/): A newer weather forecast CLI/Text based wget method.  Pure standalong Go and leveraging NOAA forcast data. [Source](https://github.com/schollz/wthrtxt)
 - [wttr.in](http://wttr.in/):  A great way to get the weather from the command line - or anywhere (such as this page)  Also [open source](https://github.com/chubin/wttr.in)
 
 ## Other Interesting Sites
