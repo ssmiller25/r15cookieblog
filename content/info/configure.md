@@ -48,3 +48,6 @@ Configuration Management: Generally an anti-pattern.  Much prefer leveraging Doc
 - [ip-api.com](https://ip-api.com/).  Provids IP, geo-location and ISP information at `http://ip-api.com/json`  Free for non-commercial purposes.
 - [NoIP](https://nip.io/) and [XIP](http://xip.io/): Automatic DNS based on IP address
 
+## Network
+
+- [TailCat](https://github.com/tailscale/tailcat) - Let Netcat, but over Tailscale encrypted network. 
